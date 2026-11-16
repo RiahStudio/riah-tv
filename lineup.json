@@ -1,0 +1,3535 @@
+{
+ "note": "Built by tools/build-lineup.mjs from vetting/*.json. Edit PICKS there, not this file.",
+ "built": "2026-11-16",
+ "programs": [
+  {
+   "id": "animal-crackers",
+   "title": "Animal Crackers",
+   "year": 1930,
+   "group": "Marx Brothers",
+   "kind": "feature",
+   "seconds": 5921,
+   "pools": [
+    "comedy"
+   ],
+   "silent": false,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://archive.org/download/animal-crackers-1930/Animal%20Crackers%201930.mp4",
+     "type": "video/mp4",
+     "height": 1072,
+     "original": false
+    }
+   ],
+   "page": "https://archive.org/details/animal-crackers-1930",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://archive.org/details/animal-crackers-1930"
+   }
+  },
+  {
+   "id": "cocoanuts",
+   "title": "The Cocoanuts",
+   "year": 1929,
+   "group": "Marx Brothers",
+   "kind": "feature",
+   "seconds": 5595,
+   "pools": [
+    "comedy"
+   ],
+   "silent": false,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://archive.org/download/the-cocoanuts_1929/the-cocoanuts_1929.mp4",
+     "type": "video/mp4",
+     "height": 480,
+     "original": false
+    }
+   ],
+   "page": "https://archive.org/details/the-cocoanuts_1929",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://archive.org/details/the-cocoanuts_1929"
+   }
+  },
+  {
+   "id": "gold-rush",
+   "title": "The Gold Rush",
+   "year": 1925,
+   "group": "Chaplin",
+   "kind": "feature",
+   "seconds": 5195,
+   "pools": [
+    "comedy"
+   ],
+   "silent": true,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://archive.org/download/the-gold-rush-film-1925/The-Gold-Rush-1925.mp4",
+     "type": "video/mp4",
+     "height": 480,
+     "original": false
+    }
+   ],
+   "page": "https://archive.org/details/the-gold-rush-film-1925",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://archive.org/details/the-gold-rush-film-1925"
+   }
+  },
+  {
+   "id": "adventurer",
+   "title": "The Adventurer",
+   "year": 1917,
+   "group": "Chaplin",
+   "kind": "short",
+   "seconds": 1555,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d1/The_Adventurer_%281917%29.webm/The_Adventurer_%281917%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d1/The_Adventurer_%281917%29.webm/The_Adventurer_%281917%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d1/The_Adventurer_%281917%29.webm/The_Adventurer_%281917%29.webm.240p.vp9.webm",
+     "type": "video/webm",
+     "height": 240,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/The_Adventurer_%281917%29.webm",
+     "type": "video/webm",
+     "height": 720,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_Adventurer_(1917).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_Adventurer_(1917).webm"
+   }
+  },
+  {
+   "id": "cure",
+   "title": "The Cure",
+   "year": 1917,
+   "group": "Chaplin",
+   "kind": "short",
+   "seconds": 1525,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9d/The_Cure_%281917%29.webm/The_Cure_%281917%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9d/The_Cure_%281917%29.webm/The_Cure_%281917%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9d/The_Cure_%281917%29.webm/The_Cure_%281917%29.webm.240p.vp9.webm",
+     "type": "video/webm",
+     "height": 240,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/The_Cure_%281917%29.webm",
+     "type": "video/webm",
+     "height": 720,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_Cure_(1917).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_Cure_(1917).webm"
+   }
+  },
+  {
+   "id": "one-am",
+   "title": "One A.M.",
+   "year": 1916,
+   "group": "Chaplin",
+   "kind": "short",
+   "seconds": 1595,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/00/One_A.M._%281916%29.webm/One_A.M._%281916%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/00/One_A.M._%281916%29.webm/One_A.M._%281916%29.webm.240p.vp9.webm",
+     "type": "video/webm",
+     "height": 240,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/One_A.M._%281916%29.webm",
+     "type": "video/webm",
+     "height": 720,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:One_A.M._(1916).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:One_A.M._(1916).webm"
+   }
+  },
+  {
+   "id": "easy-street",
+   "title": "Easy Street",
+   "year": 1917,
+   "group": "Chaplin",
+   "kind": "short",
+   "seconds": 1401,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/01/Easy_Street_%281917%29.webm/Easy_Street_%281917%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/01/Easy_Street_%281917%29.webm/Easy_Street_%281917%29.webm.240p.vp9.webm",
+     "type": "video/webm",
+     "height": 240,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Easy_Street_%281917%29.webm",
+     "type": "video/webm",
+     "height": 360,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Easy_Street_(1917).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Easy_Street_(1917).webm"
+   }
+  },
+  {
+   "id": "immigrant",
+   "title": "The Immigrant",
+   "year": 1917,
+   "group": "Chaplin",
+   "kind": "short",
+   "seconds": 1243,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8d/The_Immigrant_%281917%29.webm/The_Immigrant_%281917%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8d/The_Immigrant_%281917%29.webm/The_Immigrant_%281917%29.webm.240p.vp9.webm",
+     "type": "video/webm",
+     "height": 240,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/The_Immigrant_%281917%29.webm",
+     "type": "video/webm",
+     "height": 360,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_Immigrant_(1917).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_Immigrant_(1917).webm"
+   }
+  },
+  {
+   "id": "rink",
+   "title": "The Rink",
+   "year": 1916,
+   "group": "Chaplin",
+   "kind": "short",
+   "seconds": 1386,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/31/The_Rink_%281916%29.webm/The_Rink_%281916%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/31/The_Rink_%281916%29.webm/The_Rink_%281916%29.webm.240p.vp9.webm",
+     "type": "video/webm",
+     "height": 240,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/The_Rink_%281916%29.webm",
+     "type": "video/webm",
+     "height": 360,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_Rink_(1916).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_Rink_(1916).webm"
+   }
+  },
+  {
+   "id": "general",
+   "title": "The General",
+   "year": 1926,
+   "group": "Keaton",
+   "kind": "feature",
+   "seconds": 4552,
+   "pools": [
+    "comedy"
+   ],
+   "silent": true,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ee/The_General_%281926%29.webm/The_General_%281926%29.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ee/The_General_%281926%29.webm/The_General_%281926%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ee/The_General_%281926%29.webm/The_General_%281926%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/The_General_%281926%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_General_(1926).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_General_(1926).webm"
+   }
+  },
+  {
+   "id": "sherlock-jr",
+   "title": "Sherlock Jr.",
+   "year": 1924,
+   "group": "Keaton",
+   "kind": "feature",
+   "seconds": 2646,
+   "pools": [
+    "comedy"
+   ],
+   "silent": true,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/95/Sherlock_Jr._%281924%29.webm/Sherlock_Jr._%281924%29.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/95/Sherlock_Jr._%281924%29.webm/Sherlock_Jr._%281924%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/95/Sherlock_Jr._%281924%29.webm/Sherlock_Jr._%281924%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Sherlock_Jr._%281924%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Sherlock_Jr._(1924).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Sherlock_Jr._(1924).webm"
+   }
+  },
+  {
+   "id": "one-week",
+   "title": "One Week",
+   "year": 1920,
+   "group": "Keaton",
+   "kind": "short",
+   "seconds": 1337,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/ff/One_Week_%281920%29_by_Eddie_Cline_and_Buster_Keaton.webm/One_Week_%281920%29_by_Eddie_Cline_and_Buster_Keaton.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/ff/One_Week_%281920%29_by_Eddie_Cline_and_Buster_Keaton.webm/One_Week_%281920%29_by_Eddie_Cline_and_Buster_Keaton.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/ff/One_Week_%281920%29_by_Eddie_Cline_and_Buster_Keaton.webm/One_Week_%281920%29_by_Eddie_Cline_and_Buster_Keaton.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/One_Week_%281920%29_by_Eddie_Cline_and_Buster_Keaton.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:One_Week_(1920)_by_Eddie_Cline_and_Buster_Keaton.webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:One_Week_(1920)_by_Eddie_Cline_and_Buster_Keaton.webm"
+   }
+  },
+  {
+   "id": "cops",
+   "title": "Cops",
+   "year": 1922,
+   "group": "Keaton",
+   "kind": "short",
+   "seconds": 1095,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/97/Cops_%281922%29.webm/Cops_%281922%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/97/Cops_%281922%29.webm/Cops_%281922%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/97/Cops_%281922%29.webm/Cops_%281922%29.webm.240p.vp9.webm",
+     "type": "video/webm",
+     "height": 240,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Cops_%281922%29.webm",
+     "type": "video/webm",
+     "height": 720,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Cops_(1922).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Cops_(1922).webm"
+   }
+  },
+  {
+   "id": "scarecrow",
+   "title": "The Scarecrow",
+   "year": 1920,
+   "group": "Keaton",
+   "kind": "short",
+   "seconds": 1073,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/75/The_Scarecrow_%281920%29.webm/The_Scarecrow_%281920%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/75/The_Scarecrow_%281920%29.webm/The_Scarecrow_%281920%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/75/The_Scarecrow_%281920%29.webm/The_Scarecrow_%281920%29.webm.240p.vp9.webm",
+     "type": "video/webm",
+     "height": 240,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/The_Scarecrow_%281920%29.webm",
+     "type": "video/webm",
+     "height": 720,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_Scarecrow_(1920).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_Scarecrow_(1920).webm"
+   }
+  },
+  {
+   "id": "electric-house",
+   "title": "The Electric House",
+   "year": 1922,
+   "group": "Keaton",
+   "kind": "short",
+   "seconds": 1359,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/25/The_Electric_House_%281922%29_by_Buster_Keaton_and_Edward_F._Cline.webm/The_Electric_House_%281922%29_by_Buster_Keaton_and_Edward_F._Cline.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/25/The_Electric_House_%281922%29_by_Buster_Keaton_and_Edward_F._Cline.webm/The_Electric_House_%281922%29_by_Buster_Keaton_and_Edward_F._Cline.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/25/The_Electric_House_%281922%29_by_Buster_Keaton_and_Edward_F._Cline.webm/The_Electric_House_%281922%29_by_Buster_Keaton_and_Edward_F._Cline.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/The_Electric_House_%281922%29_by_Buster_Keaton_and_Edward_F._Cline.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_Electric_House_(1922)_by_Buster_Keaton_and_Edward_F._Cline.webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_Electric_House_(1922)_by_Buster_Keaton_and_Edward_F._Cline.webm"
+   }
+  },
+  {
+   "id": "neighbors",
+   "title": "Neighbors",
+   "year": 1920,
+   "group": "Keaton",
+   "kind": "short",
+   "seconds": 1051,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/27/Neighbors_%281920%29.webm/Neighbors_%281920%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/27/Neighbors_%281920%29.webm/Neighbors_%281920%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/27/Neighbors_%281920%29.webm/Neighbors_%281920%29.webm.240p.vp9.webm",
+     "type": "video/webm",
+     "height": 240,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Neighbors_%281920%29.webm",
+     "type": "video/webm",
+     "height": 720,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Neighbors_(1920).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Neighbors_(1920).webm"
+   }
+  },
+  {
+   "id": "haunted-house-1921",
+   "title": "The Haunted House",
+   "year": 1921,
+   "group": "Keaton",
+   "kind": "short",
+   "seconds": 1236,
+   "pools": [
+    "comedy",
+    "shorts",
+    "late"
+   ],
+   "silent": true,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bd/The_Haunted_House_%281921%29.webm/The_Haunted_House_%281921%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bd/The_Haunted_House_%281921%29.webm/The_Haunted_House_%281921%29.webm.240p.vp9.webm",
+     "type": "video/webm",
+     "height": 240,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/The_Haunted_House_%281921%29.webm",
+     "type": "video/webm",
+     "height": 360,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_Haunted_House_(1921).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_Haunted_House_(1921).webm"
+   }
+  },
+  {
+   "id": "safety-last",
+   "title": "Safety Last!",
+   "year": 1923,
+   "group": "Harold Lloyd",
+   "kind": "feature",
+   "seconds": 4433,
+   "pools": [
+    "comedy"
+   ],
+   "silent": true,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ef/Safety_Last%21_%281923%29_by_Fred_C._Newmeyer.webm/Safety_Last%21_%281923%29_by_Fred_C._Newmeyer.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ef/Safety_Last%21_%281923%29_by_Fred_C._Newmeyer.webm/Safety_Last%21_%281923%29_by_Fred_C._Newmeyer.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ef/Safety_Last%21_%281923%29_by_Fred_C._Newmeyer.webm/Safety_Last%21_%281923%29_by_Fred_C._Newmeyer.webm.240p.vp9.webm",
+     "type": "video/webm",
+     "height": 240,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Safety_Last%21_%281923%29_by_Fred_C._Newmeyer.webm",
+     "type": "video/webm",
+     "height": 1072,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Safety_Last!_(1923)_by_Fred_C._Newmeyer.webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Safety_Last!_(1923)_by_Fred_C._Newmeyer.webm"
+   }
+  },
+  {
+   "id": "kid-brother",
+   "title": "The Kid Brother",
+   "year": 1927,
+   "group": "Harold Lloyd",
+   "kind": "feature",
+   "seconds": 4890,
+   "pools": [
+    "comedy"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c9/The_Kid_Brother_%281927%29.webm/The_Kid_Brother_%281927%29.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c9/The_Kid_Brother_%281927%29.webm/The_Kid_Brother_%281927%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/The_Kid_Brother_%281927%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_Kid_Brother_(1927).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_Kid_Brother_(1927).webm"
+   }
+  },
+  {
+   "id": "hog-wild",
+   "title": "Hog Wild",
+   "year": 1930,
+   "group": "Laurel & Hardy",
+   "kind": "short",
+   "seconds": 1158,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": false,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://archive.org/download/hog-wild_1930/hog-wild_1930.mp4",
+     "type": "video/mp4",
+     "height": 576,
+     "original": false
+    }
+   ],
+   "page": "https://archive.org/details/hog-wild_1930",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://archive.org/details/hog-wild_1930"
+   }
+  },
+  {
+   "id": "perfect-day",
+   "title": "Perfect Day",
+   "year": 1929,
+   "group": "Laurel & Hardy",
+   "kind": "short",
+   "seconds": 1184,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": false,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://archive.org/download/perfect-day_1929/perfect-day_1929.mp4",
+     "type": "video/mp4",
+     "height": 480,
+     "original": false
+    }
+   ],
+   "page": "https://archive.org/details/perfect-day_1929",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://archive.org/details/perfect-day_1929"
+   }
+  },
+  {
+   "id": "brats",
+   "title": "Brats",
+   "year": 1930,
+   "group": "Laurel & Hardy",
+   "kind": "short",
+   "seconds": 1259,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": false,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://archive.org/download/brats_1930/brats_1930.mp4",
+     "type": "video/mp4",
+     "height": 480,
+     "original": false
+    }
+   ],
+   "page": "https://archive.org/details/brats_1930",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://archive.org/details/brats_1930"
+   }
+  },
+  {
+   "id": "dizzy-dishes",
+   "title": "Dizzy Dishes",
+   "year": 1930,
+   "group": "Cartoons",
+   "kind": "short",
+   "seconds": 376,
+   "pools": [
+    "shorts",
+    "comedy"
+   ],
+   "silent": false,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://archive.org/download/dizzy-dishes_1930/dizzy-dishes_1930.mp4",
+     "type": "video/mp4",
+     "height": 720,
+     "original": false
+    }
+   ],
+   "page": "https://archive.org/details/dizzy-dishes_1930",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://archive.org/details/dizzy-dishes_1930"
+   }
+  },
+  {
+   "id": "noahs-lark",
+   "title": "Noah's Lark",
+   "year": 1929,
+   "group": "Cartoons",
+   "kind": "short",
+   "seconds": 450,
+   "pools": [
+    "shorts"
+   ],
+   "silent": false,
+   "funny": 3,
+   "sources": [
+    {
+     "url": "https://archive.org/download/talkartoons-collection/1929e1%20Noah's%20Lark%20(16mm%2C%201080p%2C%20Unrestored).mp4",
+     "type": "video/mp4",
+     "height": 1080,
+     "original": false
+    }
+   ],
+   "page": "https://archive.org/details/talkartoons-collection",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://archive.org/details/talkartoons-collection"
+   }
+  },
+  {
+   "id": "steamboat-willie-1928",
+   "title": "Steamboat Willie",
+   "year": 1928,
+   "group": "Cartoons",
+   "kind": "short",
+   "seconds": 461,
+   "pools": [
+    "shorts",
+    "comedy"
+   ],
+   "silent": false,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5f/Steamboat_Willie_%281928%29_by_Walt_Disney.webm/Steamboat_Willie_%281928%29_by_Walt_Disney.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5f/Steamboat_Willie_%281928%29_by_Walt_Disney.webm/Steamboat_Willie_%281928%29_by_Walt_Disney.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5f/Steamboat_Willie_%281928%29_by_Walt_Disney.webm/Steamboat_Willie_%281928%29_by_Walt_Disney.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Steamboat_Willie_%281928%29_by_Walt_Disney.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Steamboat_Willie_(1928)_by_Walt_Disney.webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Steamboat_Willie_(1928)_by_Walt_Disney.webm"
+   }
+  },
+  {
+   "id": "skeleton-dance-1929",
+   "title": "The Skeleton Dance",
+   "year": 1929,
+   "group": "Cartoons",
+   "kind": "short",
+   "seconds": 331,
+   "pools": [
+    "shorts",
+    "late"
+   ],
+   "silent": false,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/The_Skeleton_Dance_%281929%29.webm/The_Skeleton_Dance_%281929%29.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/The_Skeleton_Dance_%281929%29.webm/The_Skeleton_Dance_%281929%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/The_Skeleton_Dance_%281929%29.webm/The_Skeleton_Dance_%281929%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/The_Skeleton_Dance_%281929%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_Skeleton_Dance_(1929).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_Skeleton_Dance_(1929).webm"
+   }
+  },
+  {
+   "id": "felix-astronomeous",
+   "title": "Felix the Cat in Astronomeous",
+   "year": 1928,
+   "group": "Cartoons",
+   "kind": "short",
+   "seconds": 399,
+   "pools": [
+    "shorts"
+   ],
+   "silent": false,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://archive.org/download/FelixAstronomeous1928/Felix%20Astronomeous%20%5B1928%5D.mp4",
+     "type": "video/mp4",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cc/Felix_the_Cat_in_Astronomeous_%281928%29.webm/Felix_the_Cat_in_Astronomeous_%281928%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cc/Felix_the_Cat_in_Astronomeous_%281928%29.webm/Felix_the_Cat_in_Astronomeous_%281928%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cc/Felix_the_Cat_in_Astronomeous_%281928%29.webm/Felix_the_Cat_in_Astronomeous_%281928%29.webm.240p.vp9.webm",
+     "type": "video/webm",
+     "height": 240,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Felix_the_Cat_in_Astronomeous_%281928%29.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": true
+    }
+   ],
+   "page": "https://archive.org/details/FelixAstronomeous1928",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://archive.org/details/FelixAstronomeous1928"
+   }
+  },
+  {
+   "id": "cameraman-revenge-1912",
+   "title": "The Cameraman's Revenge",
+   "year": 1912,
+   "group": "Stop Motion",
+   "kind": "short",
+   "seconds": 711,
+   "pools": [
+    "shorts",
+    "late",
+    "makers"
+   ],
+   "silent": true,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/db/Mest%27_Kinomatograficheskogo_Operatora_%281912%29.webm/Mest%27_Kinomatograficheskogo_Operatora_%281912%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/db/Mest%27_Kinomatograficheskogo_Operatora_%281912%29.webm/Mest%27_Kinomatograficheskogo_Operatora_%281912%29.webm.240p.vp9.webm",
+     "type": "video/webm",
+     "height": 240,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Mest%27_Kinomatograficheskogo_Operatora_%281912%29.webm",
+     "type": "video/webm",
+     "height": 360,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Mest%27_Kinomatograficheskogo_Operatora_(1912).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Mest%27_Kinomatograficheskogo_Operatora_(1912).webm"
+   }
+  },
+  {
+   "id": "gay-shoe-clerk-1903",
+   "title": "The Gay Shoe Clerk",
+   "year": 1903,
+   "group": "Early Comedy",
+   "kind": "short",
+   "seconds": 75,
+   "pools": [
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 3,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/50/The_Gay_Shoe_Clerk_%281903%29.webm/The_Gay_Shoe_Clerk_%281903%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/50/The_Gay_Shoe_Clerk_%281903%29.webm/The_Gay_Shoe_Clerk_%281903%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/50/The_Gay_Shoe_Clerk_%281903%29.webm/The_Gay_Shoe_Clerk_%281903%29.webm.240p.vp9.webm",
+     "type": "video/webm",
+     "height": 240,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/The_Gay_Shoe_Clerk_%281903%29.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_Gay_Shoe_Clerk_(1903).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_Gay_Shoe_Clerk_(1903).webm"
+   }
+  },
+  {
+   "id": "big-buck-bunny",
+   "title": "Big Buck Bunny",
+   "year": 2008,
+   "group": "Open Movies",
+   "kind": "short",
+   "seconds": 635,
+   "pools": [
+    "makers",
+    "shorts"
+   ],
+   "silent": false,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c0/Big_Buck_Bunny_4K.webm/Big_Buck_Bunny_4K.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c0/Big_Buck_Bunny_4K.webm/Big_Buck_Bunny_4K.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c0/Big_Buck_Bunny_4K.webm/Big_Buck_Bunny_4K.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Big_Buck_Bunny_4K.webm",
+     "type": "video/webm",
+     "height": 2250,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Big_Buck_Bunny_4K.webm",
+   "credit": "\"Big Buck Bunny\" by Blender Foundation (studio.blender.org), CC BY 3.0",
+   "license": {
+    "name": "CC BY 3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/"
+   },
+   "rights": {
+    "basis": "cc",
+    "proof": "https://creativecommons.org/licenses/by/3.0/"
+   }
+  },
+  {
+   "id": "sprite-fright",
+   "title": "Sprite Fright",
+   "year": 2021,
+   "group": "Open Movies",
+   "kind": "short",
+   "seconds": 630,
+   "pools": [
+    "makers",
+    "late"
+   ],
+   "silent": false,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/76/Sprite_Fright_-_Blender_Open_Movie-full_movie.webm/Sprite_Fright_-_Blender_Open_Movie-full_movie.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 804,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/76/Sprite_Fright_-_Blender_Open_Movie-full_movie.webm/Sprite_Fright_-_Blender_Open_Movie-full_movie.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 358,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/76/Sprite_Fright_-_Blender_Open_Movie-full_movie.webm/Sprite_Fright_-_Blender_Open_Movie-full_movie.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 268,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Sprite_Fright_-_Blender_Open_Movie-full_movie.webm",
+     "type": "video/webm",
+     "height": 858,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Sprite_Fright_-_Blender_Open_Movie-full_movie.webm",
+   "credit": "\"Sprite Fright\" by Blender Foundation (studio.blender.org), CC BY 4.0",
+   "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+   },
+   "rights": {
+    "basis": "cc",
+    "proof": "https://creativecommons.org/licenses/by/4.0/"
+   }
+  },
+  {
+   "id": "wing-it",
+   "title": "Wing It!",
+   "year": 2023,
+   "group": "Open Movies",
+   "kind": "short",
+   "seconds": 238,
+   "pools": [
+    "makers",
+    "shorts"
+   ],
+   "silent": false,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/38/WING_IT%21_-_Blender_Open_Movie-full_movie.webm/WING_IT%21_-_Blender_Open_Movie-full_movie.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/38/WING_IT%21_-_Blender_Open_Movie-full_movie.webm/WING_IT%21_-_Blender_Open_Movie-full_movie.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/38/WING_IT%21_-_Blender_Open_Movie-full_movie.webm/WING_IT%21_-_Blender_Open_Movie-full_movie.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/WING_IT%21_-_Blender_Open_Movie-full_movie.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:WING_IT!_-_Blender_Open_Movie-full_movie.webm",
+   "credit": "\"Wing It!\" by Blender Foundation (studio.blender.org), CC BY 4.0",
+   "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+   },
+   "rights": {
+    "basis": "cc",
+    "proof": "https://creativecommons.org/licenses/by/4.0/"
+   }
+  },
+  {
+   "id": "cosmos-laundromat",
+   "title": "Cosmos Laundromat: First Cycle",
+   "year": 2015,
+   "group": "Open Movies",
+   "kind": "short",
+   "seconds": 731,
+   "pools": [
+    "makers",
+    "late"
+   ],
+   "silent": false,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/36/Cosmos_Laundromat_-_First_Cycle_-_Official_Blender_Foundation_release.webm/Cosmos_Laundromat_-_First_Cycle_-_Official_Blender_Foundation_release.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 804,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/36/Cosmos_Laundromat_-_First_Cycle_-_Official_Blender_Foundation_release.webm/Cosmos_Laundromat_-_First_Cycle_-_Official_Blender_Foundation_release.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 358,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/36/Cosmos_Laundromat_-_First_Cycle_-_Official_Blender_Foundation_release.webm/Cosmos_Laundromat_-_First_Cycle_-_Official_Blender_Foundation_release.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 268,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Cosmos_Laundromat_-_First_Cycle_-_Official_Blender_Foundation_release.webm",
+     "type": "video/webm",
+     "height": 858,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Cosmos_Laundromat_-_First_Cycle_-_Official_Blender_Foundation_release.webm",
+   "credit": "\"Cosmos Laundromat: First Cycle\" by Blender Foundation (studio.blender.org), CC BY-SA 3.0",
+   "license": {
+    "name": "CC BY-SA 3.0",
+    "url": "https://creativecommons.org/licenses/by-sa/3.0/"
+   },
+   "rights": {
+    "basis": "cc",
+    "proof": "https://creativecommons.org/licenses/by-sa/3.0/"
+   }
+  },
+  {
+   "id": "caminandes-1",
+   "title": "Caminandes: Llama Drama",
+   "year": 2013,
+   "group": "Open Movies",
+   "kind": "short",
+   "seconds": 90,
+   "pools": [
+    "makers",
+    "shorts"
+   ],
+   "silent": false,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d0/Caminandes-_Llama_Drama_-_Short_Movie.ogv/Caminandes-_Llama_Drama_-_Short_Movie.ogv.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d0/Caminandes-_Llama_Drama_-_Short_Movie.ogv/Caminandes-_Llama_Drama_-_Short_Movie.ogv.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d0/Caminandes-_Llama_Drama_-_Short_Movie.ogv/Caminandes-_Llama_Drama_-_Short_Movie.ogv.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Caminandes-_Llama_Drama_-_Short_Movie.ogv",
+     "type": "video/ogg",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Caminandes-_Llama_Drama_-_Short_Movie.ogv",
+   "credit": "\"Caminandes: Llama Drama\" by Blender Foundation (studio.blender.org), CC BY 3.0",
+   "license": {
+    "name": "CC BY 3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/"
+   },
+   "rights": {
+    "basis": "cc",
+    "proof": "https://creativecommons.org/licenses/by/3.0/"
+   }
+  },
+  {
+   "id": "caminandes-2",
+   "title": "Caminandes: Gran Dillama",
+   "year": 2013,
+   "group": "Open Movies",
+   "kind": "short",
+   "seconds": 146,
+   "pools": [
+    "makers",
+    "shorts"
+   ],
+   "silent": false,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7c/Caminandes_-_Gran_Dillama_-_Blender_Foundation%27s_new_Open_Movie.webm/Caminandes_-_Gran_Dillama_-_Blender_Foundation%27s_new_Open_Movie.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7c/Caminandes_-_Gran_Dillama_-_Blender_Foundation%27s_new_Open_Movie.webm/Caminandes_-_Gran_Dillama_-_Blender_Foundation%27s_new_Open_Movie.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7c/Caminandes_-_Gran_Dillama_-_Blender_Foundation%27s_new_Open_Movie.webm/Caminandes_-_Gran_Dillama_-_Blender_Foundation%27s_new_Open_Movie.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Caminandes_-_Gran_Dillama_-_Blender_Foundation%27s_new_Open_Movie.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Caminandes_-_Gran_Dillama_-_Blender_Foundation%27s_new_Open_Movie.webm",
+   "credit": "\"Caminandes: Gran Dillama\" by Blender Foundation (studio.blender.org), CC BY-SA 3.0",
+   "license": {
+    "name": "CC BY-SA 3.0",
+    "url": "https://creativecommons.org/licenses/by-sa/3.0/"
+   },
+   "rights": {
+    "basis": "cc",
+    "proof": "https://creativecommons.org/licenses/by-sa/3.0/"
+   }
+  },
+  {
+   "id": "caminandes-3",
+   "title": "Caminandes 3: Llamigos",
+   "year": 2016,
+   "group": "Open Movies",
+   "kind": "short",
+   "seconds": 150,
+   "pools": [
+    "makers",
+    "shorts"
+   ],
+   "silent": false,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Caminandes_3_-_Llamigos_-_Blender_Animated_Short.webm/Caminandes_3_-_Llamigos_-_Blender_Animated_Short.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Caminandes_3_-_Llamigos_-_Blender_Animated_Short.webm/Caminandes_3_-_Llamigos_-_Blender_Animated_Short.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Caminandes_3_-_Llamigos_-_Blender_Animated_Short.webm/Caminandes_3_-_Llamigos_-_Blender_Animated_Short.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Caminandes_3_-_Llamigos_-_Blender_Animated_Short.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Caminandes_3_-_Llamigos_-_Blender_Animated_Short.webm",
+   "credit": "\"Caminandes 3: Llamigos\" by Blender Foundation (studio.blender.org), CC BY 3.0",
+   "license": {
+    "name": "CC BY 3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/"
+   },
+   "rights": {
+    "basis": "cc",
+    "proof": "https://creativecommons.org/licenses/by/3.0/"
+   }
+  },
+  {
+   "id": "glass-half",
+   "title": "Glass Half",
+   "year": 2015,
+   "group": "Open Movies",
+   "kind": "short",
+   "seconds": 193,
+   "pools": [
+    "makers"
+   ],
+   "silent": false,
+   "funny": 3,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/02/Glass_Half_-_Blender_Open_Movie-full_movie.webm/Glass_Half_-_Blender_Open_Movie-full_movie.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/02/Glass_Half_-_Blender_Open_Movie-full_movie.webm/Glass_Half_-_Blender_Open_Movie-full_movie.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/02/Glass_Half_-_Blender_Open_Movie-full_movie.webm/Glass_Half_-_Blender_Open_Movie-full_movie.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Glass_Half_-_Blender_Open_Movie-full_movie.webm",
+     "type": "video/webm",
+     "height": 2160,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Glass_Half_-_Blender_Open_Movie-full_movie.webm",
+   "credit": "\"Glass Half\" by Blender Foundation (studio.blender.org), CC BY 4.0",
+   "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+   },
+   "rights": {
+    "basis": "cc",
+    "proof": "https://creativecommons.org/licenses/by/4.0/"
+   }
+  },
+  {
+   "id": "hero",
+   "title": "Hero",
+   "year": 2018,
+   "group": "Open Movies",
+   "kind": "short",
+   "seconds": 237,
+   "pools": [
+    "makers"
+   ],
+   "silent": false,
+   "funny": 3,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a9/HERO_-_Blender_Open_Movie-full_movie.webm/HERO_-_Blender_Open_Movie-full_movie.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 804,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a9/HERO_-_Blender_Open_Movie-full_movie.webm/HERO_-_Blender_Open_Movie-full_movie.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 358,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a9/HERO_-_Blender_Open_Movie-full_movie.webm/HERO_-_Blender_Open_Movie-full_movie.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 268,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/HERO_-_Blender_Open_Movie-full_movie.webm",
+     "type": "video/webm",
+     "height": 858,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:HERO_-_Blender_Open_Movie-full_movie.webm",
+   "credit": "\"Hero\" by Blender Foundation (studio.blender.org), CC BY 4.0",
+   "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+   },
+   "rights": {
+    "basis": "cc",
+    "proof": "https://creativecommons.org/licenses/by/4.0/"
+   }
+  },
+  {
+   "id": "charge",
+   "title": "Charge",
+   "year": 2022,
+   "group": "Open Movies",
+   "kind": "short",
+   "seconds": 263,
+   "pools": [
+    "makers"
+   ],
+   "silent": false,
+   "funny": 2,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7a/Charge_-_Blender_Open_Movie-full_movie.webm/Charge_-_Blender_Open_Movie-full_movie.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 804,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7a/Charge_-_Blender_Open_Movie-full_movie.webm/Charge_-_Blender_Open_Movie-full_movie.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 358,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7a/Charge_-_Blender_Open_Movie-full_movie.webm/Charge_-_Blender_Open_Movie-full_movie.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 268,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Charge_-_Blender_Open_Movie-full_movie.webm",
+     "type": "video/webm",
+     "height": 1608,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Charge_-_Blender_Open_Movie-full_movie.webm",
+   "credit": "\"Charge\" by Blender Foundation (studio.blender.org), CC BY 4.0",
+   "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+   },
+   "rights": {
+    "basis": "cc",
+    "proof": "https://creativecommons.org/licenses/by/4.0/"
+   }
+  },
+  {
+   "id": "spring",
+   "title": "Spring",
+   "year": 2019,
+   "group": "Open Movies",
+   "kind": "short",
+   "seconds": 464,
+   "pools": [
+    "makers"
+   ],
+   "silent": false,
+   "funny": 2,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a5/Spring_-_Blender_Open_Movie.webm/Spring_-_Blender_Open_Movie.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 804,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a5/Spring_-_Blender_Open_Movie.webm/Spring_-_Blender_Open_Movie.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 358,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a5/Spring_-_Blender_Open_Movie.webm/Spring_-_Blender_Open_Movie.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 268,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Spring_-_Blender_Open_Movie.webm",
+     "type": "video/webm",
+     "height": 858,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Spring_-_Blender_Open_Movie.webm",
+   "credit": "\"Spring\" by Blender Foundation (studio.blender.org), CC BY 4.0",
+   "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+   },
+   "rights": {
+    "basis": "cc",
+    "proof": "https://creativecommons.org/licenses/by/4.0/"
+   }
+  },
+  {
+   "id": "singularity",
+   "title": "Singularity",
+   "year": 2022,
+   "group": "Open Movies",
+   "kind": "short",
+   "seconds": 391,
+   "pools": [
+    "makers",
+    "late"
+   ],
+   "silent": false,
+   "funny": 2,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f2/SINGULARITY_-_Blender_Open_Movie-full_movie.webm/SINGULARITY_-_Blender_Open_Movie-full_movie.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 804,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f2/SINGULARITY_-_Blender_Open_Movie-full_movie.webm/SINGULARITY_-_Blender_Open_Movie-full_movie.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 358,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f2/SINGULARITY_-_Blender_Open_Movie-full_movie.webm/SINGULARITY_-_Blender_Open_Movie-full_movie.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 268,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/SINGULARITY_-_Blender_Open_Movie-full_movie.webm",
+     "type": "video/webm",
+     "height": 1608,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:SINGULARITY_-_Blender_Open_Movie-full_movie.webm",
+   "credit": "\"Singularity\" by Blender Foundation (studio.blender.org), CC BY 4.0",
+   "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+   },
+   "rights": {
+    "basis": "cc",
+    "proof": "https://creativecommons.org/licenses/by/4.0/"
+   }
+  },
+  {
+   "id": "sintel",
+   "title": "Sintel",
+   "year": 2010,
+   "group": "Open Movies",
+   "kind": "short",
+   "seconds": 888,
+   "pools": [
+    "makers",
+    "late"
+   ],
+   "silent": false,
+   "funny": 2,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f1/Sintel_movie_4K.webm/Sintel_movie_4K.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 818,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f1/Sintel_movie_4K.webm/Sintel_movie_4K.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 364,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f1/Sintel_movie_4K.webm/Sintel_movie_4K.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 272,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Sintel_movie_4K.webm",
+     "type": "video/webm",
+     "height": 1744,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Sintel_movie_4K.webm",
+   "credit": "\"Sintel\" by Blender Foundation (studio.blender.org), CC BY 3.0",
+   "license": {
+    "name": "CC BY 3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/"
+   },
+   "rights": {
+    "basis": "cc",
+    "proof": "https://creativecommons.org/licenses/by/3.0/"
+   }
+  },
+  {
+   "id": "tears-of-steel",
+   "title": "Tears of Steel",
+   "year": 2012,
+   "group": "Open Movies",
+   "kind": "short",
+   "seconds": 734,
+   "pools": [
+    "makers",
+    "late"
+   ],
+   "silent": false,
+   "funny": 2,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/10/Tears_of_Steel_in_4k_-_Official_Blender_Foundation_release.webm/Tears_of_Steel_in_4k_-_Official_Blender_Foundation_release.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 858,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/10/Tears_of_Steel_in_4k_-_Official_Blender_Foundation_release.webm/Tears_of_Steel_in_4k_-_Official_Blender_Foundation_release.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 382,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/10/Tears_of_Steel_in_4k_-_Official_Blender_Foundation_release.webm/Tears_of_Steel_in_4k_-_Official_Blender_Foundation_release.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 286,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Tears_of_Steel_in_4k_-_Official_Blender_Foundation_release.webm",
+     "type": "video/webm",
+     "height": 1714,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Tears_of_Steel_in_4k_-_Official_Blender_Foundation_release.webm",
+   "credit": "\"Tears of Steel\" by Blender Foundation (studio.blender.org), CC BY 3.0",
+   "license": {
+    "name": "CC BY 3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/"
+   },
+   "rights": {
+    "basis": "cc",
+    "proof": "https://creativecommons.org/licenses/by/3.0/"
+   }
+  },
+  {
+   "id": "elephants-dream",
+   "title": "Elephants Dream",
+   "year": 2006,
+   "group": "Open Movies",
+   "kind": "short",
+   "seconds": 658,
+   "pools": [
+    "makers",
+    "late"
+   ],
+   "silent": false,
+   "funny": 2,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a2/Elephants_Dream_%282006%29.webm/Elephants_Dream_%282006%29.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a2/Elephants_Dream_%282006%29.webm/Elephants_Dream_%282006%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a2/Elephants_Dream_%282006%29.webm/Elephants_Dream_%282006%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Elephants_Dream_%282006%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Elephants_Dream_(2006).webm",
+   "credit": "\"Elephants Dream\" by Blender Foundation (studio.blender.org), CC BY 2.5",
+   "license": {
+    "name": "CC BY 2.5",
+    "url": "https://creativecommons.org/licenses/by/2.5/"
+   },
+   "rights": {
+    "basis": "cc",
+    "proof": "https://creativecommons.org/licenses/by/2.5/"
+   }
+  },
+  {
+   "id": "voyage-lune-1902",
+   "title": "A Trip to the Moon",
+   "year": 1902,
+   "group": "Méliès",
+   "kind": "short",
+   "seconds": 766,
+   "pools": [
+    "makers",
+    "late"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6d/Le_Voyage_dans_la_Lune_%281902%29.webm/Le_Voyage_dans_la_Lune_%281902%29.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6d/Le_Voyage_dans_la_Lune_%281902%29.webm/Le_Voyage_dans_la_Lune_%281902%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6d/Le_Voyage_dans_la_Lune_%281902%29.webm/Le_Voyage_dans_la_Lune_%281902%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Le_Voyage_dans_la_Lune_%281902%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Le_Voyage_dans_la_Lune_(1902).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Le_Voyage_dans_la_Lune_(1902).webm"
+   }
+  },
+  {
+   "id": "voyage-impossible-1904",
+   "title": "The Impossible Voyage",
+   "year": 1904,
+   "group": "Méliès",
+   "kind": "short",
+   "seconds": 1259,
+   "pools": [
+    "makers"
+   ],
+   "silent": true,
+   "funny": 3,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4c/Le_Voyage_%C3%A0_travers_l%27impossible_%28Georges_M%C3%A9li%C3%A8s%2C_1904%29.webm/Le_Voyage_%C3%A0_travers_l%27impossible_%28Georges_M%C3%A9li%C3%A8s%2C_1904%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4c/Le_Voyage_%C3%A0_travers_l%27impossible_%28Georges_M%C3%A9li%C3%A8s%2C_1904%29.webm/Le_Voyage_%C3%A0_travers_l%27impossible_%28Georges_M%C3%A9li%C3%A8s%2C_1904%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4c/Le_Voyage_%C3%A0_travers_l%27impossible_%28Georges_M%C3%A9li%C3%A8s%2C_1904%29.webm/Le_Voyage_%C3%A0_travers_l%27impossible_%28Georges_M%C3%A9li%C3%A8s%2C_1904%29.webm.240p.vp9.webm",
+     "type": "video/webm",
+     "height": 240,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Le_Voyage_%C3%A0_travers_l%27impossible_%28Georges_M%C3%A9li%C3%A8s%2C_1904%29.webm",
+     "type": "video/webm",
+     "height": 1076,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Le_Voyage_%C3%A0_travers_l%27impossible_(Georges_M%C3%A9li%C3%A8s,_1904).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Le_Voyage_%C3%A0_travers_l%27impossible_(Georges_M%C3%A9li%C3%A8s,_1904).webm"
+   }
+  },
+  {
+   "id": "200000-lieues-1907",
+   "title": "Under the Seas",
+   "year": 1907,
+   "group": "Méliès",
+   "kind": "short",
+   "seconds": 597,
+   "pools": [
+    "makers",
+    "late"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/79/Deux_Cents_Mille_Lieues_sous_les_mers_ou_le_Cauchemar_du_p%C3%AAcheur_%281907%29_par_Georges_M%C3%A9li%C3%A8s.webm/Deux_Cents_Mille_Lieues_sous_les_mers_ou_le_Cauchemar_du_p%C3%AAcheur_%281907%29_par_Georges_M%C3%A9li%C3%A8s.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/79/Deux_Cents_Mille_Lieues_sous_les_mers_ou_le_Cauchemar_du_p%C3%AAcheur_%281907%29_par_Georges_M%C3%A9li%C3%A8s.webm/Deux_Cents_Mille_Lieues_sous_les_mers_ou_le_Cauchemar_du_p%C3%AAcheur_%281907%29_par_Georges_M%C3%A9li%C3%A8s.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/79/Deux_Cents_Mille_Lieues_sous_les_mers_ou_le_Cauchemar_du_p%C3%AAcheur_%281907%29_par_Georges_M%C3%A9li%C3%A8s.webm/Deux_Cents_Mille_Lieues_sous_les_mers_ou_le_Cauchemar_du_p%C3%AAcheur_%281907%29_par_Georges_M%C3%A9li%C3%A8s.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Deux_Cents_Mille_Lieues_sous_les_mers_ou_le_Cauchemar_du_p%C3%AAcheur_%281907%29_par_Georges_M%C3%A9li%C3%A8s.webm",
+     "type": "video/webm",
+     "height": 2160,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Deux_Cents_Mille_Lieues_sous_les_mers_ou_le_Cauchemar_du_p%C3%AAcheur_(1907)_par_Georges_M%C3%A9li%C3%A8s.webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Deux_Cents_Mille_Lieues_sous_les_mers_ou_le_Cauchemar_du_p%C3%AAcheur_(1907)_par_Georges_M%C3%A9li%C3%A8s.webm"
+   }
+  },
+  {
+   "id": "quatre-cents-farces-1906",
+   "title": "The 400 Tricks of the Devil",
+   "year": 1906,
+   "group": "Méliès",
+   "kind": "short",
+   "seconds": 1293,
+   "pools": [
+    "makers",
+    "late"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7e/Les_Quat%27Cents_Farces_du_diable_%28Georges_M%C3%A9li%C3%A8s%2C_1906%29.webm/Les_Quat%27Cents_Farces_du_diable_%28Georges_M%C3%A9li%C3%A8s%2C_1906%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7e/Les_Quat%27Cents_Farces_du_diable_%28Georges_M%C3%A9li%C3%A8s%2C_1906%29.webm/Les_Quat%27Cents_Farces_du_diable_%28Georges_M%C3%A9li%C3%A8s%2C_1906%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7e/Les_Quat%27Cents_Farces_du_diable_%28Georges_M%C3%A9li%C3%A8s%2C_1906%29.webm/Les_Quat%27Cents_Farces_du_diable_%28Georges_M%C3%A9li%C3%A8s%2C_1906%29.webm.240p.vp9.webm",
+     "type": "video/webm",
+     "height": 240,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Les_Quat%27Cents_Farces_du_diable_%28Georges_M%C3%A9li%C3%A8s%2C_1906%29.webm",
+     "type": "video/webm",
+     "height": 1076,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Les_Quat%27Cents_Farces_du_diable_(Georges_M%C3%A9li%C3%A8s,_1906).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Les_Quat%27Cents_Farces_du_diable_(Georges_M%C3%A9li%C3%A8s,_1906).webm"
+   }
+  },
+  {
+   "id": "conquete-pole-1912",
+   "title": "The Conquest of the Pole",
+   "year": 1912,
+   "group": "Méliès",
+   "kind": "short",
+   "seconds": 508,
+   "pools": [
+    "makers"
+   ],
+   "silent": true,
+   "funny": 3,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/91/%C3%80_la_conqu%C3%AAte_du_p%C3%B4le_%281912%29_par_Georges_M%C3%A9li%C3%A8s.webm/%C3%80_la_conqu%C3%AAte_du_p%C3%B4le_%281912%29_par_Georges_M%C3%A9li%C3%A8s.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/91/%C3%80_la_conqu%C3%AAte_du_p%C3%B4le_%281912%29_par_Georges_M%C3%A9li%C3%A8s.webm/%C3%80_la_conqu%C3%AAte_du_p%C3%B4le_%281912%29_par_Georges_M%C3%A9li%C3%A8s.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/91/%C3%80_la_conqu%C3%AAte_du_p%C3%B4le_%281912%29_par_Georges_M%C3%A9li%C3%A8s.webm/%C3%80_la_conqu%C3%AAte_du_p%C3%B4le_%281912%29_par_Georges_M%C3%A9li%C3%A8s.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/%C3%80_la_conqu%C3%AAte_du_p%C3%B4le_%281912%29_par_Georges_M%C3%A9li%C3%A8s.webm",
+     "type": "video/webm",
+     "height": 2160,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:%C3%80_la_conqu%C3%AAte_du_p%C3%B4le_(1912)_par_Georges_M%C3%A9li%C3%A8s.webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:%C3%80_la_conqu%C3%AAte_du_p%C3%B4le_(1912)_par_Georges_M%C3%A9li%C3%A8s.webm"
+   }
+  },
+  {
+   "id": "royaume-fees-1903",
+   "title": "The Kingdom of the Fairies",
+   "year": 1903,
+   "group": "Méliès",
+   "kind": "short",
+   "seconds": 1028,
+   "pools": [
+    "makers"
+   ],
+   "silent": true,
+   "funny": 3,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c8/Le_Royaume_des_f%C3%A9es_%28Georges_M%C3%A9li%C3%A8s%2C_1903%29.webm/Le_Royaume_des_f%C3%A9es_%28Georges_M%C3%A9li%C3%A8s%2C_1903%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c8/Le_Royaume_des_f%C3%A9es_%28Georges_M%C3%A9li%C3%A8s%2C_1903%29.webm/Le_Royaume_des_f%C3%A9es_%28Georges_M%C3%A9li%C3%A8s%2C_1903%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c8/Le_Royaume_des_f%C3%A9es_%28Georges_M%C3%A9li%C3%A8s%2C_1903%29.webm/Le_Royaume_des_f%C3%A9es_%28Georges_M%C3%A9li%C3%A8s%2C_1903%29.webm.240p.vp9.webm",
+     "type": "video/webm",
+     "height": 240,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Le_Royaume_des_f%C3%A9es_%28Georges_M%C3%A9li%C3%A8s%2C_1903%29.webm",
+     "type": "video/webm",
+     "height": 1076,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Le_Royaume_des_f%C3%A9es_(Georges_M%C3%A9li%C3%A8s,_1903).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Le_Royaume_des_f%C3%A9es_(Georges_M%C3%A9li%C3%A8s,_1903).webm"
+   }
+  },
+  {
+   "id": "fee-carabosse-1906",
+   "title": "The Witch",
+   "year": 1906,
+   "group": "Méliès",
+   "kind": "short",
+   "seconds": 743,
+   "pools": [
+    "makers",
+    "late"
+   ],
+   "silent": true,
+   "funny": 3,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b7/La_F%C3%A9e_Carabosse_ou_le_Poignard_fatal_%28Georges_M%C3%A9li%C3%A8s%2C_1906%29.webm/La_F%C3%A9e_Carabosse_ou_le_Poignard_fatal_%28Georges_M%C3%A9li%C3%A8s%2C_1906%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b7/La_F%C3%A9e_Carabosse_ou_le_Poignard_fatal_%28Georges_M%C3%A9li%C3%A8s%2C_1906%29.webm/La_F%C3%A9e_Carabosse_ou_le_Poignard_fatal_%28Georges_M%C3%A9li%C3%A8s%2C_1906%29.webm.240p.vp9.webm",
+     "type": "video/webm",
+     "height": 240,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/La_F%C3%A9e_Carabosse_ou_le_Poignard_fatal_%28Georges_M%C3%A9li%C3%A8s%2C_1906%29.webm",
+     "type": "video/webm",
+     "height": 1076,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:La_F%C3%A9e_Carabosse_ou_le_Poignard_fatal_(Georges_M%C3%A9li%C3%A8s,_1906).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:La_F%C3%A9e_Carabosse_ou_le_Poignard_fatal_(Georges_M%C3%A9li%C3%A8s,_1906).webm"
+   }
+  },
+  {
+   "id": "chaudron-infernal-1903",
+   "title": "The Infernal Cauldron",
+   "year": 1903,
+   "group": "Méliès",
+   "kind": "short",
+   "seconds": 101,
+   "pools": [
+    "makers",
+    "late"
+   ],
+   "silent": true,
+   "funny": 3,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3f/Le_Chaudron_infernal_%28Georges_M%C3%A9li%C3%A8s%2C_1903%29.webm/Le_Chaudron_infernal_%28Georges_M%C3%A9li%C3%A8s%2C_1903%29.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3f/Le_Chaudron_infernal_%28Georges_M%C3%A9li%C3%A8s%2C_1903%29.webm/Le_Chaudron_infernal_%28Georges_M%C3%A9li%C3%A8s%2C_1903%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3f/Le_Chaudron_infernal_%28Georges_M%C3%A9li%C3%A8s%2C_1903%29.webm/Le_Chaudron_infernal_%28Georges_M%C3%A9li%C3%A8s%2C_1903%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Le_Chaudron_infernal_%28Georges_M%C3%A9li%C3%A8s%2C_1903%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Le_Chaudron_infernal_(Georges_M%C3%A9li%C3%A8s,_1903).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Le_Chaudron_infernal_(Georges_M%C3%A9li%C3%A8s,_1903).webm"
+   }
+  },
+  {
+   "id": "dirigeable-1905",
+   "title": "The Fantastic Airship",
+   "year": 1905,
+   "group": "Méliès",
+   "kind": "short",
+   "seconds": 170,
+   "pools": [
+    "makers",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e6/Le_Dirigeable_fantastique_%28Georges_M%C3%A9li%C3%A8s%2C_1905%29.webm/Le_Dirigeable_fantastique_%28Georges_M%C3%A9li%C3%A8s%2C_1905%29.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e6/Le_Dirigeable_fantastique_%28Georges_M%C3%A9li%C3%A8s%2C_1905%29.webm/Le_Dirigeable_fantastique_%28Georges_M%C3%A9li%C3%A8s%2C_1905%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e6/Le_Dirigeable_fantastique_%28Georges_M%C3%A9li%C3%A8s%2C_1905%29.webm/Le_Dirigeable_fantastique_%28Georges_M%C3%A9li%C3%A8s%2C_1905%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Le_Dirigeable_fantastique_%28Georges_M%C3%A9li%C3%A8s%2C_1905%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Le_Dirigeable_fantastique_(Georges_M%C3%A9li%C3%A8s,_1905).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Le_Dirigeable_fantastique_(Georges_M%C3%A9li%C3%A8s,_1905).webm"
+   }
+  },
+  {
+   "id": "skylab-space-station-1973",
+   "title": "Skylab: Space Station I",
+   "year": 1973,
+   "group": "Space",
+   "kind": "short",
+   "seconds": 1707,
+   "pools": [
+    "makers"
+   ],
+   "silent": false,
+   "funny": 2,
+   "sources": [
+    {
+     "url": "https://archive.org/download/Skylab-SpaceStationI/Jsc651Skylab_spaceStationI.mp4",
+     "type": "video/mp4",
+     "height": 480,
+     "original": false
+    }
+   ],
+   "page": "https://archive.org/details/Skylab-SpaceStationI",
+   "credit": "",
+   "rights": {
+    "basis": "us-gov",
+    "proof": "https://archive.org/details/Skylab-SpaceStationI"
+   }
+  },
+  {
+   "id": "columbia-second-flight-1982",
+   "title": "Space Shuttle Columbia: The Second Flight",
+   "year": 1982,
+   "group": "Space",
+   "kind": "short",
+   "seconds": 1726,
+   "pools": [
+    "makers"
+   ],
+   "silent": false,
+   "funny": 1,
+   "sources": [
+    {
+     "url": "https://archive.org/download/JSC_818_Space_Shuttle_Columbia_Second_Flight.wmv/Jsc-818_spaceShuttleColumbiaSecondFlight.mp4",
+     "type": "video/mp4",
+     "height": 480,
+     "original": false
+    }
+   ],
+   "page": "https://archive.org/details/JSC_818_Space_Shuttle_Columbia_Second_Flight.wmv",
+   "credit": "",
+   "rights": {
+    "basis": "us-gov",
+    "proof": "https://archive.org/details/JSC_818_Space_Shuttle_Columbia_Second_Flight.wmv"
+   }
+  },
+  {
+   "id": "hd-views-earth-2009",
+   "title": "High Definition Views of Earth",
+   "year": 2009,
+   "group": "Space",
+   "kind": "short",
+   "seconds": 301,
+   "pools": [
+    "makers",
+    "late"
+   ],
+   "silent": false,
+   "funny": 1,
+   "sources": [
+    {
+     "url": "https://archive.org/download/HighDefinitionViewsOfEarth/HD_Earth_Views.mp4",
+     "type": "video/mp4",
+     "height": 480,
+     "original": false
+    }
+   ],
+   "page": "https://archive.org/details/HighDefinitionViewsOfEarth",
+   "credit": "",
+   "rights": {
+    "basis": "us-gov",
+    "proof": "https://archive.org/details/HighDefinitionViewsOfEarth"
+   }
+  },
+  {
+   "id": "nosferatu-1922",
+   "title": "Nosferatu",
+   "year": 1922,
+   "group": "Silent Horror",
+   "kind": "feature",
+   "seconds": 5519,
+   "pools": [
+    "late"
+   ],
+   "silent": true,
+   "funny": 1,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/78/Nosferatu_%281922%29.webm/Nosferatu_%281922%29.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/78/Nosferatu_%281922%29.webm/Nosferatu_%281922%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/78/Nosferatu_%281922%29.webm/Nosferatu_%281922%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Nosferatu_%281922%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Nosferatu_(1922).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Nosferatu_(1922).webm"
+   }
+  },
+  {
+   "id": "phantom-opera-1925",
+   "title": "The Phantom of the Opera",
+   "year": 1925,
+   "group": "Silent Horror",
+   "kind": "feature",
+   "seconds": 5475,
+   "pools": [
+    "late"
+   ],
+   "silent": true,
+   "funny": 1,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c4/The_Phantom_of_the_Opera_%281925%29.webm/The_Phantom_of_the_Opera_%281925%29.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c4/The_Phantom_of_the_Opera_%281925%29.webm/The_Phantom_of_the_Opera_%281925%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c4/The_Phantom_of_the_Opera_%281925%29.webm/The_Phantom_of_the_Opera_%281925%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/The_Phantom_of_the_Opera_%281925%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_Phantom_of_the_Opera_(1925).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_Phantom_of_the_Opera_(1925).webm"
+   }
+  },
+  {
+   "id": "lost-world-1925",
+   "title": "The Lost World",
+   "year": 1925,
+   "group": "Silent Adventure",
+   "kind": "feature",
+   "seconds": 6150,
+   "pools": [
+    "late",
+    "makers"
+   ],
+   "silent": true,
+   "funny": 2,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2e/The_Lost_World_%281925%29.webm/The_Lost_World_%281925%29.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2e/The_Lost_World_%281925%29.webm/The_Lost_World_%281925%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2e/The_Lost_World_%281925%29.webm/The_Lost_World_%281925%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/The_Lost_World_%281925%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_Lost_World_(1925).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_Lost_World_(1925).webm"
+   }
+  },
+  {
+   "id": "man-movie-camera-1929",
+   "title": "Man with a Movie Camera",
+   "year": 1929,
+   "group": "Silent Documentary",
+   "kind": "feature",
+   "seconds": 4001,
+   "pools": [
+    "late"
+   ],
+   "silent": true,
+   "funny": 2,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e6/Man_with_a_Movie_Camera_%281929%29_by_Dziga_Vertov.webm/Man_with_a_Movie_Camera_%281929%29_by_Dziga_Vertov.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e6/Man_with_a_Movie_Camera_%281929%29_by_Dziga_Vertov.webm/Man_with_a_Movie_Camera_%281929%29_by_Dziga_Vertov.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e6/Man_with_a_Movie_Camera_%281929%29_by_Dziga_Vertov.webm/Man_with_a_Movie_Camera_%281929%29_by_Dziga_Vertov.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Man_with_a_Movie_Camera_%281929%29_by_Dziga_Vertov.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Man_with_a_Movie_Camera_(1929)_by_Dziga_Vertov.webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Man_with_a_Movie_Camera_(1929)_by_Dziga_Vertov.webm"
+   }
+  }
+ ],
+ "specials": [
+  {
+   "id": "captain-mullet-pilot",
+   "title": "Captain Mullet: Pilot",
+   "year": 2025,
+   "group": "Riah Originals",
+   "kind": "special",
+   "seconds": 1078,
+   "youtube": "SIHOefEfsdU",
+   "page": "https://www.youtube.com/watch?v=SIHOefEfsdU",
+   "credit": "Captain Mullet by Bob Clark Dammit & Riah Reckless",
+   "rights": {
+    "basis": "own-work",
+    "proof": "https://www.youtube.com/watch?v=SIHOefEfsdU"
+   }
+  }
+ ],
+ "music": [
+  {
+   "id": "joplin-maple-leaf-rag-1899",
+   "title": "Maple Leaf Rag (1899)",
+   "composer": "Scott Joplin",
+   "mood": "upbeat",
+   "seconds": 185.3,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/54/Scott_Joplin_-_Maple_Leaf_Rag_%281899%29.ogg/Scott_Joplin_-_Maple_Leaf_Rag_%281899%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Scott_Joplin_-_Maple_Leaf_Rag_%281899%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Maple Leaf Rag (1899)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Scott_Joplin_-_Maple_Leaf_Rag_(1899).ogg"
+  },
+  {
+   "id": "lamb-american-beauty-rag-1913",
+   "title": "American Beauty Rag (1913)",
+   "composer": "Joseph Lamb",
+   "mood": "upbeat",
+   "seconds": 202.4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d7/Joseph_Lamb_-_American_Beauty_Rag_%281913%29.ogg/Joseph_Lamb_-_American_Beauty_Rag_%281913%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Joseph_Lamb_-_American_Beauty_Rag_%281913%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"American Beauty Rag (1913)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Joseph_Lamb_-_American_Beauty_Rag_(1913).ogg"
+  },
+  {
+   "id": "scott-climax-rag-1914",
+   "title": "Climax Rag (1914)",
+   "composer": "James Scott",
+   "mood": "upbeat",
+   "seconds": 169.7,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/96/James_Scott_-_Climax_Rag_%281914%29.ogg/James_Scott_-_Climax_Rag_%281914%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/James_Scott_-_Climax_Rag_%281914%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Climax Rag (1914)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:James_Scott_-_Climax_Rag_(1914).ogg"
+  },
+  {
+   "id": "confrey-kitten-on-the-keys-1921",
+   "title": "Kitten On The Keys (1921)",
+   "composer": "Zez Confrey",
+   "mood": "upbeat",
+   "seconds": 192.4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/43/Zez_Confrey_-_Kitten_On_The_Keys_%281921%29.ogg/Zez_Confrey_-_Kitten_On_The_Keys_%281921%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Zez_Confrey_-_Kitten_On_The_Keys_%281921%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Kitten On The Keys (1921)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Zez_Confrey_-_Kitten_On_The_Keys_(1921).ogg"
+  },
+  {
+   "id": "joplin-the-entertainer-1902",
+   "title": "The Entertainer (1902)",
+   "composer": "Scott Joplin",
+   "mood": "upbeat",
+   "seconds": 215.5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/62/Scott_Joplin_-_The_Entertainer_%281902%29.ogg/Scott_Joplin_-_The_Entertainer_%281902%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Scott_Joplin_-_The_Entertainer_%281902%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"The Entertainer (1902)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Scott_Joplin_-_The_Entertainer_(1902).ogg"
+  },
+  {
+   "id": "lamb-bohemia-rag-1919",
+   "title": "Bohemia Rag (1919)",
+   "composer": "Joseph Lamb",
+   "mood": "upbeat",
+   "seconds": 202.4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f4/Joseph_Lamb_-_Bohemia_Rag_%281919%29.ogg/Joseph_Lamb_-_Bohemia_Rag_%281919%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Joseph_Lamb_-_Bohemia_Rag_%281919%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Bohemia Rag (1919)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Joseph_Lamb_-_Bohemia_Rag_(1919).ogg"
+  },
+  {
+   "id": "scott-broadway-rag-1922",
+   "title": "Broadway Rag (1922)",
+   "composer": "James Scott",
+   "mood": "upbeat",
+   "seconds": 195.1,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d6/James_Scott_-_Broadway_Rag_%281922%29.ogg/James_Scott_-_Broadway_Rag_%281922%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/James_Scott_-_Broadway_Rag_%281922%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Broadway Rag (1922)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:James_Scott_-_Broadway_Rag_(1922).ogg"
+  },
+  {
+   "id": "confrey-dizzy-fingers-1923",
+   "title": "Dizzy Fingers (1923)",
+   "composer": "Zez Confrey",
+   "mood": "upbeat",
+   "seconds": 107,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/Zez_Confrey_-_Dizzy_Fingers_%281923%29.ogg/Zez_Confrey_-_Dizzy_Fingers_%281923%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Zez_Confrey_-_Dizzy_Fingers_%281923%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Dizzy Fingers (1923)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Zez_Confrey_-_Dizzy_Fingers_(1923).ogg"
+  },
+  {
+   "id": "joplin-elite-syncopations-1902",
+   "title": "Elite Syncopations (1902)",
+   "composer": "Scott Joplin",
+   "mood": "upbeat",
+   "seconds": 202.5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7d/Scott_Joplin_-_Elite_Syncopations_%281902%29.ogg/Scott_Joplin_-_Elite_Syncopations_%281902%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Scott_Joplin_-_Elite_Syncopations_%281902%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Elite Syncopations (1902)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Scott_Joplin_-_Elite_Syncopations_(1902).ogg"
+  },
+  {
+   "id": "lamb-cleopatra-rag-1915",
+   "title": "Cleopatra Rag (1915)",
+   "composer": "Joseph Lamb",
+   "mood": "upbeat",
+   "seconds": 182.8,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0c/Joseph_Lamb_-_Cleopatra_Rag_%281915%29.ogg/Joseph_Lamb_-_Cleopatra_Rag_%281915%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Joseph_Lamb_-_Cleopatra_Rag_%281915%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Cleopatra Rag (1915)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Joseph_Lamb_-_Cleopatra_Rag_(1915).ogg"
+  },
+  {
+   "id": "scott-efficiency-rag-1917",
+   "title": "Efficiency Rag (1917)",
+   "composer": "James Scott",
+   "mood": "upbeat",
+   "seconds": 204.1,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f6/James_Scott_-_Efficiency_Rag_%281917%29.ogg/James_Scott_-_Efficiency_Rag_%281917%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/James_Scott_-_Efficiency_Rag_%281917%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Efficiency Rag (1917)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:James_Scott_-_Efficiency_Rag_(1917).ogg"
+  },
+  {
+   "id": "pryor-razzazza-mazzazza-1906",
+   "title": "Razzazza Mazzazza (1906)",
+   "composer": "Arthur Pryor",
+   "mood": "upbeat",
+   "seconds": 175.5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fb/Arthur_Pryor_-_Razzazza_Mazzazza_%281906%29.ogg/Arthur_Pryor_-_Razzazza_Mazzazza_%281906%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Arthur_Pryor_-_Razzazza_Mazzazza_%281906%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Razzazza Mazzazza (1906)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Arthur_Pryor_-_Razzazza_Mazzazza_(1906).ogg"
+  },
+  {
+   "id": "joplin-easy-winners-1901",
+   "title": "Easy Winners (1901)",
+   "composer": "Scott Joplin",
+   "mood": "upbeat",
+   "seconds": 199.1,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c6/Scott_Joplin_-_Easy_Winners_%281901%29.ogg/Scott_Joplin_-_Easy_Winners_%281901%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Scott_Joplin_-_Easy_Winners_%281901%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Easy Winners (1901)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Scott_Joplin_-_Easy_Winners_(1901).ogg"
+  },
+  {
+   "id": "lamb-excelsior-rag-1909",
+   "title": "Excelsior Rag (1909)",
+   "composer": "Joseph Lamb",
+   "mood": "upbeat",
+   "seconds": 193.7,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a5/Joseph_Lamb_-_Excelsior_Rag_%281909%29.ogg/Joseph_Lamb_-_Excelsior_Rag_%281909%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Joseph_Lamb_-_Excelsior_Rag_%281909%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Excelsior Rag (1909)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Joseph_Lamb_-_Excelsior_Rag_(1909).ogg"
+  },
+  {
+   "id": "scott-evergreen-rag-1915",
+   "title": "Evergreen Rag (1915)",
+   "composer": "James Scott",
+   "mood": "upbeat",
+   "seconds": 174.7,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/James_Scott_-_Evergreen_Rag_%281915%29.ogg/James_Scott_-_Evergreen_Rag_%281915%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/James_Scott_-_Evergreen_Rag_%281915%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Evergreen Rag (1915)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:James_Scott_-_Evergreen_Rag_(1915).ogg"
+  },
+  {
+   "id": "lodge-temptation-rag-1909",
+   "title": "Temptation Rag (1909)",
+   "composer": "Henry Lodge",
+   "mood": "upbeat",
+   "seconds": 176.4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/13/Henry_Lodge_-_Temptation_Rag_%281909%29.ogg/Henry_Lodge_-_Temptation_Rag_%281909%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Henry_Lodge_-_Temptation_Rag_%281909%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Temptation Rag (1909)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Henry_Lodge_-_Temptation_Rag_(1909).ogg"
+  },
+  {
+   "id": "joplin-peacherine-rag-1901",
+   "title": "Peacherine Rag (1901)",
+   "composer": "Scott Joplin",
+   "mood": "upbeat",
+   "seconds": 194.2,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/15/Scott_Joplin_-_Peacherine_Rag_%281901%29.ogg/Scott_Joplin_-_Peacherine_Rag_%281901%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Scott_Joplin_-_Peacherine_Rag_%281901%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Peacherine Rag (1901)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Scott_Joplin_-_Peacherine_Rag_(1901).ogg"
+  },
+  {
+   "id": "lamb-champagne-rag-1910",
+   "title": "Champagne Rag (1910)",
+   "composer": "Joseph Lamb",
+   "mood": "upbeat",
+   "seconds": 242,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5b/Joseph_Lamb_-_Champagne_Rag_%281910%29.ogg/Joseph_Lamb_-_Champagne_Rag_%281910%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Joseph_Lamb_-_Champagne_Rag_%281910%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Champagne Rag (1910)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Joseph_Lamb_-_Champagne_Rag_(1910).ogg"
+  },
+  {
+   "id": "scott-frog-legs-rag-1906",
+   "title": "Frog Legs Rag (1906)",
+   "composer": "James Scott",
+   "mood": "upbeat",
+   "seconds": 190.5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a2/James_Scott_-_Frog_Legs_Rag_%281906%29.ogg/James_Scott_-_Frog_Legs_Rag_%281906%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/James_Scott_-_Frog_Legs_Rag_%281906%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Frog Legs Rag (1906)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:James_Scott_-_Frog_Legs_Rag_(1906).ogg"
+  },
+  {
+   "id": "lodge-red-pepper-rag-1910",
+   "title": "Red Pepper Rag (1910)",
+   "composer": "Henry Lodge",
+   "mood": "upbeat",
+   "seconds": 213.8,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2d/Henry_Lodge_-_Red_Pepper_Rag_%281910%29.ogg/Henry_Lodge_-_Red_Pepper_Rag_%281910%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Henry_Lodge_-_Red_Pepper_Rag_%281910%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Red Pepper Rag (1910)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Henry_Lodge_-_Red_Pepper_Rag_(1910).ogg"
+  },
+  {
+   "id": "joplin-original-rags-1899",
+   "title": "Original Rags (1899)",
+   "composer": "Scott Joplin",
+   "mood": "upbeat",
+   "seconds": 242.1,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e5/Scott_Joplin_-_Original_Rags_%281899%29.ogg/Scott_Joplin_-_Original_Rags_%281899%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Scott_Joplin_-_Original_Rags_%281899%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Original Rags (1899)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Scott_Joplin_-_Original_Rags_(1899).ogg"
+  },
+  {
+   "id": "lamb-sensation-1908",
+   "title": "Sensation (1908)",
+   "composer": "Joseph Lamb",
+   "mood": "upbeat",
+   "seconds": 171.9,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0b/Joseph_Lamb_-_Sensation_%281908%29.ogg/Joseph_Lamb_-_Sensation_%281908%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Joseph_Lamb_-_Sensation_%281908%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Sensation (1908)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Joseph_Lamb_-_Sensation_(1908).ogg"
+  },
+  {
+   "id": "scott-great-scott-rag-1909",
+   "title": "Great Scott Rag (1909)",
+   "composer": "James Scott",
+   "mood": "upbeat",
+   "seconds": 169.7,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5e/James_Scott_-_Great_Scott_Rag_%281909%29.ogg/James_Scott_-_Great_Scott_Rag_%281909%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/James_Scott_-_Great_Scott_Rag_%281909%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Great Scott Rag (1909)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:James_Scott_-_Great_Scott_Rag_(1909).ogg"
+  },
+  {
+   "id": "wenrich-sunflower-rag-1911",
+   "title": "Sunflower Rag (1911)",
+   "composer": "Percy Wenrich",
+   "mood": "upbeat",
+   "seconds": 171.3,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/52/Percy_Wenrich_-_Sunflower_Rag_%281911%29.ogg/Percy_Wenrich_-_Sunflower_Rag_%281911%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Percy_Wenrich_-_Sunflower_Rag_%281911%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Sunflower Rag (1911)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Percy_Wenrich_-_Sunflower_Rag_(1911).ogg"
+  },
+  {
+   "id": "joplin-pine-apple-rag-1908",
+   "title": "Pine Apple Rag (1908)",
+   "composer": "Scott Joplin",
+   "mood": "upbeat",
+   "seconds": 198.3,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6a/Scott_Joplin_-_Pine_Apple_Rag_%281908%29.ogg/Scott_Joplin_-_Pine_Apple_Rag_%281908%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Scott_Joplin_-_Pine_Apple_Rag_%281908%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Pine Apple Rag (1908)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Scott_Joplin_-_Pine_Apple_Rag_(1908).ogg"
+  },
+  {
+   "id": "lamb-top-liner-rag-1916",
+   "title": "Top Liner Rag (1916)",
+   "composer": "Joseph Lamb",
+   "mood": "upbeat",
+   "seconds": 197.1,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/50/Joseph_Lamb_-_Top_Liner_Rag_%281916%29.ogg/Joseph_Lamb_-_Top_Liner_Rag_%281916%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Joseph_Lamb_-_Top_Liner_Rag_%281916%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Top Liner Rag (1916)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Joseph_Lamb_-_Top_Liner_Rag_(1916).ogg"
+  },
+  {
+   "id": "scott-hilarity-rag-1910",
+   "title": "Hilarity Rag (1910)",
+   "composer": "James Scott",
+   "mood": "upbeat",
+   "seconds": 161.5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/08/James_Scott_-_Hilarity_Rag_%281910%29.ogg/James_Scott_-_Hilarity_Rag_%281910%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/James_Scott_-_Hilarity_Rag_%281910%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Hilarity Rag (1910)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:James_Scott_-_Hilarity_Rag_(1910).ogg"
+  },
+  {
+   "id": "wenrich-alamo-rag-1910",
+   "title": "Alamo Rag (1910)",
+   "composer": "Percy Wenrich",
+   "mood": "upbeat",
+   "seconds": 161.9,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/79/Percy_Wenrich_-_Alamo_Rag_%281910%29.ogg/Percy_Wenrich_-_Alamo_Rag_%281910%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Percy_Wenrich_-_Alamo_Rag_%281910%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Alamo Rag (1910)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Percy_Wenrich_-_Alamo_Rag_(1910).ogg"
+  },
+  {
+   "id": "joplin-sugar-cane-rag-1908",
+   "title": "Sugar Cane Rag (1908)",
+   "composer": "Scott Joplin",
+   "mood": "upbeat",
+   "seconds": 183,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3c/Scott_Joplin_-_Sugar_Cane_Rag_%281908%29.ogg/Scott_Joplin_-_Sugar_Cane_Rag_%281908%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Scott_Joplin_-_Sugar_Cane_Rag_%281908%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Sugar Cane Rag (1908)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Scott_Joplin_-_Sugar_Cane_Rag_(1908).ogg"
+  },
+  {
+   "id": "lamb-reindeer-ragtime-two-step-1915",
+   "title": "Reindeer Ragtime Two Step (1915)",
+   "composer": "Joseph Lamb",
+   "mood": "upbeat",
+   "seconds": 188.3,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/05/Joseph_Lamb_-_Reindeer_Ragtime_Two_Step_%281915%29.ogg/Joseph_Lamb_-_Reindeer_Ragtime_Two_Step_%281915%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Joseph_Lamb_-_Reindeer_Ragtime_Two_Step_%281915%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Reindeer Ragtime Two Step (1915)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Joseph_Lamb_-_Reindeer_Ragtime_Two_Step_(1915).ogg"
+  },
+  {
+   "id": "scott-kansas-city-rag-1920",
+   "title": "Kansas City Rag (1920)",
+   "composer": "James Scott",
+   "mood": "upbeat",
+   "seconds": 171,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/80/James_Scott_-_Kansas_City_Rag_%281920%29.ogg/James_Scott_-_Kansas_City_Rag_%281920%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/James_Scott_-_Kansas_City_Rag_%281920%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Kansas City Rag (1920)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:James_Scott_-_Kansas_City_Rag_(1920).ogg"
+  },
+  {
+   "id": "botsford-honeysuckle-rag-1911",
+   "title": "Honeysuckle Rag (1911)",
+   "composer": "George Botsford",
+   "mood": "upbeat",
+   "seconds": 147,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/13/George_Botsford_-_Honeysuckle_Rag_%281911%29.ogg/George_Botsford_-_Honeysuckle_Rag_%281911%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/George_Botsford_-_Honeysuckle_Rag_%281911%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Honeysuckle Rag (1911)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:George_Botsford_-_Honeysuckle_Rag_(1911).ogg"
+  },
+  {
+   "id": "joplin-gladiolus-rag-1907",
+   "title": "Gladiolus Rag (1907)",
+   "composer": "Scott Joplin",
+   "mood": "upbeat",
+   "seconds": 202.2,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/88/Scott_Joplin_-_Gladiolus_Rag_%281907%29.ogg/Scott_Joplin_-_Gladiolus_Rag_%281907%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Scott_Joplin_-_Gladiolus_Rag_%281907%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Gladiolus Rag (1907)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Scott_Joplin_-_Gladiolus_Rag_(1907).ogg"
+  },
+  {
+   "id": "lamb-ragtime-nightingale-1915",
+   "title": "Ragtime Nightingale (1915)",
+   "composer": "Joseph Lamb",
+   "mood": "upbeat",
+   "seconds": 201.8,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2c/Joseph_Lamb_-_Ragtime_Nightingale_%281915%29.ogg/Joseph_Lamb_-_Ragtime_Nightingale_%281915%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Joseph_Lamb_-_Ragtime_Nightingale_%281915%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Ragtime Nightingale (1915)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Joseph_Lamb_-_Ragtime_Nightingale_(1915).ogg"
+  },
+  {
+   "id": "joplin-bethena-1905",
+   "title": "Bethena (1905)",
+   "composer": "Scott Joplin",
+   "mood": "gentle",
+   "seconds": 320.3,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/11/Scott_Joplin_-_Bethena_%281905%29.ogg/Scott_Joplin_-_Bethena_%281905%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Scott_Joplin_-_Bethena_%281905%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Bethena (1905)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Scott_Joplin_-_Bethena_(1905).ogg"
+  },
+  {
+   "id": "joplin-solace-1909",
+   "title": "Solace (1909)",
+   "composer": "Scott Joplin",
+   "mood": "gentle",
+   "seconds": 348.5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/36/Scott_Joplin_-_Solace_%281909%29.ogg/Scott_Joplin_-_Solace_%281909%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Scott_Joplin_-_Solace_%281909%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Solace (1909)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Scott_Joplin_-_Solace_(1909).ogg"
+  },
+  {
+   "id": "joplin-heliotrope-bouquet-1907",
+   "title": "Heliotrope Bouquet (1907)",
+   "composer": "Scott Joplin",
+   "mood": "gentle",
+   "seconds": 189.4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/62/Scott_Joplin_-_Heliotrope_Bouquet_%281907%29.ogg/Scott_Joplin_-_Heliotrope_Bouquet_%281907%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Scott_Joplin_-_Heliotrope_Bouquet_%281907%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Heliotrope Bouquet (1907)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Scott_Joplin_-_Heliotrope_Bouquet_(1907).ogg"
+  },
+  {
+   "id": "joplin-pleasant-moments-1909",
+   "title": "Pleasant Moments (1909)",
+   "composer": "Scott Joplin",
+   "mood": "gentle",
+   "seconds": 155.9,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a7/Scott_Joplin_-_Pleasant_Moments_%281909%29.ogg/Scott_Joplin_-_Pleasant_Moments_%281909%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Scott_Joplin_-_Pleasant_Moments_%281909%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Pleasant Moments (1909)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Scott_Joplin_-_Pleasant_Moments_(1909).ogg"
+  },
+  {
+   "id": "joplin-binks-waltz-1905",
+   "title": "Binks' Waltz (1905)",
+   "composer": "Scott Joplin",
+   "mood": "gentle",
+   "seconds": 255.4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f1/Scott_Joplin_-_Binks%27_Waltz_%281905%29.ogg/Scott_Joplin_-_Binks%27_Waltz_%281905%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Scott_Joplin_-_Binks%27_Waltz_%281905%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Binks' Waltz (1905)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Scott_Joplin_-_Binks'_Waltz_(1905).ogg"
+  },
+  {
+   "id": "joplin-augustan-club-waltz-1901",
+   "title": "Augustan Club Waltz (1901)",
+   "composer": "Scott Joplin",
+   "mood": "gentle",
+   "seconds": 253.3,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/55/Scott_Joplin_-_Augustan_Club_Waltz_%281901%29.ogg/Scott_Joplin_-_Augustan_Club_Waltz_%281901%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Scott_Joplin_-_Augustan_Club_Waltz_%281901%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Augustan Club Waltz (1901)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Scott_Joplin_-_Augustan_Club_Waltz_(1901).ogg"
+  },
+  {
+   "id": "joplin-harmony-club-waltz-1896",
+   "title": "Harmony Club Waltz (1896)",
+   "composer": "Scott Joplin",
+   "mood": "gentle",
+   "seconds": 345.2,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/be/Scott_Joplin_-_Harmony_Club_Waltz_%281896%29.ogg/Scott_Joplin_-_Harmony_Club_Waltz_%281896%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Scott_Joplin_-_Harmony_Club_Waltz_%281896%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Harmony Club Waltz (1896)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Scott_Joplin_-_Harmony_Club_Waltz_(1896).ogg"
+  },
+  {
+   "id": "joplin-eugenia-1905",
+   "title": "Eugenia (1905)",
+   "composer": "Scott Joplin",
+   "mood": "gentle",
+   "seconds": 229.5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/da/Scott_Joplin_-_Eugenia_%281905%29.ogg/Scott_Joplin_-_Eugenia_%281905%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Scott_Joplin_-_Eugenia_%281905%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Eugenia (1905)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Scott_Joplin_-_Eugenia_(1905).ogg"
+  },
+  {
+   "id": "joplin-a-breeze-from-alabama-1902",
+   "title": "A Breeze From Alabama (1902)",
+   "composer": "Scott Joplin",
+   "mood": "gentle",
+   "seconds": 230.8,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b2/Scott_Joplin_-_A_Breeze_From_Alabama_%281902%29.ogg/Scott_Joplin_-_A_Breeze_From_Alabama_%281902%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Scott_Joplin_-_A_Breeze_From_Alabama_%281902%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"A Breeze From Alabama (1902)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Scott_Joplin_-_A_Breeze_From_Alabama_(1902).ogg"
+  },
+  {
+   "id": "joplin-weeping-willow-rag-1903",
+   "title": "Weeping Willow Rag (1903)",
+   "composer": "Scott Joplin",
+   "mood": "gentle",
+   "seconds": 198.4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cc/Scott_Joplin_-_Weeping_Willow_Rag_%281903%29.ogg/Scott_Joplin_-_Weeping_Willow_Rag_%281903%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Scott_Joplin_-_Weeping_Willow_Rag_%281903%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Weeping Willow Rag (1903)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Scott_Joplin_-_Weeping_Willow_Rag_(1903).ogg"
+  },
+  {
+   "id": "joplin-euphonic-sounds-1909",
+   "title": "Euphonic Sounds (1909)",
+   "composer": "Scott Joplin",
+   "mood": "gentle",
+   "seconds": 186.6,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/aa/Scott_Joplin_-_Euphonic_Sounds_%281909%29.ogg/Scott_Joplin_-_Euphonic_Sounds_%281909%29.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Scott_Joplin_-_Euphonic_Sounds_%281909%29.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Euphonic Sounds (1909)\" by Gnissah, Wikimedia Commons, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Scott_Joplin_-_Euphonic_Sounds_(1909).ogg"
+  },
+  {
+   "id": "grieg-in-the-hall-of-the-mountain-king",
+   "title": "In the Hall of the Mountain King",
+   "composer": "Edvard Grieg",
+   "mood": "spooky",
+   "seconds": 154.1,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bb/Musopen_-_In_the_Hall_Of_The_Mountain_King.ogg/Musopen_-_In_the_Hall_Of_The_Mountain_King.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Musopen_-_In_the_Hall_Of_The_Mountain_King.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "",
+   "page": "https://commons.wikimedia.org/wiki/File:Musopen_-_In_the_Hall_Of_The_Mountain_King.ogg"
+  },
+  {
+   "id": "bach-toccata-and-fugue-in-d-minor",
+   "title": "Toccata and Fugue in D Minor",
+   "composer": "J. S. Bach",
+   "mood": "spooky",
+   "seconds": 521.1,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c3/Kevin_MacLeod_-_J_S_Bach_Toccata_and_Fugue_in_D_Minor.ogg/Kevin_MacLeod_-_J_S_Bach_Toccata_and_Fugue_in_D_Minor.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Kevin_MacLeod_-_J_S_Bach_Toccata_and_Fugue_in_D_Minor.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Toccata and Fugue in D Minor\" Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 3.0 (https://creativecommons.org/licenses/by/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_-_J_S_Bach_Toccata_and_Fugue_in_D_Minor.ogg"
+  },
+  {
+   "id": "saint-saens-danse-macabre",
+   "title": "Danse Macabre",
+   "composer": "Camille Saint-Saens",
+   "mood": "spooky",
+   "seconds": 406.2,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/46/Kevin_MacLeod_-_Camille_Saint-Sans_Danse_Macabre.ogg/Kevin_MacLeod_-_Camille_Saint-Sans_Danse_Macabre.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Kevin_MacLeod_-_Camille_Saint-Sans_Danse_Macabre.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "\"Danse Macabre\" Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 3.0 (https://creativecommons.org/licenses/by/3.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_-_Camille_Saint-Sans_Danse_Macabre.ogg"
+  },
+  {
+   "id": "schumann-scenes-from-childhood-xi-frightening",
+   "title": "Scenes from Childhood: xi. frightening",
+   "composer": "Robert Schumann",
+   "mood": "spooky",
+   "seconds": 122.5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f9/Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_xi._frightening.ogg/Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_xi._frightening.ogg.mp3",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_xi._frightening.ogg",
+     "type": "audio/ogg"
+    }
+   ],
+   "credit": "",
+   "page": "https://commons.wikimedia.org/wiki/File:Robert_Schumann_-_scenes_from_childhood,_op._15_-_xi._frightening.ogg"
+  },
+  {
+   "id": "bach-toccata-and-fugue-in-d-minor-bwv-565",
+   "title": "Toccata and Fugue in D minor, BWV 565",
+   "composer": "J. S. Bach",
+   "mood": "spooky",
+   "seconds": 464,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4d/Bach%2C_Toccata_und_Fuge_d-moll_BWV_565%2C_Norbert_Schenk.mp3/Bach%2C_Toccata_und_Fuge_d-moll_BWV_565%2C_Norbert_Schenk.mp3.ogg",
+     "type": "audio/mpeg"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Bach%2C_Toccata_und_Fuge_d-moll_BWV_565%2C_Norbert_Schenk.mp3",
+     "type": "audio/mpeg"
+    }
+   ],
+   "credit": "Norbert Schenk, Wikimedia Commons, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)",
+   "page": "https://commons.wikimedia.org/wiki/File:Bach,_Toccata_und_Fuge_d-moll_BWV_565,_Norbert_Schenk.mp3"
+  }
+ ]
+}

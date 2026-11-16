@@ -1,0 +1,303 @@
+/*
+ * Riah Interface Signature — reusable starter.
+ * Canonical guidance: ./MASTER.md (matched to the live apps 2026-10-05)
+ */
+
+:root {
+  color-scheme: dark;
+  --riah-bg: #0f0f11;
+  --riah-surface: #141417;
+  --riah-surface-raised: #18181c;
+  --riah-ink: #ededef;
+  --riah-body: #9a9aa2;
+  --riah-dim: #82828a;            /* 5.0:1 on --riah-bg; was #77777f (4.3:1) */
+  --riah-rule: rgba(255, 255, 255, 0.12);
+  --riah-rule-strong: rgba(255, 255, 255, 0.16);
+  --riah-rule-hard: #ededef;      /* the one 2px rule under the header */
+  --riah-pink: #ff5ca8;
+  --riah-keep: #3fcf7f;
+  --riah-revise: #e9ba45;
+  --riah-discard: #f26d5b;
+  --riah-stamp-plate: rgba(15, 15, 17, 0.7);
+  --riah-font-identity: "Instrument Serif", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --riah-font-ui: "Space Grotesk", "Segoe UI", sans-serif;
+  --riah-font-data: "Space Mono", Consolas, monospace;
+
+  /* Seven sizes, nothing under 11px (Captain, 2026-10-05) */
+  --riah-text-label: 0.6875rem;   /* 11px — the floor */
+  --riah-text-small: 0.8125rem;   /* 13px */
+  --riah-text-body: 0.9375rem;    /* 15px */
+  --riah-text-lead: 1.125rem;     /* 18px */
+  --riah-text-section: 1.5rem;    /* 24px */
+  --riah-text-title: 2rem;        /* 32px */
+  --riah-text-display: 3rem;      /* 48px */
+
+  --riah-radius-control: 5px;
+  --riah-radius-surface: 12px;
+  --riah-speed: 160ms;
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+  --riah-bg: #ffffff;
+  --riah-surface: #fafafa;
+  --riah-surface-raised: #f2f2f3;
+  --riah-ink: #111111;
+  --riah-body: #555555;
+  --riah-dim: #707070;            /* 5.0:1 on white; apps shipped #888888 (3.5:1) */
+  --riah-rule: rgba(0, 0, 0, 0.14);
+  --riah-rule-strong: rgba(0, 0, 0, 0.25);
+  --riah-rule-hard: #111111;
+  --riah-pink: #c21868;
+  --riah-keep: #158a46;
+  --riah-revise: #b58004;
+  --riah-discard: #d42b2b;
+  --riah-stamp-plate: rgba(255, 255, 255, 0.85);
+}
+
+/* Header: lockup on the left, one 2px ink rule underneath. */
+.riah-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--riah-rule-hard);
+}
+
+/* Inline lockup as shipped in Swipe, Usage and Code (reference: Riah Usage).
+   Italic pink "Riah" at 20px beside a roman serif product name at 18px. */
+.riah-lockup {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  color: var(--riah-ink);
+  font: 400 1.125rem/1 var(--riah-font-identity);
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+}
+
+.riah-wordmark {
+  color: var(--riah-pink);
+  font-family: var(--riah-font-identity);
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+.riah-lockup .riah-wordmark {
+  font-size: 1.1111em;
+}
+
+.riah-product-name {
+  color: var(--riah-ink);
+  font-style: normal;
+}
+
+.riah-label {
+  color: var(--riah-dim);
+  font: 700 var(--riah-text-label)/1.2 var(--riah-font-data);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.riah-surface {
+  background: var(--riah-surface);
+  border: 1px solid var(--riah-rule);
+  border-radius: var(--riah-radius-surface);
+}
+
+.riah-button {
+  min-height: 44px;
+  border: 1px solid var(--riah-rule);
+  border-radius: var(--riah-radius-control);
+  padding: 0.65rem 0.9rem;
+  color: var(--riah-ink);
+  background: transparent;
+  font: 700 var(--riah-text-small)/1 var(--riah-font-ui);
+  cursor: pointer;
+  transition:
+    border-color var(--riah-speed) ease,
+    background-color var(--riah-speed) ease,
+    color var(--riah-speed) ease,
+    opacity var(--riah-speed) ease;
+}
+
+.riah-button:hover {
+  border-color: var(--riah-rule-strong);
+  background: var(--riah-surface-raised);
+}
+
+/* Main action: solid ink, inverted text — as in Swipe, Usage and Code. */
+.riah-button--primary {
+  border-color: var(--riah-ink);
+  color: var(--riah-bg);
+  background: var(--riah-ink);
+}
+
+.riah-button--primary:hover {
+  border-color: var(--riah-ink);
+  background: var(--riah-ink);
+  opacity: 0.85;
+}
+
+.riah-button:focus-visible,
+.riah-input:focus-visible {
+  outline: 2px solid var(--riah-pink);
+  outline-offset: 2px;
+}
+
+.riah-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-height: 24px;
+  color: var(--riah-body);
+  font: 700 var(--riah-text-label)/1 var(--riah-font-data);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.riah-status::before {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: currentColor;
+  content: "";
+}
+
+.riah-status--keep { color: var(--riah-keep); }
+.riah-status--revise { color: var(--riah-revise); }
+.riah-status--discard { color: var(--riah-discard); }
+.riah-status--call { color: var(--riah-ink); }   /* "Your call": neutral, never coral */
+
+/* ── Signature: proof marks (Captain, 2026-10-06). Desktop margin only. ── */
+.riah-marks { display: none; }
+
+@media (min-width: 1040px) {
+  .riah-marks { display: block; }
+}
+
+.riah-mark {
+  position: fixed;
+  width: 26px;
+  height: 26px;
+  pointer-events: none;
+}
+
+.riah-mark--tl { top: 20px; left: 20px; border-top: 1px solid var(--riah-rule-strong); border-left: 1px solid var(--riah-rule-strong); }
+.riah-mark--tr { top: 20px; right: 20px; border-top: 1px solid var(--riah-rule-strong); border-right: 1px solid var(--riah-rule-strong); }
+.riah-mark--bl { bottom: 20px; left: 20px; border-bottom: 1px solid var(--riah-rule-strong); border-left: 1px solid var(--riah-rule-strong); }
+.riah-mark--br { bottom: 20px; right: 20px; border-bottom: 1px solid var(--riah-rule-strong); border-right: 1px solid var(--riah-rule-strong); }
+
+.riah-slug {
+  position: fixed;
+  color: var(--riah-dim);
+  font: 400 var(--riah-text-label)/1 var(--riah-font-data);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.riah-slug--tl { top: 24px; left: 58px; }
+.riah-slug--br { bottom: 24px; right: 58px; }
+
+/* Stamps: real events only — a verdict was given, or something arrived. */
+.riah-stamp {
+  display: inline-block;
+  padding: 6px 8px;
+  border: 2px solid currentColor;
+  border-radius: 6px;
+  background: var(--riah-stamp-plate);
+  font: 700 var(--riah-text-label)/1 var(--riah-font-data);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transform: rotate(-6deg);
+}
+
+.riah-stamp--keep { color: var(--riah-keep); }
+.riah-stamp--revise { color: var(--riah-revise); }
+.riah-stamp--discard { color: var(--riah-discard); }
+.riah-stamp--new { color: var(--riah-ink); }
+
+.riah-stamp--land { animation: riah-stamp-land 240ms cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+
+@keyframes riah-stamp-land {
+  from { transform: rotate(-6deg) scale(1.4); }
+  to { transform: rotate(-6deg) scale(1); }
+}
+
+/* ── Opening screens lead with the haul (Captain, 2026-10-06) ── */
+.riah-haul-title {
+  margin: 0;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--riah-rule-hard);
+  color: var(--riah-ink);
+  font: 600 var(--riah-text-lead)/1.2 var(--riah-font-ui);
+}
+
+.riah-haul {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.riah-haul > li {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+}
+
+.riah-thumb {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border: 1px solid var(--riah-rule);
+  border-radius: var(--riah-radius-control);
+  background: var(--riah-surface-raised);
+  color: var(--riah-dim);
+  font: 700 var(--riah-text-label)/1 var(--riah-font-data);
+  letter-spacing: 0.08em;
+}
+
+.riah-thumb > img { width: 100%; height: 100%; object-fit: cover; }
+
+.riah-haul-text { display: grid; min-width: 0; }
+
+.riah-haul-text > strong {
+  color: var(--riah-ink);
+  font: 600 var(--riah-text-small)/1.3 var(--riah-font-ui);
+}
+
+.riah-haul-text > span {
+  color: var(--riah-dim);
+  font: 400 var(--riah-text-small)/1.35 var(--riah-font-ui);
+}
+
+.riah-fine {
+  margin: 0;
+  padding-top: 10px;
+  border-top: 1px solid var(--riah-rule);
+  color: var(--riah-dim);
+  font: 400 var(--riah-text-label)/1.4 var(--riah-font-data);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

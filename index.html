@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0f0f11">
+  <meta name="description" content="Riah TV: classic comedy, cartoons and cool short films, on all day. Free.">
+  <title>Riah TV</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="riah-video-32.png">
+  <link rel="apple-touch-icon" href="riah-video-128.png">
+  <link rel="stylesheet" href="kit/riah-interface.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="riah-marks" aria-hidden="true">
+    <span class="riah-mark riah-mark--tl"></span><span class="riah-mark riah-mark--tr"></span>
+    <span class="riah-mark riah-mark--bl"></span><span class="riah-mark riah-mark--br"></span>
+    <span class="riah-slug riah-slug--tl">Channel 1</span>
+    <span class="riah-slug riah-slug--br" id="slug-version">Riah TV</span>
+  </div>
+
+  <div class="page">
+    <header class="riah-header">
+      <div class="riah-lockup"><span class="riah-wordmark">Riah</span> <span class="riah-product-name">TV</span></div>
+      <span class="live" id="live"><i aria-hidden="true"></i>Live</span>
+    </header>
+
+    <main class="stage">
+      <section class="stage-main" aria-label="Live channel">
+        <div class="player" id="player">
+          <video id="video" muted playsinline preload="auto" aria-label="Riah TV"></video>
+          <div class="yt" id="yt-wrap" hidden><div id="yt"></div></div>
+          <div class="screen" id="screen" hidden>
+            <p class="screen-label" id="screen-label">Up next</p>
+            <p class="screen-title" id="screen-title"></p>
+            <p class="screen-meta" id="screen-meta"></p>
+            <button class="riah-button screen-start" id="screen-start" type="button" hidden>Start watching</button>
+          </div>
+          <p class="player-note" id="player-note" role="status" hidden></p>
+          <audio id="music" preload="none"></audio>
+        </div>
+
+        <div class="controls">
+          <button class="riah-button" id="sound" type="button">Turn sound on</button>
+          <button class="riah-button" id="full" type="button">Full screen</button>
+        </div>
+
+        <article class="now riah-surface" id="now">
+          <p class="riah-label" id="now-eyebrow">Now on Riah TV</p>
+          <div aria-live="polite" aria-atomic="true">
+            <h1 class="now-title" id="now-title">Tuning in&hellip;</h1>
+          </div>
+          <p class="now-meta" id="now-meta">&nbsp;</p>
+          <div class="bar" role="progressbar" aria-label="Program progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="bar"><span id="bar-fill"></span></div>
+          <p class="now-times"><span id="now-ends">&nbsp;</span><span id="now-left"></span></p>
+          <p class="credit" id="now-credit"></p>
+          <p class="credit" id="music-credit" hidden></p>
+        </article>
+      </section>
+
+      <aside class="upnext riah-surface" aria-labelledby="upnext-h">
+        <h2 class="section-title" id="upnext-h">Up next</h2>
+        <ol class="next-list" id="next-list"></ol>
+        <p class="mullet-note" id="mullet-note"></p>
+      </aside>
+    </main>
+
+    <section class="guide" aria-labelledby="guide-h">
+      <div class="guide-head">
+        <h2 class="section-title" id="guide-h">Program guide</h2>
+        <p class="riah-label" id="guide-note">Next 6 hours</p>
+      </div>
+      <div class="timeline" id="timeline" tabindex="0" role="region" aria-label="Program guide timeline, scrolls sideways"></div>
+      <ol class="guide-list" id="guide-list"></ol>
+      <button class="riah-button more" id="guide-more" type="button" hidden>Show more</button>
+    </section>
+
+    <details class="credits riah-surface">
+      <summary>Credits and sources</summary>
+      <p class="credits-intro">Everything on Riah TV is in the public domain in the US, under a Creative Commons licence that allows it, or our own work. Each film plays straight from its home on the Internet Archive or Wikimedia Commons.</p>
+      <h3>Programs</h3>
+      <ul id="credits-programs"></ul>
+      <h3>Music under the silent films</h3>
+      <ul id="credits-music"></ul>
+    </details>
+
+    <footer class="foot">
+      <p class="foot-note" id="foot-note">Times are shown in your local time.</p>
+      <p class="riah-fine" id="foot-version"></p>
+    </footer>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
