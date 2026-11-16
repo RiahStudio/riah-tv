@@ -1,13 +1,17 @@
 // Riah TV channel page. There is no server: this browser works out what's on from
 // the clock and lineup.json (schedule.mjs), then plays it straight from where it
 // lives (Internet Archive, Wikimedia Commons, or YouTube for Captain Mullet).
-// Video always starts muted. Sound, and the music under silent films, only come on
-// after the viewer presses "Turn sound on".
+// On the web, video always starts muted. Sound, and the music under silent films,
+// only come on after the viewer presses "Turn sound on".
+// TV mode (?tv=1, used by the Fire TV app) fills the screen, runs on the remote,
+// and starts with sound on; ?quiet=1 keeps it muted. See tv.js.
 import { whatsOn, nextShows, itemsBetween, lookup, musicAt, blockBounds, channelDate, GRID } from './schedule.mjs';
 import { addDays } from './time.mjs';
+import { startTv } from './tv.js';
 
-const VERSION = '0.1';
-const RELEASED = '2026-11-16';
+const VERSION = '0.2';
+const RELEASED = '2026-11-17';
+const MAX_LAG = 6 * 3600;  // the furthest a viewer can pause or skip back behind live
 const GUIDE_HOURS = 6;
 const PX_PER_MIN = 40;
 const LIST_PAGE = 12;
@@ -23,6 +27,12 @@ const el = (tag, cls, text) => {
 };
 const link = (href, text) => { const a = el('a', '', text); a.href = href; a.target = '_blank'; a.rel = 'noopener'; return a; };
 const nowSec = () => Date.now() / 1000;
+// The viewer's clock. It is live (lag 0) unless they paused or skipped back on the
+// remote; the schedule always reads this clock, real-time checks read nowSec().
+let lag = 0;
+let pausedAt = null;
+const viewNow = () => pausedAt ?? (nowSec() - lag);
+const isPaused = () => pausedAt !== null;
 const clockFmt = new Intl.DateTimeFormat([], { hour: 'numeric', minute: '2-digit' });
 const dayFmt = new Intl.DateTimeFormat([], { weekday: 'short' });
 const clock = (epoch) => clockFmt.format(new Date(epoch * 1000));
@@ -87,14 +97,19 @@ function prepare(p) {
 }
 
 function seekToClock() {
-  const want = nowSec() - cur.item.start;
+  const want = viewNow() - cur.item.start;
   const end = Number.isFinite(video.duration) ? video.duration - 0.5 : Infinity;
   video.currentTime = Math.max(0, Math.min(want, end));
 }
 
 function tryPlay(media) {
+  if (isPaused()) return;
   const p = media.play();
-  if (p) p.catch((err) => { if (err.name === 'NotAllowedError' && media === video) askForTap(); });
+  if (p) p.catch((err) => {
+    if (err.name !== 'NotAllowedError' || media !== video) return;
+    // TV mode starts with sound on. If this browser won't allow that, play muted.
+    if (!video.muted) { setSound(false); tryPlay(video); } else askForTap();
+  });
 }
 
 video.addEventListener('timeupdate', () => { if (!video.paused) lastProgress = nowSec(); });
@@ -142,14 +157,14 @@ async function playSpecial(item, sp) {
   const YT = await loadYouTube();
   if (cur?.item !== item) return;
   if (!YT) { rightBack(sp, "YouTube didn't load here.", sp.page); return; }
-  const start = Math.max(0, Math.floor(nowSec() - item.start));
+  const start = Math.max(0, Math.floor(viewNow() - item.start));
   specialSince = nowSec();
   if (!yt) {
     yt = new YT.Player('yt', {
       videoId: sp.youtube,
       playerVars: { autoplay: 1, mute: 1, controls: 0, playsinline: 1, rel: 0, start, fs: 0, iv_load_policy: 3, disablekb: 1 },
       events: {
-        onReady: (e) => { ytReady = true; applySound(); if (cur?.item.kind === 'special') { e.target.seekTo(nowSec() - cur.item.start, true); e.target.playVideo(); } },
+        onReady: (e) => { ytReady = true; applySound(); if (cur?.item.kind === 'special' && !isPaused()) { e.target.seekTo(viewNow() - cur.item.start, true); e.target.playVideo(); } },
         onStateChange: (e) => { if (e.data === YT_PLAYING) { needsTap = false; $('screen-start').hidden = true; if ($('screen-label').textContent === 'Riah TV') showScreen(null); } },
         onError: () => { if (cur?.item.kind === 'special') rightBack(sp, "Captain Mullet won't play here right now.", sp.page); },
       },
@@ -171,13 +186,13 @@ let musicFor = null;      // `${item.start}|${track.id}` now loaded
 let musicSrc = 0;
 
 function syncMusic() {
-  const want = soundOn && cur?.item.kind === 'program' && cur.prog?.silent;
+  const want = soundOn && !isPaused() && cur?.item.kind === 'program' && cur.prog?.silent;
   if (!want) {
     if (!music.paused) music.pause();
     setMusicCredit(null);
     return;
   }
-  const m = musicAt(lib, cur.item, nowSec());
+  const m = musicAt(lib, cur.item, viewNow());
   if (!m) return;
   const key = `${cur.item.start}|${m.track.id}`;
   if (key !== musicFor) {
@@ -198,7 +213,7 @@ function loadMusic(track) {
   music.volume = 0.8;
   music.src = s.url;
   music.addEventListener('loadedmetadata', () => {
-    const n = cur && musicAt(lib, cur.item, nowSec());
+    const n = cur && musicAt(lib, cur.item, viewNow());
     if (n && n.track.id === track.id && soundOn) music.currentTime = n.offset;
     else music.pause();
   }, { once: true });
@@ -208,7 +223,7 @@ function loadMusic(track) {
   tryPlay(music);
 }
 music.addEventListener('error', () => {
-  const m = cur && musicAt(lib, cur.item, nowSec());
+  const m = cur && musicAt(lib, cur.item, viewNow());
   if (m && musicFor === `${cur.item.start}|${m.track.id}`) { musicSrc++; loadMusic(m.track); }
 });
 
@@ -239,15 +254,21 @@ function applySound() {
   syncMusic();
 }
 
-$('sound').addEventListener('click', () => {
-  soundOn = !soundOn;
+function setSound(on) {
+  soundOn = on;
   const b = $('sound');
   b.textContent = soundOn ? 'Mute' : 'Turn sound on';
   b.classList.toggle('is-on', soundOn);
+  document.dispatchEvent(new CustomEvent('riahtv:sound', { detail: soundOn }));
   applySound();
+}
+
+function toggleSound() {
+  setSound(!soundOn);
   if (cur?.item.kind === 'program' && video.paused && $('screen').hidden) tryPlay(video);
-  if (cur?.item.kind === 'special' && yt && ytReady && soundOn) yt.playVideo();
-});
+  if (cur?.item.kind === 'special' && yt && ytReady && soundOn && !isPaused()) yt.playVideo();
+}
+$('sound').addEventListener('click', toggleSound);
 
 $('full').addEventListener('click', () => {
   const box = $('player');
@@ -274,13 +295,14 @@ function showScreen(label, title, meta, href) {
 function askForTap() {
   needsTap = true;
   const s = $('screen');
-  if (s.hidden) showScreen('Riah TV', cur?.prog?.title || 'Live now', 'Your browser wants a tap before video plays.');
+  const ask = document.body.classList.contains('tv') ? 'Press Select on the remote to start.' : 'Your browser wants a tap before video plays.';
+  if (s.hidden) showScreen('Riah TV', cur?.prog?.title || 'Live now', ask);
   $('screen-start').hidden = false;
 }
 $('screen-start').addEventListener('click', () => {
   $('screen-start').hidden = true;
   needsTap = false;
-  const on = whatsOn(lib, nowSec());
+  const on = whatsOn(lib, viewNow());
   if (on.item.kind === 'special' && yt && ytReady && cur?.item.start === on.item.start) {
     showScreen(null);
     specialSince = nowSec();
@@ -295,7 +317,7 @@ $('screen-start').addEventListener('click', () => {
 function rightBack(p, why, href) {
   stopVideo();
   stopYouTube();
-  const nx = nextShows(lib, nowSec(), 1)[0];
+  const nx = nextShows(lib, viewNow(), 1)[0];
   const then = nx ? ` Next at ${clock(nx.start)}: ${lookup(lib, nx.id)?.title}.` : '';
   showScreen("We'll be right back", p?.title || '', `${why}${then}`, href || p?.page);
 }
@@ -332,8 +354,8 @@ function enter(on, force) {
 }
 
 function keepInSync() {
-  if (!cur || needsTap) return;
-  const want = nowSec() - cur.item.start;
+  if (!cur || needsTap || isPaused()) return;
+  const want = viewNow() - cur.item.start;
   if (cur.item.kind === 'program' && $('screen').hidden) {
     if (video.readyState >= 1 && !video.seeking) {
       const end = Number.isFinite(video.duration) ? video.duration - 1 : Infinity;
@@ -351,9 +373,34 @@ function keepInSync() {
   }
 }
 
+// ---------- pause, skip and back to live (the TV remote) ----------
+function pauseChannel() {
+  if (isPaused() || !lib) return;
+  pausedAt = viewNow();
+  stopVideo();
+  if (yt && ytReady) yt.pauseVideo();
+  if (!music.paused) music.pause();
+  tick();
+}
+
+/** Carry on from where the viewer paused, or move the viewer's clock by `shift` seconds. */
+function resumeChannel(shift = 0) {
+  if (!lib) return;
+  const at = (pausedAt ?? viewNow()) + shift;
+  pausedAt = null;
+  lag = Math.min(MAX_LAG, Math.max(0, nowSec() - at));
+  lastProgress = nowSec();
+  needsTap = false;
+  curKey = null; // re-enter what's on at the new time, even if it's the same program
+  tick();
+}
+const togglePause = () => (isPaused() ? resumeChannel() : pauseChannel());
+const skip = (sec) => resumeChannel(sec);
+const goLive = () => resumeChannel(Infinity);
+
 // ---------- Now card ----------
 function renderNow(on) {
-  const t = nowSec();
+  const t = viewNow();
   const it = on.item;
   setText($('now-eyebrow'), `Now · ${on.block?.name || 'Riah TV'}`);
   const credit = $('now-credit');
@@ -398,7 +445,7 @@ function nextMullet(t) {
 }
 
 function renderNext() {
-  const t = nowSec();
+  const t = viewNow();
   const ol = $('next-list');
   ol.replaceChildren();
   for (const it of nextShows(lib, t, 5)) {
@@ -421,7 +468,7 @@ function renderNext() {
 
 // ---------- program guide ----------
 function renderGuide() {
-  const t = nowSec();
+  const t = viewNow();
   const from = t, to = t + GUIDE_HOURS * 3600;
   const progs = itemsBetween(lib, from, to).filter((it) => it.kind === 'program' || it.kind === 'special');
   const d0 = channelDate(from);
@@ -512,7 +559,7 @@ function renderCredits() {
 
 // ---------- clock ----------
 function tick() {
-  const on = whatsOn(lib, nowSec());
+  const on = whatsOn(lib, viewNow());
   if (!on) return;
   const key = `${on.item.start}|${on.item.kind}`;
   if (key !== curKey) {
@@ -522,9 +569,19 @@ function tick() {
     renderGuide();
   }
   renderNow(on);
+  renderLive();
   syncMusic();
   if (++tickCount % 5 === 0) keepInSync();
   if (tickCount % 60 === 0) { renderGuide(); renderNext(); }
+}
+
+function renderLive() {
+  const behind = isPaused() ? nowSec() - pausedAt : lag;
+  const b = $('live');
+  b.classList.toggle('is-behind', behind >= 2);
+  const label = isPaused() ? 'Paused' : behind >= 2 ? `${mmss(behind)} behind live` : 'Live';
+  if (b.lastChild?.textContent !== label) b.lastChild.textContent = label;
+  document.dispatchEvent(new CustomEvent('riahtv:tick', { detail: { label, behind, paused: isPaused() } }));
 }
 
 // Browsers may pause video in a background tab; on return, catch up to the clock.
@@ -546,6 +603,14 @@ async function start() {
   setText($('slug-version'), `Riah TV v${VERSION}`);
   $('foot-note').textContent = 'Times are shown in your local time. Captain Mullet airs every night at 8 PM Mountain.';
   renderCredits();
+  const q = new URLSearchParams(location.search);
+  if (q.get('tv') === '1' || /\bAFT[A-Z0-9]/.test(navigator.userAgent)) {
+    startTv({
+      lib, stamp: `Riah TV v${VERSION}`, viewNow, isPaused, togglePause, pauseChannel, resumeChannel, skip, goLive,
+      toggleSound, soundOn: () => soundOn, clock, runtime, metaOf, blockName,
+    });
+    if (q.get('quiet') !== '1') setSound(true);
+  }
   tick();
   setInterval(tick, 1000);
 }
