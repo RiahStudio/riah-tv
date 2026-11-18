@@ -73,6 +73,7 @@ function build() {
         <button class="tv-btn tv-focus" type="button" data-act="playpause" id="tv-pause">Pause</button>
         <button class="tv-btn tv-focus" type="button" data-act="menu">Guide</button>
         <button class="tv-btn tv-focus" type="button" data-act="sound" id="tv-sound">Sound on</button>
+        <button class="tv-btn tv-focus" type="button" data-act="cc" id="tv-cc">Captions on</button>
         <button class="tv-btn tv-focus" type="button" data-act="live" id="tv-golive" hidden>Back to live</button>
       </div>
       <p class="tv-hint">Play/Pause pauses the channel &middot; Rewind and Fast Forward move ${SKIP} seconds &middot; Back hides this</p>
@@ -92,6 +93,7 @@ function build() {
     const what = b.dataset.act;
     if (what === 'sound') api.toggleSound();
     else if (what === 'live') api.goLive();
+    else if (what === 'cc') { $('cc').click(); render(); } // the page's own CC button keeps the setting
     else act(what);
     showHud();
   });
@@ -137,6 +139,7 @@ function render() {
   $('tv-live').classList.toggle('is-behind', live.classList.contains('is-behind'));
   setText($('tv-pause'), api.isPaused() ? 'Play' : 'Pause');
   setText($('tv-sound'), api.soundOn() ? 'Sound off' : 'Sound on');
+  setText($('tv-cc'), $('cc').textContent);
   const behind = live.classList.contains('is-behind');
   if ($('tv-golive').hidden === behind) {
     $('tv-golive').hidden = !behind;
