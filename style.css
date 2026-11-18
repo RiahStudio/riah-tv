@@ -204,6 +204,7 @@ body {
 .controls { display: flex; gap: 8px; flex-wrap: wrap; }
 .controls .riah-button { min-height: 44px; }
 #sound { min-width: 9.5em; }
+#cc { min-width: 8.5em; }
 
 /* Phones: the 16:9 player is short, so the card shrinks to fit and can scroll. */
 @media (max-width: 600px) {
@@ -211,7 +212,7 @@ body {
   .screen-title { font-size: clamp(20px, 6vw, 28px); }
   .screen-start { margin-top: 4px; }
 }
-#sound.is-on { border-color: var(--riah-keep); color: var(--riah-keep); }
+#sound.is-on, #cc.is-on { border-color: var(--riah-keep); color: var(--riah-keep); }
 
 .credit { margin: 10px 0 0; font-size: var(--riah-text-small); color: var(--riah-dim); overflow-wrap: anywhere; }
 .credit:empty, .credit[hidden] { display: none; }

@@ -79,6 +79,7 @@ function pickSources(p) {
 
 function loadCopy(p) {
   const s = sources[srcIndex];
+  setCaptions(p);
   loadedFor = p.id;
   lastProgress = nowSec();
   applySound();
@@ -95,6 +96,41 @@ function prepare(p) {
   srcIndex = 0;
   if (sources.length) loadCopy(p, false);
 }
+
+// ---------- captions ----------
+// One WebVTT per program in captions/ (made by tools/captions/). The video's own
+// clock is the film's clock, so the cues line up after the seek to the live minute.
+let captionsOn = false;
+try { captionsOn = localStorage.getItem('riahtv-captions') === '1'; } catch { /* storage blocked */ }
+
+function setCaptions(p) {
+  const src = `captions/${encodeURIComponent(p.id)}.vtt`;
+  if (video.querySelector('track')?.getAttribute('src') === src) return; // same film, another copy
+  for (const t of video.querySelectorAll('track')) t.remove();
+  const t = document.createElement('track');
+  t.kind = 'captions';
+  t.srclang = 'en';
+  t.label = 'English';
+  t.src = src;
+  video.append(t);
+  showCaptions();
+}
+
+function showCaptions() {
+  for (const tt of video.textTracks) tt.mode = captionsOn ? 'showing' : 'hidden';
+  const b = $('cc');
+  b.textContent = captionsOn ? 'Captions off' : 'Captions on';
+  b.setAttribute('aria-pressed', String(captionsOn));
+  b.classList.toggle('is-on', captionsOn);
+}
+
+$('cc').addEventListener('click', () => {
+  captionsOn = !captionsOn;
+  try { localStorage.setItem('riahtv-captions', captionsOn ? '1' : '0'); } catch { /* storage blocked */ }
+  showCaptions();
+});
+video.addEventListener('loadedmetadata', showCaptions); // a new copy can reset track modes
+showCaptions();
 
 function seekToClock() {
   const want = viewNow() - cur.item.start;
