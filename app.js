@@ -506,7 +506,7 @@ function renderNext() {
 function renderGuide() {
   const t = viewNow();
   const from = t, to = t + GUIDE_HOURS * 3600;
-  const progs = itemsBetween(lib, from, to).filter((it) => it.kind === 'program' || it.kind === 'special');
+  const progs = itemsBetween(lib, from, to).filter((it) => (it.kind === 'program' || it.kind === 'special') && !it.bumper);
   const d0 = channelDate(from);
   const blocks = [...blockBounds(d0), ...blockBounds(addDays(d0, 1))].filter((b) => b.endEpoch > from && b.startEpoch < to);
   const tzName = new Intl.DateTimeFormat([], { timeZoneName: 'short' }).formatToParts(new Date()).find((x) => x.type === 'timeZoneName')?.value || '';
@@ -574,7 +574,7 @@ $('guide-more').addEventListener('click', () => { listLimit += LIST_PAGE; render
 // ---------- credits ----------
 function renderCredits() {
   const ul = $('credits-programs');
-  const all = [...lib.specials, ...lib.programs].sort((a, b) => a.title.localeCompare(b.title));
+  const all = [...lib.specials, ...(lib.bumpers || []), ...lib.programs].sort((a, b) => a.title.localeCompare(b.title));
   for (const p of all) {
     const li = el('li');
     li.append(el('strong', '', p.title), p.year ? ` (${p.year}). ` : '. ');

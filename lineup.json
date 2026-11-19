@@ -1,6 +1,6 @@
 {
  "note": "Built by tools/build-lineup.mjs from vetting/*.json. Edit PICKS there, not this file.",
- "built": "2026-11-16",
+ "built": "2026-11-19",
  "programs": [
   {
    "id": "animal-crackers",
@@ -98,6 +98,12 @@
    "funny": 5,
    "sources": [
     {
+     "url": "https://github.com/RiahStudio/riah-tv/releases/download/h264-copies/adventurer.mp4",
+     "type": "video/mp4",
+     "height": 720,
+     "original": false
+    },
+    {
      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d1/The_Adventurer_%281917%29.webm/The_Adventurer_%281917%29.webm.480p.vp9.webm",
      "type": "video/webm",
      "height": 480,
@@ -143,6 +149,12 @@
    "silent": true,
    "funny": 4,
    "sources": [
+    {
+     "url": "https://github.com/RiahStudio/riah-tv/releases/download/h264-copies/cure.mp4",
+     "type": "video/mp4",
+     "height": 720,
+     "original": false
+    },
     {
      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9d/The_Cure_%281917%29.webm/The_Cure_%281917%29.webm.480p.vp9.webm",
      "type": "video/webm",
@@ -190,6 +202,12 @@
    "funny": 5,
    "sources": [
     {
+     "url": "https://github.com/RiahStudio/riah-tv/releases/download/h264-copies/one-am.mp4",
+     "type": "video/mp4",
+     "height": 720,
+     "original": false
+    },
+    {
      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/00/One_A.M._%281916%29.webm/One_A.M._%281916%29.webm.480p.vp9.webm",
      "type": "video/webm",
      "height": 480,
@@ -229,6 +247,12 @@
    "silent": true,
    "funny": 5,
    "sources": [
+    {
+     "url": "https://github.com/RiahStudio/riah-tv/releases/download/h264-copies/easy-street.mp4",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
     {
      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/01/Easy_Street_%281917%29.webm/Easy_Street_%281917%29.webm.360p.mpeg4.mov",
      "type": "video/mp4",
@@ -270,6 +294,12 @@
    "funny": 4,
    "sources": [
     {
+     "url": "https://github.com/RiahStudio/riah-tv/releases/download/h264-copies/immigrant.mp4",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8d/The_Immigrant_%281917%29.webm/The_Immigrant_%281917%29.webm.360p.mpeg4.mov",
      "type": "video/mp4",
      "height": 360,
@@ -309,6 +339,12 @@
    "silent": true,
    "funny": 4,
    "sources": [
+    {
+     "url": "https://github.com/RiahStudio/riah-tv/releases/download/h264-copies/rink.mp4",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
     {
      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/31/The_Rink_%281916%29.webm/The_Rink_%281916%29.webm.360p.mpeg4.mov",
      "type": "video/mp4",
@@ -393,6 +429,12 @@
    "silent": true,
    "funny": 5,
    "sources": [
+    {
+     "url": "https://github.com/RiahStudio/riah-tv/releases/download/h264-copies/sherlock-jr.mp4",
+     "type": "video/mp4",
+     "height": 1080,
+     "original": false
+    },
     {
      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/95/Sherlock_Jr._%281924%29.webm/Sherlock_Jr._%281924%29.webm.1080p.vp9.webm",
      "type": "video/webm",
@@ -486,6 +528,12 @@
    "funny": 5,
    "sources": [
     {
+     "url": "https://github.com/RiahStudio/riah-tv/releases/download/h264-copies/cops.mp4",
+     "type": "video/mp4",
+     "height": 720,
+     "original": false
+    },
+    {
      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/97/Cops_%281922%29.webm/Cops_%281922%29.webm.480p.vp9.webm",
      "type": "video/webm",
      "height": 480,
@@ -531,6 +579,12 @@
    "silent": true,
    "funny": 5,
    "sources": [
+    {
+     "url": "https://github.com/RiahStudio/riah-tv/releases/download/h264-copies/scarecrow.mp4",
+     "type": "video/mp4",
+     "height": 720,
+     "original": false
+    },
     {
      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/75/The_Scarecrow_%281920%29.webm/The_Scarecrow_%281920%29.webm.480p.vp9.webm",
      "type": "video/webm",
@@ -624,6 +678,12 @@
    "funny": 4,
    "sources": [
     {
+     "url": "https://github.com/RiahStudio/riah-tv/releases/download/h264-copies/neighbors.mp4",
+     "type": "video/mp4",
+     "height": 720,
+     "original": false
+    },
+    {
      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/27/Neighbors_%281920%29.webm/Neighbors_%281920%29.webm.480p.vp9.webm",
      "type": "video/webm",
      "height": 480,
@@ -670,6 +730,12 @@
    "silent": true,
    "funny": 5,
    "sources": [
+    {
+     "url": "https://github.com/RiahStudio/riah-tv/releases/download/h264-copies/haunted-house-1921.mp4",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
     {
      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bd/The_Haunted_House_%281921%29.webm/The_Haunted_House_%281921%29.webm.360p.mpeg4.mov",
      "type": "video/mp4",
@@ -754,6 +820,12 @@
    "silent": true,
    "funny": 4,
    "sources": [
+    {
+     "url": "https://github.com/RiahStudio/riah-tv/releases/download/h264-copies/kid-brother.mp4",
+     "type": "video/mp4",
+     "height": 1080,
+     "original": false
+    },
     {
      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c9/The_Kid_Brother_%281927%29.webm/The_Kid_Brother_%281927%29.webm.1080p.vp9.webm",
      "type": "video/webm",
@@ -934,6 +1006,12 @@
    "funny": 4,
    "sources": [
     {
+     "url": "https://github.com/RiahStudio/riah-tv/releases/download/h264-copies/steamboat-willie-1928.mp4",
+     "type": "video/mp4",
+     "height": 1080,
+     "original": false
+    },
+    {
      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5f/Steamboat_Willie_%281928%29_by_Walt_Disney.webm/Steamboat_Willie_%281928%29_by_Walt_Disney.webm.1080p.vp9.webm",
      "type": "video/webm",
      "height": 1080,
@@ -979,6 +1057,12 @@
    "silent": false,
    "funny": 5,
    "sources": [
+    {
+     "url": "https://github.com/RiahStudio/riah-tv/releases/download/h264-copies/skeleton-dance-1929.mp4",
+     "type": "video/mp4",
+     "height": 1080,
+     "original": false
+    },
     {
      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/The_Skeleton_Dance_%281929%29.webm/The_Skeleton_Dance_%281929%29.webm.1080p.vp9.webm",
      "type": "video/webm",
@@ -1078,6 +1162,12 @@
    "funny": 5,
    "sources": [
     {
+     "url": "https://github.com/RiahStudio/riah-tv/releases/download/h264-copies/cameraman-revenge-1912.mp4",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/db/Mest%27_Kinomatograficheskogo_Operatora_%281912%29.webm/Mest%27_Kinomatograficheskogo_Operatora_%281912%29.webm.360p.mpeg4.mov",
      "type": "video/mp4",
      "height": 360,
@@ -1116,6 +1206,12 @@
    "silent": true,
    "funny": 3,
    "sources": [
+    {
+     "url": "https://github.com/RiahStudio/riah-tv/releases/download/h264-copies/gay-shoe-clerk-1903.mp4",
+     "type": "video/mp4",
+     "height": 480,
+     "original": false
+    },
     {
      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/50/The_Gay_Shoe_Clerk_%281903%29.webm/The_Gay_Shoe_Clerk_%281903%29.webm.480p.vp9.webm",
      "type": "video/webm",
@@ -1162,6 +1258,12 @@
    "silent": false,
    "funny": 5,
    "sources": [
+    {
+     "url": "https://github.com/RiahStudio/riah-tv/releases/download/h264-copies/big-buck-bunny.mp4",
+     "type": "video/mp4",
+     "height": 1080,
+     "original": false
+    },
     {
      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c0/Big_Buck_Bunny_4K.webm/Big_Buck_Bunny_4K.webm.1080p.vp9.webm",
      "type": "video/webm",
@@ -1212,6 +1314,12 @@
    "silent": false,
    "funny": 5,
    "sources": [
+    {
+     "url": "https://github.com/RiahStudio/riah-tv/releases/download/h264-copies/sprite-fright.mp4",
+     "type": "video/mp4",
+     "height": 858,
+     "original": false
+    },
     {
      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/76/Sprite_Fright_-_Blender_Open_Movie-full_movie.webm/Sprite_Fright_-_Blender_Open_Movie-full_movie.webm.1080p.vp9.webm",
      "type": "video/webm",
@@ -2577,6 +2685,219 @@
    "rights": {
     "basis": "own-work",
     "proof": "https://www.youtube.com/watch?v=SIHOefEfsdU"
+   },
+   "tv": {
+    "url": "https://github.com/RiahStudio/riah-tv/releases/download/h264-copies/captain-mullet-pilot.mp4",
+    "height": 1080
+   }
+  }
+ ],
+ "bumpers": [
+  {
+   "id": "night-crew-b1",
+   "title": "The Night Crew: Up Next, Captain Mullet",
+   "year": 2026,
+   "group": "Riah Originals",
+   "kind": "bumper",
+   "before": "captain-mullet-pilot",
+   "seconds": 30,
+   "silent": false,
+   "sources": [
+    {
+     "url": "clips/night-crew-b1.mp4",
+     "type": "video/mp4",
+     "height": 720
+    }
+   ],
+   "page": "https://riahstudio.github.io/riah-tv/clips/night-crew-b1.mp4",
+   "credit": "The Night Crew by Riah Studio. Voices made with Kyutai Pocket TTS: alba by Alba MacKenna (CC BY 4.0), azelma from the VCTK corpus (CC BY 4.0), javert (CC0)",
+   "rights": {
+    "basis": "own-work",
+    "proof": "https://riahstudio.github.io/riah-tv/clips/night-crew-b1.mp4"
+   }
+  },
+  {
+   "id": "night-crew-b2",
+   "title": "The Night Crew: Up Next, Safety Last!",
+   "year": 2026,
+   "group": "Riah Originals",
+   "kind": "bumper",
+   "before": "safety-last",
+   "seconds": 30,
+   "silent": false,
+   "sources": [
+    {
+     "url": "clips/night-crew-b2.mp4",
+     "type": "video/mp4",
+     "height": 720
+    }
+   ],
+   "page": "https://riahstudio.github.io/riah-tv/clips/night-crew-b2.mp4",
+   "credit": "The Night Crew by Riah Studio. Voices made with Kyutai Pocket TTS: alba by Alba MacKenna (CC BY 4.0), azelma from the VCTK corpus (CC BY 4.0), javert (CC0)",
+   "rights": {
+    "basis": "own-work",
+    "proof": "https://riahstudio.github.io/riah-tv/clips/night-crew-b2.mp4"
+   }
+  },
+  {
+   "id": "night-crew-b3",
+   "title": "The Night Crew: Up Next, Nosferatu",
+   "year": 2026,
+   "group": "Riah Originals",
+   "kind": "bumper",
+   "before": "nosferatu-1922",
+   "seconds": 30,
+   "silent": false,
+   "sources": [
+    {
+     "url": "clips/night-crew-b3.mp4",
+     "type": "video/mp4",
+     "height": 720
+    }
+   ],
+   "page": "https://riahstudio.github.io/riah-tv/clips/night-crew-b3.mp4",
+   "credit": "The Night Crew by Riah Studio. Voices made with Kyutai Pocket TTS: alba by Alba MacKenna (CC BY 4.0), azelma from the VCTK corpus (CC BY 4.0), javert (CC0)",
+   "rights": {
+    "basis": "own-work",
+    "proof": "https://riahstudio.github.io/riah-tv/clips/night-crew-b3.mp4"
+   }
+  },
+  {
+   "id": "night-crew-b4",
+   "title": "The Night Crew: Up Next, The Cocoanuts",
+   "year": 2026,
+   "group": "Riah Originals",
+   "kind": "bumper",
+   "before": "cocoanuts",
+   "seconds": 30,
+   "silent": false,
+   "sources": [
+    {
+     "url": "clips/night-crew-b4.mp4",
+     "type": "video/mp4",
+     "height": 720
+    }
+   ],
+   "page": "https://riahstudio.github.io/riah-tv/clips/night-crew-b4.mp4",
+   "credit": "The Night Crew by Riah Studio. Voices made with Kyutai Pocket TTS: alba by Alba MacKenna (CC BY 4.0), azelma from the VCTK corpus (CC BY 4.0), javert (CC0)",
+   "rights": {
+    "basis": "own-work",
+    "proof": "https://riahstudio.github.io/riah-tv/clips/night-crew-b4.mp4"
+   }
+  },
+  {
+   "id": "night-crew-b5",
+   "title": "The Night Crew: Up Next, Animal Crackers",
+   "year": 2026,
+   "group": "Riah Originals",
+   "kind": "bumper",
+   "before": "animal-crackers",
+   "seconds": 30,
+   "silent": false,
+   "sources": [
+    {
+     "url": "clips/night-crew-b5.mp4",
+     "type": "video/mp4",
+     "height": 720
+    }
+   ],
+   "page": "https://riahstudio.github.io/riah-tv/clips/night-crew-b5.mp4",
+   "credit": "The Night Crew by Riah Studio. Voices made with Kyutai Pocket TTS: alba by Alba MacKenna (CC BY 4.0), azelma from the VCTK corpus (CC BY 4.0), javert (CC0)",
+   "rights": {
+    "basis": "own-work",
+    "proof": "https://riahstudio.github.io/riah-tv/clips/night-crew-b5.mp4"
+   }
+  },
+  {
+   "id": "night-crew-b6",
+   "title": "The Night Crew: Up Next, The General",
+   "year": 2026,
+   "group": "Riah Originals",
+   "kind": "bumper",
+   "before": "general",
+   "seconds": 30,
+   "silent": false,
+   "sources": [
+    {
+     "url": "clips/night-crew-b6.mp4",
+     "type": "video/mp4",
+     "height": 720
+    }
+   ],
+   "page": "https://riahstudio.github.io/riah-tv/clips/night-crew-b6.mp4",
+   "credit": "The Night Crew by Riah Studio. Voices made with Kyutai Pocket TTS: alba by Alba MacKenna (CC BY 4.0), azelma from the VCTK corpus (CC BY 4.0), javert (CC0)",
+   "rights": {
+    "basis": "own-work",
+    "proof": "https://riahstudio.github.io/riah-tv/clips/night-crew-b6.mp4"
+   }
+  },
+  {
+   "id": "night-crew-b7",
+   "title": "The Night Crew: Up Next, The Gold Rush",
+   "year": 2026,
+   "group": "Riah Originals",
+   "kind": "bumper",
+   "before": "gold-rush",
+   "seconds": 30,
+   "silent": false,
+   "sources": [
+    {
+     "url": "clips/night-crew-b7.mp4",
+     "type": "video/mp4",
+     "height": 720
+    }
+   ],
+   "page": "https://riahstudio.github.io/riah-tv/clips/night-crew-b7.mp4",
+   "credit": "The Night Crew by Riah Studio. Voices made with Kyutai Pocket TTS: alba by Alba MacKenna (CC BY 4.0), azelma from the VCTK corpus (CC BY 4.0), javert (CC0)",
+   "rights": {
+    "basis": "own-work",
+    "proof": "https://riahstudio.github.io/riah-tv/clips/night-crew-b7.mp4"
+   }
+  },
+  {
+   "id": "night-crew-b8",
+   "title": "The Night Crew: Up Next, Sherlock Jr.",
+   "year": 2026,
+   "group": "Riah Originals",
+   "kind": "bumper",
+   "before": "sherlock-jr",
+   "seconds": 30,
+   "silent": false,
+   "sources": [
+    {
+     "url": "clips/night-crew-b8.mp4",
+     "type": "video/mp4",
+     "height": 720
+    }
+   ],
+   "page": "https://riahstudio.github.io/riah-tv/clips/night-crew-b8.mp4",
+   "credit": "The Night Crew by Riah Studio. Voices made with Kyutai Pocket TTS: alba by Alba MacKenna (CC BY 4.0), azelma from the VCTK corpus (CC BY 4.0), javert (CC0)",
+   "rights": {
+    "basis": "own-work",
+    "proof": "https://riahstudio.github.io/riah-tv/clips/night-crew-b8.mp4"
+   }
+  },
+  {
+   "id": "night-crew-b9",
+   "title": "The Night Crew: Up Next, The Phantom of the Opera",
+   "year": 2026,
+   "group": "Riah Originals",
+   "kind": "bumper",
+   "before": "phantom-opera-1925",
+   "seconds": 30,
+   "silent": false,
+   "sources": [
+    {
+     "url": "clips/night-crew-b9.mp4",
+     "type": "video/mp4",
+     "height": 720
+    }
+   ],
+   "page": "https://riahstudio.github.io/riah-tv/clips/night-crew-b9.mp4",
+   "credit": "The Night Crew by Riah Studio. Voices made with Kyutai Pocket TTS: alba by Alba MacKenna (CC BY 4.0), azelma from the VCTK corpus (CC BY 4.0), javert (CC0)",
+   "rights": {
+    "basis": "own-work",
+    "proof": "https://riahstudio.github.io/riah-tv/clips/night-crew-b9.mp4"
    }
   }
  ],

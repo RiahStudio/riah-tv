@@ -91,7 +91,16 @@ export function buildBlock(lib, block, dateKey, day = newDayState()) {
     items.push({ kind, start: t, end: t + seconds, seconds, block: block.id, ...extra });
     t += seconds;
   };
-  const air = (p) => { push('card', CARD, { next: p.id }); push('program', p.seconds, { id: p.id }); aired(p.id); };
+  // A program with a Night Crew intro (lineup.bumpers, before: its id) gets the intro in place of
+  // its up-next card; the intro ends on its own up-next card, so it does the same job.
+  const lead = (p) => introFor(lib, p.id)?.seconds || CARD;
+  const air = (p) => {
+    const intro = introFor(lib, p.id);
+    if (intro) push('program', intro.seconds, { id: intro.id, bumper: true });
+    else push('card', CARD, { next: p.id });
+    push('program', p.seconds, { id: p.id });
+    aired(p.id);
+  };
 
   const special = block.special && lib.specials.find((s) => s.id === block.special);
   if (special && special.seconds <= end - t) { push('special', special.seconds, { id: special.id }); aired(special.id); }
@@ -109,16 +118,16 @@ export function buildBlock(lib, block, dateKey, day = newDayState()) {
   const fillGap = (gap) => {
     const stop = t + gap;
     for (;;) {
-      const fits = fillers.filter((p) => CARD + p.seconds <= stop - t && !seen(p.id));
+      const fits = fillers.filter((p) => lead(p) + p.seconds <= stop - t && !seen(p.id));
       if (!fits.length) break;
       air(best(fits));
     }
     if (stop > t) push('intermission', stop - t, {});
   };
 
-  // Features start on :00 or :30 (their up-next card begins on the mark).
+  // Features start on :00 or :30 (their up-next card, or intro, begins on the mark).
   const padFor = (p) => (p.kind === 'feature' ? Math.ceil(t / HALF_HOUR) * HALF_HOUR - t : 0);
-  const fits = (p) => !seen(p.id) && padFor(p) + CARD + p.seconds <= end - t;
+  const fits = (p) => !seen(p.id) && padFor(p) + lead(p) + p.seconds <= end - t;
 
   let features = 0;
   let lastFeatureEnd = -Infinity;
@@ -153,7 +162,14 @@ export function buildDay(lib, date) {
   const items = [];
   const blocks = blockBounds(date);
   const state = newDayState();
-  for (const b of blocks) items.push(...buildBlock(lib, b, key, state));
+  blocks.forEach((b, i) => {
+    // A bumper for the next block's special takes the last seconds of this block,
+    // so the special itself still starts exactly on its mark.
+    const bump = blocks[i + 1]?.special && bumperFor(lib, blocks[i + 1].special);
+    const end = bump ? b.endEpoch - bump.seconds : b.endEpoch;
+    items.push(...buildBlock(lib, { ...b, endEpoch: end }, key, state));
+    if (bump) items.push({ kind: 'program', start: end, end: b.endEpoch, seconds: bump.seconds, block: b.id, id: bump.id, bumper: true });
+  });
   const day = { date: key, blocks, items };
   if (!dayCache.has(lib)) dayCache.set(lib, new Map());
   const m = dayCache.get(lib);
@@ -183,16 +199,29 @@ export function whatsOn(lib, epoch) {
   return item ? { item, offset: epoch - item.start, block } : null;
 }
 
-/** The program or special an item is about (cards point at what's next). */
+/** The program, special or bumper an item is about (cards point at what's next). */
 export function lookup(lib, id) {
-  return lib.programs.find((p) => p.id === id) || lib.specials.find((s) => s.id === id) || null;
+  return lib.programs.find((p) => p.id === id) || lib.specials.find((s) => s.id === id)
+    || (lib.bumpers || []).find((b) => b.id === id) || null;
 }
 
-/** The next real program after an instant (skips cards). */
+/** The on-air bumper (our own clip, lineup.bumpers) that leads into a special, if the special is in this lineup. */
+export function bumperFor(lib, specialId) {
+  if (!lib.specials.some((s) => s.id === specialId)) return null;
+  return (lib.bumpers || []).find((b) => b.before === specialId) || null;
+}
+
+/** The on-air intro (a bumper whose `before` is a regular program) that plays in place of that program's card. */
+export function introFor(lib, programId) {
+  if (lib.specials.some((s) => s.id === programId)) return null;
+  return (lib.bumpers || []).find((b) => b.before === programId) || null;
+}
+
+/** The next real program after an instant (skips cards and bumpers). */
 export function nextShows(lib, epoch, count) {
   const out = [];
   for (const it of itemsBetween(lib, epoch, epoch + 12 * 3600)) {
-    if ((it.kind === 'program' || it.kind === 'special') && it.start > epoch) out.push(it);
+    if ((it.kind === 'program' || it.kind === 'special') && !it.bumper && it.start > epoch) out.push(it);
     if (out.length >= count) break;
   }
   return out;
