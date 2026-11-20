@@ -16,7 +16,8 @@ export const TOKENS = {
 };
 
 // Browsers that say they're automated, crawlers, link previewers and AI agents.
-const AGENT_UA = /HeadlessChrome|bot|crawl|spider|slurp|GPTBot|ChatGPT|OAI-SearchBot|Claude\/|anthropic|Perplexity|Bytespider|facebookexternalhit|Google-InspectionTool|Lighthouse|PhantomJS|Electron/i;
+// "(?<!cu)" keeps Cubot phones with the people.
+const AGENT_UA = /HeadlessChrome|(?<!cu)bot|crawl|spider|slurp|GPTBot|ChatGPT|OAI-SearchBot|Claude\/|anthropic|Perplexity|Bytespider|facebookexternalhit|Google-InspectionTool|Lighthouse|PhantomJS|Electron/i;
 
 // How long a page can sit on screen with nobody touching it before it counts as automated.
 export const AGENT_AFTER_MS = 30000;
