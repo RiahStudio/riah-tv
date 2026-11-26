@@ -1,6 +1,6 @@
 {
- "note": "Built by tools/build-lineup.mjs from vetting/*.json. Edit PICKS there, not this file.",
- "built": "2026-11-19",
+ "note": "Built by tools/build-lineup.mjs from vetting/*.json. Edit PICKS there, not this file. Comedy channel, no horror (Captain, 2026-11-26): Nosferatu and The Phantom of the Opera came out of the rotation with their bumper.",
+ "built": "2026-11-26",
  "programs": [
   {
    "id": "animal-crackers",
@@ -2490,96 +2490,6 @@
    }
   },
   {
-   "id": "nosferatu-1922",
-   "title": "Nosferatu",
-   "year": 1922,
-   "group": "Silent Horror",
-   "kind": "feature",
-   "seconds": 5519,
-   "pools": [
-    "late"
-   ],
-   "silent": true,
-   "funny": 1,
-   "sources": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/78/Nosferatu_%281922%29.webm/Nosferatu_%281922%29.webm.1080p.vp9.webm",
-     "type": "video/webm",
-     "height": 1080,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/78/Nosferatu_%281922%29.webm/Nosferatu_%281922%29.webm.480p.vp9.webm",
-     "type": "video/webm",
-     "height": 480,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/78/Nosferatu_%281922%29.webm/Nosferatu_%281922%29.webm.360p.mpeg4.mov",
-     "type": "video/mp4",
-     "height": 360,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Nosferatu_%281922%29.webm",
-     "type": "video/webm",
-     "height": 1080,
-     "original": true
-    }
-   ],
-   "page": "https://commons.wikimedia.org/wiki/File:Nosferatu_(1922).webm",
-   "credit": "",
-   "rights": {
-    "basis": "pd-by-age",
-    "proof": "https://commons.wikimedia.org/wiki/File:Nosferatu_(1922).webm"
-   }
-  },
-  {
-   "id": "phantom-opera-1925",
-   "title": "The Phantom of the Opera",
-   "year": 1925,
-   "group": "Silent Horror",
-   "kind": "feature",
-   "seconds": 5475,
-   "pools": [
-    "late"
-   ],
-   "silent": true,
-   "funny": 1,
-   "sources": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c4/The_Phantom_of_the_Opera_%281925%29.webm/The_Phantom_of_the_Opera_%281925%29.webm.1080p.vp9.webm",
-     "type": "video/webm",
-     "height": 1080,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c4/The_Phantom_of_the_Opera_%281925%29.webm/The_Phantom_of_the_Opera_%281925%29.webm.480p.vp9.webm",
-     "type": "video/webm",
-     "height": 480,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c4/The_Phantom_of_the_Opera_%281925%29.webm/The_Phantom_of_the_Opera_%281925%29.webm.360p.mpeg4.mov",
-     "type": "video/mp4",
-     "height": 360,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/The_Phantom_of_the_Opera_%281925%29.webm",
-     "type": "video/webm",
-     "height": 1080,
-     "original": true
-    }
-   ],
-   "page": "https://commons.wikimedia.org/wiki/File:The_Phantom_of_the_Opera_(1925).webm",
-   "credit": "",
-   "rights": {
-    "basis": "pd-by-age",
-    "proof": "https://commons.wikimedia.org/wiki/File:The_Phantom_of_the_Opera_(1925).webm"
-   }
-  },
-  {
    "id": "lost-world-1925",
    "title": "The Lost World",
    "year": 1925,
@@ -2740,29 +2650,6 @@
    }
   },
   {
-   "id": "night-crew-b3",
-   "title": "The Night Crew: Up Next, Nosferatu",
-   "year": 2026,
-   "group": "Riah Originals",
-   "kind": "bumper",
-   "before": "nosferatu-1922",
-   "seconds": 30,
-   "silent": false,
-   "sources": [
-    {
-     "url": "clips/night-crew-b3.mp4",
-     "type": "video/mp4",
-     "height": 720
-    }
-   ],
-   "page": "https://riahstudio.github.io/riah-tv/clips/night-crew-b3.mp4",
-   "credit": "The Night Crew by Riah Studio. Voices made with Kyutai Pocket TTS: alba by Alba MacKenna (CC BY 4.0), azelma from the VCTK corpus (CC BY 4.0), javert (CC0)",
-   "rights": {
-    "basis": "own-work",
-    "proof": "https://riahstudio.github.io/riah-tv/clips/night-crew-b3.mp4"
-   }
-  },
-  {
    "id": "night-crew-b4",
    "title": "The Night Crew: Up Next, The Cocoanuts",
    "year": 2026,
@@ -2875,29 +2762,6 @@
    "rights": {
     "basis": "own-work",
     "proof": "https://riahstudio.github.io/riah-tv/clips/night-crew-b8.mp4"
-   }
-  },
-  {
-   "id": "night-crew-b9",
-   "title": "The Night Crew: Up Next, The Phantom of the Opera",
-   "year": 2026,
-   "group": "Riah Originals",
-   "kind": "bumper",
-   "before": "phantom-opera-1925",
-   "seconds": 30,
-   "silent": false,
-   "sources": [
-    {
-     "url": "clips/night-crew-b9.mp4",
-     "type": "video/mp4",
-     "height": 720
-    }
-   ],
-   "page": "https://riahstudio.github.io/riah-tv/clips/night-crew-b9.mp4",
-   "credit": "The Night Crew by Riah Studio. Voices made with Kyutai Pocket TTS: alba by Alba MacKenna (CC BY 4.0), azelma from the VCTK corpus (CC BY 4.0), javert (CC0)",
-   "rights": {
-    "basis": "own-work",
-    "proof": "https://riahstudio.github.io/riah-tv/clips/night-crew-b9.mp4"
    }
   }
  ],
