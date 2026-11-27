@@ -1,6 +1,6 @@
 {
- "note": "Built by tools/build-lineup.mjs from vetting/*.json. Edit PICKS there, not this file. Comedy channel, no horror (Captain, 2026-11-26): Nosferatu and The Phantom of the Opera came out of the rotation with their bumper.",
- "built": "2026-11-26",
+ "note": "Built by tools/build-lineup.mjs from vetting/*.json. Edit PICKS there, not this file.",
+ "built": "2026-11-27",
  "programs": [
   {
    "id": "animal-crackers",
@@ -1656,104 +1656,6 @@
    }
   },
   {
-   "id": "hero",
-   "title": "Hero",
-   "year": 2018,
-   "group": "Open Movies",
-   "kind": "short",
-   "seconds": 237,
-   "pools": [
-    "makers"
-   ],
-   "silent": false,
-   "funny": 3,
-   "sources": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a9/HERO_-_Blender_Open_Movie-full_movie.webm/HERO_-_Blender_Open_Movie-full_movie.webm.1080p.vp9.webm",
-     "type": "video/webm",
-     "height": 804,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a9/HERO_-_Blender_Open_Movie-full_movie.webm/HERO_-_Blender_Open_Movie-full_movie.webm.480p.vp9.webm",
-     "type": "video/webm",
-     "height": 358,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a9/HERO_-_Blender_Open_Movie-full_movie.webm/HERO_-_Blender_Open_Movie-full_movie.webm.360p.mpeg4.mov",
-     "type": "video/mp4",
-     "height": 268,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/HERO_-_Blender_Open_Movie-full_movie.webm",
-     "type": "video/webm",
-     "height": 858,
-     "original": true
-    }
-   ],
-   "page": "https://commons.wikimedia.org/wiki/File:HERO_-_Blender_Open_Movie-full_movie.webm",
-   "credit": "\"Hero\" by Blender Foundation (studio.blender.org), CC BY 4.0",
-   "license": {
-    "name": "CC BY 4.0",
-    "url": "https://creativecommons.org/licenses/by/4.0/"
-   },
-   "rights": {
-    "basis": "cc",
-    "proof": "https://creativecommons.org/licenses/by/4.0/"
-   }
-  },
-  {
-   "id": "charge",
-   "title": "Charge",
-   "year": 2022,
-   "group": "Open Movies",
-   "kind": "short",
-   "seconds": 263,
-   "pools": [
-    "makers"
-   ],
-   "silent": false,
-   "funny": 2,
-   "sources": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7a/Charge_-_Blender_Open_Movie-full_movie.webm/Charge_-_Blender_Open_Movie-full_movie.webm.1080p.vp9.webm",
-     "type": "video/webm",
-     "height": 804,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7a/Charge_-_Blender_Open_Movie-full_movie.webm/Charge_-_Blender_Open_Movie-full_movie.webm.480p.vp9.webm",
-     "type": "video/webm",
-     "height": 358,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7a/Charge_-_Blender_Open_Movie-full_movie.webm/Charge_-_Blender_Open_Movie-full_movie.webm.360p.mpeg4.mov",
-     "type": "video/mp4",
-     "height": 268,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Charge_-_Blender_Open_Movie-full_movie.webm",
-     "type": "video/webm",
-     "height": 1608,
-     "original": true
-    }
-   ],
-   "page": "https://commons.wikimedia.org/wiki/File:Charge_-_Blender_Open_Movie-full_movie.webm",
-   "credit": "\"Charge\" by Blender Foundation (studio.blender.org), CC BY 4.0",
-   "license": {
-    "name": "CC BY 4.0",
-    "url": "https://creativecommons.org/licenses/by/4.0/"
-   },
-   "rights": {
-    "basis": "cc",
-    "proof": "https://creativecommons.org/licenses/by/4.0/"
-   }
-  },
-  {
    "id": "spring",
    "title": "Spring",
    "year": 2019,
@@ -1793,56 +1695,6 @@
    ],
    "page": "https://commons.wikimedia.org/wiki/File:Spring_-_Blender_Open_Movie.webm",
    "credit": "\"Spring\" by Blender Foundation (studio.blender.org), CC BY 4.0",
-   "license": {
-    "name": "CC BY 4.0",
-    "url": "https://creativecommons.org/licenses/by/4.0/"
-   },
-   "rights": {
-    "basis": "cc",
-    "proof": "https://creativecommons.org/licenses/by/4.0/"
-   }
-  },
-  {
-   "id": "singularity",
-   "title": "Singularity",
-   "year": 2022,
-   "group": "Open Movies",
-   "kind": "short",
-   "seconds": 391,
-   "pools": [
-    "makers",
-    "late"
-   ],
-   "silent": false,
-   "funny": 2,
-   "sources": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f2/SINGULARITY_-_Blender_Open_Movie-full_movie.webm/SINGULARITY_-_Blender_Open_Movie-full_movie.webm.1080p.vp9.webm",
-     "type": "video/webm",
-     "height": 804,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f2/SINGULARITY_-_Blender_Open_Movie-full_movie.webm/SINGULARITY_-_Blender_Open_Movie-full_movie.webm.480p.vp9.webm",
-     "type": "video/webm",
-     "height": 358,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f2/SINGULARITY_-_Blender_Open_Movie-full_movie.webm/SINGULARITY_-_Blender_Open_Movie-full_movie.webm.360p.mpeg4.mov",
-     "type": "video/mp4",
-     "height": 268,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/SINGULARITY_-_Blender_Open_Movie-full_movie.webm",
-     "type": "video/webm",
-     "height": 1608,
-     "original": true
-    }
-   ],
-   "page": "https://commons.wikimedia.org/wiki/File:SINGULARITY_-_Blender_Open_Movie-full_movie.webm",
-   "credit": "\"Singularity\" by Blender Foundation (studio.blender.org), CC BY 4.0",
    "license": {
     "name": "CC BY 4.0",
     "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -1900,106 +1752,6 @@
    "rights": {
     "basis": "cc",
     "proof": "https://creativecommons.org/licenses/by/3.0/"
-   }
-  },
-  {
-   "id": "tears-of-steel",
-   "title": "Tears of Steel",
-   "year": 2012,
-   "group": "Open Movies",
-   "kind": "short",
-   "seconds": 734,
-   "pools": [
-    "makers",
-    "late"
-   ],
-   "silent": false,
-   "funny": 2,
-   "sources": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/10/Tears_of_Steel_in_4k_-_Official_Blender_Foundation_release.webm/Tears_of_Steel_in_4k_-_Official_Blender_Foundation_release.webm.1080p.vp9.webm",
-     "type": "video/webm",
-     "height": 858,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/10/Tears_of_Steel_in_4k_-_Official_Blender_Foundation_release.webm/Tears_of_Steel_in_4k_-_Official_Blender_Foundation_release.webm.480p.vp9.webm",
-     "type": "video/webm",
-     "height": 382,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/10/Tears_of_Steel_in_4k_-_Official_Blender_Foundation_release.webm/Tears_of_Steel_in_4k_-_Official_Blender_Foundation_release.webm.360p.mpeg4.mov",
-     "type": "video/mp4",
-     "height": 286,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Tears_of_Steel_in_4k_-_Official_Blender_Foundation_release.webm",
-     "type": "video/webm",
-     "height": 1714,
-     "original": true
-    }
-   ],
-   "page": "https://commons.wikimedia.org/wiki/File:Tears_of_Steel_in_4k_-_Official_Blender_Foundation_release.webm",
-   "credit": "\"Tears of Steel\" by Blender Foundation (studio.blender.org), CC BY 3.0",
-   "license": {
-    "name": "CC BY 3.0",
-    "url": "https://creativecommons.org/licenses/by/3.0/"
-   },
-   "rights": {
-    "basis": "cc",
-    "proof": "https://creativecommons.org/licenses/by/3.0/"
-   }
-  },
-  {
-   "id": "elephants-dream",
-   "title": "Elephants Dream",
-   "year": 2006,
-   "group": "Open Movies",
-   "kind": "short",
-   "seconds": 658,
-   "pools": [
-    "makers",
-    "late"
-   ],
-   "silent": false,
-   "funny": 2,
-   "sources": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a2/Elephants_Dream_%282006%29.webm/Elephants_Dream_%282006%29.webm.1080p.vp9.webm",
-     "type": "video/webm",
-     "height": 1080,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a2/Elephants_Dream_%282006%29.webm/Elephants_Dream_%282006%29.webm.480p.vp9.webm",
-     "type": "video/webm",
-     "height": 480,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a2/Elephants_Dream_%282006%29.webm/Elephants_Dream_%282006%29.webm.360p.mpeg4.mov",
-     "type": "video/mp4",
-     "height": 360,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Elephants_Dream_%282006%29.webm",
-     "type": "video/webm",
-     "height": 1080,
-     "original": true
-    }
-   ],
-   "page": "https://commons.wikimedia.org/wiki/File:Elephants_Dream_(2006).webm",
-   "credit": "\"Elephants Dream\" by Blender Foundation (studio.blender.org), CC BY 2.5",
-   "license": {
-    "name": "CC BY 2.5",
-    "url": "https://creativecommons.org/licenses/by/2.5/"
-   },
-   "rights": {
-    "basis": "cc",
-    "proof": "https://creativecommons.org/licenses/by/2.5/"
    }
   },
   {
@@ -2408,88 +2160,6 @@
    }
   },
   {
-   "id": "skylab-space-station-1973",
-   "title": "Skylab: Space Station I",
-   "year": 1973,
-   "group": "Space",
-   "kind": "short",
-   "seconds": 1707,
-   "pools": [
-    "makers"
-   ],
-   "silent": false,
-   "funny": 2,
-   "sources": [
-    {
-     "url": "https://archive.org/download/Skylab-SpaceStationI/Jsc651Skylab_spaceStationI.mp4",
-     "type": "video/mp4",
-     "height": 480,
-     "original": false
-    }
-   ],
-   "page": "https://archive.org/details/Skylab-SpaceStationI",
-   "credit": "",
-   "rights": {
-    "basis": "us-gov",
-    "proof": "https://archive.org/details/Skylab-SpaceStationI"
-   }
-  },
-  {
-   "id": "columbia-second-flight-1982",
-   "title": "Space Shuttle Columbia: The Second Flight",
-   "year": 1982,
-   "group": "Space",
-   "kind": "short",
-   "seconds": 1726,
-   "pools": [
-    "makers"
-   ],
-   "silent": false,
-   "funny": 1,
-   "sources": [
-    {
-     "url": "https://archive.org/download/JSC_818_Space_Shuttle_Columbia_Second_Flight.wmv/Jsc-818_spaceShuttleColumbiaSecondFlight.mp4",
-     "type": "video/mp4",
-     "height": 480,
-     "original": false
-    }
-   ],
-   "page": "https://archive.org/details/JSC_818_Space_Shuttle_Columbia_Second_Flight.wmv",
-   "credit": "",
-   "rights": {
-    "basis": "us-gov",
-    "proof": "https://archive.org/details/JSC_818_Space_Shuttle_Columbia_Second_Flight.wmv"
-   }
-  },
-  {
-   "id": "hd-views-earth-2009",
-   "title": "High Definition Views of Earth",
-   "year": 2009,
-   "group": "Space",
-   "kind": "short",
-   "seconds": 301,
-   "pools": [
-    "makers",
-    "late"
-   ],
-   "silent": false,
-   "funny": 1,
-   "sources": [
-    {
-     "url": "https://archive.org/download/HighDefinitionViewsOfEarth/HD_Earth_Views.mp4",
-     "type": "video/mp4",
-     "height": 480,
-     "original": false
-    }
-   ],
-   "page": "https://archive.org/details/HighDefinitionViewsOfEarth",
-   "credit": "",
-   "rights": {
-    "basis": "us-gov",
-    "proof": "https://archive.org/details/HighDefinitionViewsOfEarth"
-   }
-  },
-  {
    "id": "lost-world-1925",
    "title": "The Lost World",
    "year": 1925,
@@ -2762,6 +2432,75 @@
    "rights": {
     "basis": "own-work",
     "proof": "https://riahstudio.github.io/riah-tv/clips/night-crew-b8.mp4"
+   }
+  },
+  {
+   "id": "night-crew-b11",
+   "title": "The Night Crew: Up Next, The Lost World",
+   "year": 2026,
+   "group": "Riah Originals",
+   "kind": "bumper",
+   "before": "lost-world-1925",
+   "seconds": 30,
+   "silent": false,
+   "sources": [
+    {
+     "url": "clips/night-crew-b11.mp4",
+     "type": "video/mp4",
+     "height": 720
+    }
+   ],
+   "page": "https://riahstudio.github.io/riah-tv/clips/night-crew-b11.mp4",
+   "credit": "The Night Crew by Riah Studio. Voices made with Kyutai Pocket TTS: alba by Alba MacKenna (CC BY 4.0), azelma from the VCTK corpus (CC BY 4.0), javert (CC0)",
+   "rights": {
+    "basis": "own-work",
+    "proof": "https://riahstudio.github.io/riah-tv/clips/night-crew-b11.mp4"
+   }
+  },
+  {
+   "id": "night-crew-b14",
+   "title": "The Night Crew: Up Next, One Week",
+   "year": 2026,
+   "group": "Riah Originals",
+   "kind": "bumper",
+   "before": "one-week",
+   "seconds": 30,
+   "silent": false,
+   "sources": [
+    {
+     "url": "clips/night-crew-b14.mp4",
+     "type": "video/mp4",
+     "height": 720
+    }
+   ],
+   "page": "https://riahstudio.github.io/riah-tv/clips/night-crew-b14.mp4",
+   "credit": "The Night Crew by Riah Studio. Voices made with Kyutai Pocket TTS: alba by Alba MacKenna (CC BY 4.0), azelma from the VCTK corpus (CC BY 4.0), javert (CC0)",
+   "rights": {
+    "basis": "own-work",
+    "proof": "https://riahstudio.github.io/riah-tv/clips/night-crew-b14.mp4"
+   }
+  },
+  {
+   "id": "night-crew-b16",
+   "title": "The Night Crew: Up Next, Big Buck Bunny",
+   "year": 2026,
+   "group": "Riah Originals",
+   "kind": "bumper",
+   "before": "big-buck-bunny",
+   "seconds": 30,
+   "silent": false,
+   "sources": [
+    {
+     "url": "clips/night-crew-b16.mp4",
+     "type": "video/mp4",
+     "height": 720
+    }
+   ],
+   "page": "https://riahstudio.github.io/riah-tv/clips/night-crew-b16.mp4",
+   "credit": "The Night Crew by Riah Studio. Voices made with Kyutai Pocket TTS: alba by Alba MacKenna (CC BY 4.0), azelma from the VCTK corpus (CC BY 4.0), javert (CC0)",
+   "rights": {
+    "basis": "own-work",
+    "proof": "https://riahstudio.github.io/riah-tv/clips/night-crew-b16.mp4"
    }
   }
  ],

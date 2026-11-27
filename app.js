@@ -1,16 +1,17 @@
 // Riah TV channel page. There is no server: this browser works out what's on from
 // the clock and lineup.json (schedule.mjs), then plays it straight from where it
 // lives (Internet Archive, Wikimedia Commons, or YouTube for Captain Mullet).
-// On the web, video always starts muted. Sound, and the music under silent films,
-// only come on after the viewer presses "Turn sound on".
-// TV mode (?tv=1, used by the Fire TV app) fills the screen, runs on the remote,
-// and starts with sound on; ?quiet=1 keeps it muted. See tv.js.
+// The channel plays the moment the page opens, with sound when the browser allows it.
+// A browser that blocks sound until the viewer interacts gets the picture muted and a
+// small "Tap for sound" hint; their first tap, click or key anywhere turns sound on.
+// ?quiet=1 keeps it muted. TV mode (?tv=1, used by the Fire TV app) fills the screen
+// and runs on the remote. See tv.js.
 import { whatsOn, nextShows, itemsBetween, lookup, musicAt, blockBounds, channelDate, GRID } from './schedule.mjs';
 import { addDays } from './time.mjs';
 import { startTv } from './tv.js';
 
-const VERSION = '0.2';
-const RELEASED = '2026-11-17';
+const VERSION = '0.3';
+const RELEASED = '2026-11-27';
 const MAX_LAG = 6 * 3600;  // the furthest a viewer can pause or skip back behind live
 const GUIDE_HOURS = 6;
 const PX_PER_MIN = 40;
@@ -49,7 +50,11 @@ const metaOf = (p) => [p.year, p.group, runtime(p.seconds), p.silent ? 'silent, 
 let lib = null;
 let cur = null;            // { item, prog, block }
 let curKey = null;
-let soundOn = false;
+let soundOn = false;       // sound is playing (or about to) right now
+let wantSound = false;     // the viewer's choice: on unless ?quiet=1 or they pressed Mute
+let soundHeld = false;     // this browser refused sound until the viewer interacts
+let soundOk = false;       // sound has played on this page, so the browser allows it
+let soundGen = 0;          // bumps each time sound comes on, so old refusals are ignored
 let listLimit = LIST_PAGE;
 let tickCount = 0;
 
@@ -140,11 +145,16 @@ function seekToClock() {
 
 function tryPlay(media) {
   if (isPaused()) return;
+  const audible = media === music || !media.muted;
+  const gen = soundGen;
   const p = media.play();
-  if (p) p.catch((err) => {
-    if (err.name !== 'NotAllowedError' || media !== video) return;
-    // TV mode starts with sound on. If this browser won't allow that, play muted.
-    if (!video.muted) { setSound(false); tryPlay(video); } else askForTap();
+  if (p) p.then(() => { if (audible && soundOn) soundOk = true; }, (err) => {
+    if (err.name !== 'NotAllowedError') return;
+    if (audible) {
+      // Sound isn't allowed yet: keep the picture going muted until the viewer interacts.
+      if (gen === soundGen) holdSound();
+      if (media === video) tryPlay(video);
+    } else if (media === video) askForTap(); // not even muted playback: show the play button
   });
 }
 
@@ -281,30 +291,90 @@ function musicCredit(track) {
   return out;
 }
 
-// ---------- sound button ----------
+// ---------- sound ----------
+let ytCheck = 0;
+
 function applySound() {
   const silent = !!cur?.prog?.silent;
   if (soundOn && cur?.item.kind === 'program' && !silent) { video.muted = false; video.volume = 1; }
   else quietVideo(); // a silent film's own track never plays; our music does instead
-  if (yt && ytReady) { if (soundOn) { yt.unMute(); yt.setVolume(100); } else yt.mute(); }
+  if (yt && ytReady) {
+    if (soundOn) { yt.unMute(); yt.setVolume(100); if (!soundOk) checkYouTubeSound(); }
+    else yt.mute();
+  }
   syncMusic();
+}
+
+// YouTube doesn't say when the browser refuses its sound: it stays muted or stops.
+// Look a moment after unmuting, and if so carry on muted until the viewer interacts.
+function checkYouTubeSound() {
+  clearTimeout(ytCheck);
+  const gen = soundGen;
+  ytCheck = setTimeout(() => {
+    if (!soundOn || gen !== soundGen || isPaused() || cur?.item.kind !== 'special' || !yt?.isMuted) return;
+    const st = yt.getPlayerState();
+    if (!yt.isMuted() && st === YT_PLAYING) { soundOk = true; return; }
+    if (yt.isMuted() || st === 2) { holdSound(); yt.playVideo(); }
+  }, 2000);
 }
 
 function setSound(on) {
   soundOn = on;
+  if (on) { soundGen++; soundHeld = false; }
   const b = $('sound');
-  b.textContent = soundOn ? 'Mute' : 'Turn sound on';
+  b.textContent = soundOn ? 'Mute' : 'Sound on';
   b.classList.toggle('is-on', soundOn);
+  const hint = $('sound-hint'), hide = soundOn || !soundHeld || !wantSound;
+  if (hide && document.activeElement === hint) b.focus(); // keep keyboard focus on the player controls
+  hint.hidden = hide;
+  setText($('sound-status'), hide ? '' : `Sound is off until you ${document.body.classList.contains('tv') ? 'press a button' : 'tap or press a key'}.`);
   document.dispatchEvent(new CustomEvent('riahtv:sound', { detail: soundOn }));
   applySound();
 }
 
-function toggleSound() {
-  setSound(!soundOn);
+/** The browser refused sound: play on muted and show the hint until the viewer interacts. */
+function holdSound() {
+  if (!soundOn) return;
+  soundHeld = true;
+  musicFor = null; // load the music again inside the viewer's tap
+  setSound(false);
+}
+
+/** Sound on (or off) now, starting whatever is on inside the viewer's tap. */
+function soundTo(on) {
+  setSound(on);
   if (cur?.item.kind === 'program' && video.paused && $('screen').hidden) tryPlay(video);
   if (cur?.item.kind === 'special' && yt && ytReady && soundOn && !isPaused()) yt.playVideo();
 }
+
+function toggleSound() {
+  wantSound = !soundOn;
+  soundTo(wantSound);
+}
 $('sound').addEventListener('click', toggleSound);
+
+// The first tap, click or key anywhere turns sound on, unless the viewer pressed Mute.
+// Only inside a real interaction: unmuting outside one makes the browser stop the video.
+function soundOnFirstTouch(e) {
+  if (!wantSound || soundOn || !lib) return;
+  if (navigator.userActivation) { if (!navigator.userActivation.isActive) return; }
+  else if (e.type === 'pointerdown' && e.pointerType !== 'mouse') return; // a finger going down isn't a go-ahead yet; touchend is
+  if (e.target instanceof Element && e.target.closest('#sound, #tv-sound')) return; // those buttons do it themselves
+  const held = soundHeld;
+  soundTo(true);
+  // On the TV the hint says "press any button for sound", so that press does only that.
+  if (held && e.type === 'keydown' && document.body.classList.contains('tv')) { e.preventDefault(); e.stopImmediatePropagation(); }
+}
+for (const ev of ['pointerdown', 'pointerup', 'touchend', 'click', 'keydown']) window.addEventListener(ev, soundOnFirstTouch, true);
+
+// Opened inside riahstudio.com/tv: Escape closes it there (its keys don't reach that page),
+// and the Privacy link opens a new tab, so Close and Back always leave the channel.
+if (window.parent !== window) {
+  window.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !document.body.classList.contains('tv')) window.parent.postMessage('riahtv:close', '*');
+  });
+  for (const a of document.querySelectorAll('a[href]:not([target])')) { a.target = '_blank'; a.rel = 'noopener'; }
+}
 
 $('full').addEventListener('click', () => {
   const box = $('player');
@@ -325,13 +395,14 @@ function showScreen(label, title, meta, href) {
   setText($('screen-title'), title || '');
   const m = $('screen-meta');
   m.replaceChildren(meta || '');
+  m.hidden = !meta && !href;
   if (href) m.append(' ', link(href, `Watch on ${hostName(href)}`));
 }
 
 function askForTap() {
   needsTap = true;
   const s = $('screen');
-  const ask = document.body.classList.contains('tv') ? 'Press Select on the remote to start.' : 'Your browser wants a tap before video plays.';
+  const ask = document.body.classList.contains('tv') ? 'Press Select on the remote to start.' : '';
   if (s.hidden) showScreen('Riah TV', cur?.prog?.title || 'Live now', ask);
   $('screen-start').hidden = false;
 }
@@ -636,8 +707,6 @@ async function start() {
     return;
   }
   setText($('foot-version'), `${stamp} · lineup ${lib.built}`);
-  setText($('slug-version'), `Riah TV v${VERSION}`);
-  $('foot-note').textContent = 'Times are shown in your local time. Captain Mullet airs every night at 8 PM Mountain.';
   renderCredits();
   const q = new URLSearchParams(location.search);
   if (q.get('tv') === '1' || /\bAFT[A-Z0-9]/.test(navigator.userAgent)) {
@@ -645,8 +714,10 @@ async function start() {
       lib, stamp: `Riah TV v${VERSION}`, viewNow, isPaused, togglePause, pauseChannel, resumeChannel, skip, goLive,
       toggleSound, soundOn: () => soundOn, clock, runtime, metaOf, blockName,
     });
-    if (q.get('quiet') !== '1') setSound(true);
   }
+  if (document.body.classList.contains('tv')) setText($('sound-hint-text'), 'Press any button for sound');
+  wantSound = q.get('quiet') !== '1';
+  if (wantSound) setSound(true);
   tick();
   setInterval(tick, 1000);
 }
