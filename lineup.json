@@ -372,6 +372,362 @@
    }
   },
   {
+   "id": "floorwalker",
+   "title": "The Floorwalker",
+   "year": 1916,
+   "group": "Chaplin",
+   "kind": "short",
+   "seconds": 1709,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/66/The_Floorwalker_%281916%29_by_Charlie_Chaplin.webm/The_Floorwalker_%281916%29_by_Charlie_Chaplin.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/66/The_Floorwalker_%281916%29_by_Charlie_Chaplin.webm/The_Floorwalker_%281916%29_by_Charlie_Chaplin.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/66/The_Floorwalker_%281916%29_by_Charlie_Chaplin.webm/The_Floorwalker_%281916%29_by_Charlie_Chaplin.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/The_Floorwalker_%281916%29_by_Charlie_Chaplin.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_Floorwalker_(1916)_by_Charlie_Chaplin.webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_Floorwalker_(1916)_by_Charlie_Chaplin.webm"
+   }
+  },
+  {
+   "id": "fireman",
+   "title": "The Fireman",
+   "year": 1916,
+   "group": "Chaplin",
+   "kind": "short",
+   "seconds": 1526,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/18/The_Fireman_%281916%29_by_Charlie_Chaplin.webm/The_Fireman_%281916%29_by_Charlie_Chaplin.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/18/The_Fireman_%281916%29_by_Charlie_Chaplin.webm/The_Fireman_%281916%29_by_Charlie_Chaplin.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/18/The_Fireman_%281916%29_by_Charlie_Chaplin.webm/The_Fireman_%281916%29_by_Charlie_Chaplin.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/The_Fireman_%281916%29_by_Charlie_Chaplin.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_Fireman_(1916)_by_Charlie_Chaplin.webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_Fireman_(1916)_by_Charlie_Chaplin.webm"
+   }
+  },
+  {
+   "id": "count",
+   "title": "The Count",
+   "year": 1916,
+   "group": "Chaplin",
+   "kind": "short",
+   "seconds": 1514,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/46/The_Count_%281916%29_by_Charlie_Chaplin.webm/The_Count_%281916%29_by_Charlie_Chaplin.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/46/The_Count_%281916%29_by_Charlie_Chaplin.webm/The_Count_%281916%29_by_Charlie_Chaplin.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/The_Count_%281916%29_by_Charlie_Chaplin.webm",
+     "type": "video/webm",
+     "height": 1072,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_Count_(1916)_by_Charlie_Chaplin.webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_Count_(1916)_by_Charlie_Chaplin.webm"
+   }
+  },
+  {
+   "id": "bank",
+   "title": "The Bank",
+   "year": 1915,
+   "group": "Chaplin",
+   "kind": "short",
+   "seconds": 1496,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/11/The_Bank_%28Charlie_Chaplin%2C_1915%29.webm/The_Bank_%28Charlie_Chaplin%2C_1915%29.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/11/The_Bank_%28Charlie_Chaplin%2C_1915%29.webm/The_Bank_%28Charlie_Chaplin%2C_1915%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/11/The_Bank_%28Charlie_Chaplin%2C_1915%29.webm/The_Bank_%28Charlie_Chaplin%2C_1915%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/The_Bank_%28Charlie_Chaplin%2C_1915%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_Bank_(Charlie_Chaplin,_1915).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_Bank_(Charlie_Chaplin,_1915).webm"
+   }
+  },
+  {
+   "id": "champion",
+   "title": "The Champion",
+   "year": 1915,
+   "group": "Chaplin",
+   "kind": "feature",
+   "seconds": 1848,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/70/The_Champion_%281915%29.webm/The_Champion_%281915%29.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/70/The_Champion_%281915%29.webm/The_Champion_%281915%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/70/The_Champion_%281915%29.webm/The_Champion_%281915%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/The_Champion_%281915%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_Champion_(1915).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_Champion_(1915).webm"
+   }
+  },
+  {
+   "id": "pay-day",
+   "title": "Pay Day",
+   "year": 1922,
+   "group": "Chaplin",
+   "kind": "short",
+   "seconds": 1347,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/35/Pay_Day_%281922%29_by_Charlie_Chaplin.webm/Pay_Day_%281922%29_by_Charlie_Chaplin.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/35/Pay_Day_%281922%29_by_Charlie_Chaplin.webm/Pay_Day_%281922%29_by_Charlie_Chaplin.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Pay_Day_%281922%29_by_Charlie_Chaplin.webm",
+     "type": "video/webm",
+     "height": 1072,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Pay_Day_(1922)_by_Charlie_Chaplin.webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Pay_Day_(1922)_by_Charlie_Chaplin.webm"
+   }
+  },
+  {
+   "id": "police",
+   "title": "Police",
+   "year": 1916,
+   "group": "Chaplin",
+   "kind": "short",
+   "seconds": 1538,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9a/Police_%28Charlie_Chaplin%2C_1916%29.webm/Police_%28Charlie_Chaplin%2C_1916%29.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9a/Police_%28Charlie_Chaplin%2C_1916%29.webm/Police_%28Charlie_Chaplin%2C_1916%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9a/Police_%28Charlie_Chaplin%2C_1916%29.webm/Police_%28Charlie_Chaplin%2C_1916%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Police_%28Charlie_Chaplin%2C_1916%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Police_(Charlie_Chaplin,_1916).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Police_(Charlie_Chaplin,_1916).webm"
+   }
+  },
+  {
+   "id": "shanghaied",
+   "title": "Shanghaied",
+   "year": 1915,
+   "group": "Chaplin",
+   "kind": "short",
+   "seconds": 1640,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/75/Shanghaied_%28Charlie_Chaplin%2C_1915%29.webm/Shanghaied_%28Charlie_Chaplin%2C_1915%29.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/75/Shanghaied_%28Charlie_Chaplin%2C_1915%29.webm/Shanghaied_%28Charlie_Chaplin%2C_1915%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/75/Shanghaied_%28Charlie_Chaplin%2C_1915%29.webm/Shanghaied_%28Charlie_Chaplin%2C_1915%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Shanghaied_%28Charlie_Chaplin%2C_1915%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Shanghaied_(Charlie_Chaplin,_1915).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Shanghaied_(Charlie_Chaplin,_1915).webm"
+   }
+  },
+  {
    "id": "general",
    "title": "The General",
    "year": 1926,
@@ -465,6 +821,777 @@
    "rights": {
     "basis": "pd-by-age",
     "proof": "https://commons.wikimedia.org/wiki/File:Sherlock_Jr._(1924).webm"
+   }
+  },
+  {
+   "id": "our-hospitality",
+   "title": "Our Hospitality",
+   "year": 1923,
+   "group": "Keaton",
+   "kind": "feature",
+   "seconds": 4450,
+   "pools": [
+    "comedy"
+   ],
+   "silent": true,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b7/Our_Hospitality_%281923%29_by_Buster_Keaton_and_John_G._Blystone.webm/Our_Hospitality_%281923%29_by_Buster_Keaton_and_John_G._Blystone.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b7/Our_Hospitality_%281923%29_by_Buster_Keaton_and_John_G._Blystone.webm/Our_Hospitality_%281923%29_by_Buster_Keaton_and_John_G._Blystone.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Our_Hospitality_%281923%29_by_Buster_Keaton_and_John_G._Blystone.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Our_Hospitality_(1923)_by_Buster_Keaton_and_John_G._Blystone.webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Our_Hospitality_(1923)_by_Buster_Keaton_and_John_G._Blystone.webm"
+   }
+  },
+  {
+   "id": "cameraman",
+   "title": "The Cameraman",
+   "year": 1928,
+   "group": "Keaton",
+   "kind": "feature",
+   "seconds": 4170,
+   "pools": [
+    "comedy"
+   ],
+   "silent": true,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d8/The_Cameraman_%281928%29.webm/The_Cameraman_%281928%29.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d8/The_Cameraman_%281928%29.webm/The_Cameraman_%281928%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d8/The_Cameraman_%281928%29.webm/The_Cameraman_%281928%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/The_Cameraman_%281928%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_Cameraman_(1928).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_Cameraman_(1928).webm"
+   }
+  },
+  {
+   "id": "go-west",
+   "title": "Go West",
+   "year": 1925,
+   "group": "Keaton",
+   "kind": "feature",
+   "seconds": 4095,
+   "pools": [
+    "comedy"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/56/Go_West_%281925%29.webm/Go_West_%281925%29.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/56/Go_West_%281925%29.webm/Go_West_%281925%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/56/Go_West_%281925%29.webm/Go_West_%281925%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Go_West_%281925%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Go_West_(1925).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Go_West_(1925).webm"
+   }
+  },
+  {
+   "id": "battling-butler",
+   "title": "Battling Butler",
+   "year": 1926,
+   "group": "Keaton",
+   "kind": "feature",
+   "seconds": 4578,
+   "pools": [
+    "comedy"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/89/Battling_Butler_%281926%29.webm/Battling_Butler_%281926%29.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/89/Battling_Butler_%281926%29.webm/Battling_Butler_%281926%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/89/Battling_Butler_%281926%29.webm/Battling_Butler_%281926%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Battling_Butler_%281926%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Battling_Butler_(1926).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Battling_Butler_(1926).webm"
+   }
+  },
+  {
+   "id": "steamboat-bill-jr",
+   "title": "Steamboat Bill, Jr.",
+   "year": 1928,
+   "group": "Keaton",
+   "kind": "feature",
+   "seconds": 4206,
+   "pools": [
+    "comedy"
+   ],
+   "silent": true,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/92/Steamboat_Bill_Jr._%281928%29_by_Charles_Riesner.webm/Steamboat_Bill_Jr._%281928%29_by_Charles_Riesner.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/92/Steamboat_Bill_Jr._%281928%29_by_Charles_Riesner.webm/Steamboat_Bill_Jr._%281928%29_by_Charles_Riesner.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/92/Steamboat_Bill_Jr._%281928%29_by_Charles_Riesner.webm/Steamboat_Bill_Jr._%281928%29_by_Charles_Riesner.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Steamboat_Bill_Jr._%281928%29_by_Charles_Riesner.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Steamboat_Bill_Jr._(1928)_by_Charles_Riesner.webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Steamboat_Bill_Jr._(1928)_by_Charles_Riesner.webm"
+   }
+  },
+  {
+   "id": "boat",
+   "title": "The Boat",
+   "year": 1921,
+   "group": "Keaton",
+   "kind": "short",
+   "seconds": 1615,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f0/The_Boat_%281921%29_by_Buster_Keaton_and_Edward_F._Cline.webm/The_Boat_%281921%29_by_Buster_Keaton_and_Edward_F._Cline.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f0/The_Boat_%281921%29_by_Buster_Keaton_and_Edward_F._Cline.webm/The_Boat_%281921%29_by_Buster_Keaton_and_Edward_F._Cline.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f0/The_Boat_%281921%29_by_Buster_Keaton_and_Edward_F._Cline.webm/The_Boat_%281921%29_by_Buster_Keaton_and_Edward_F._Cline.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/The_Boat_%281921%29_by_Buster_Keaton_and_Edward_F._Cline.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_Boat_(1921)_by_Buster_Keaton_and_Edward_F._Cline.webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_Boat_(1921)_by_Buster_Keaton_and_Edward_F._Cline.webm"
+   }
+  },
+  {
+   "id": "blacksmith",
+   "title": "The Blacksmith",
+   "year": 1922,
+   "group": "Keaton",
+   "kind": "short",
+   "seconds": 1354,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/53/The_Blacksmith_%28Buster_Keaton_and_Malcolm_St._Clair%2C_1922%29.webm/The_Blacksmith_%28Buster_Keaton_and_Malcolm_St._Clair%2C_1922%29.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/53/The_Blacksmith_%28Buster_Keaton_and_Malcolm_St._Clair%2C_1922%29.webm/The_Blacksmith_%28Buster_Keaton_and_Malcolm_St._Clair%2C_1922%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/53/The_Blacksmith_%28Buster_Keaton_and_Malcolm_St._Clair%2C_1922%29.webm/The_Blacksmith_%28Buster_Keaton_and_Malcolm_St._Clair%2C_1922%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/The_Blacksmith_%28Buster_Keaton_and_Malcolm_St._Clair%2C_1922%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_Blacksmith_(Buster_Keaton_and_Malcolm_St._Clair,_1922).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_Blacksmith_(Buster_Keaton_and_Malcolm_St._Clair,_1922).webm"
+   }
+  },
+  {
+   "id": "day-dreams",
+   "title": "Day Dreams",
+   "year": 1922,
+   "group": "Keaton",
+   "kind": "short",
+   "seconds": 1460,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b8/Day_Dreams_%281922%29_by_Buster_Keaton_and_Edward_F._Cline.webm/Day_Dreams_%281922%29_by_Buster_Keaton_and_Edward_F._Cline.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b8/Day_Dreams_%281922%29_by_Buster_Keaton_and_Edward_F._Cline.webm/Day_Dreams_%281922%29_by_Buster_Keaton_and_Edward_F._Cline.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b8/Day_Dreams_%281922%29_by_Buster_Keaton_and_Edward_F._Cline.webm/Day_Dreams_%281922%29_by_Buster_Keaton_and_Edward_F._Cline.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Day_Dreams_%281922%29_by_Buster_Keaton_and_Edward_F._Cline.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Day_Dreams_(1922)_by_Buster_Keaton_and_Edward_F._Cline.webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Day_Dreams_(1922)_by_Buster_Keaton_and_Edward_F._Cline.webm"
+   }
+  },
+  {
+   "id": "my-wifes-relations",
+   "title": "My Wife's Relations",
+   "year": 1922,
+   "group": "Keaton",
+   "kind": "short",
+   "seconds": 1587,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b9/My_Wife%27s_Relations_%281922%29_by_Buster_Keaton_and_Edward_F._Cline.webm/My_Wife%27s_Relations_%281922%29_by_Buster_Keaton_and_Edward_F._Cline.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b9/My_Wife%27s_Relations_%281922%29_by_Buster_Keaton_and_Edward_F._Cline.webm/My_Wife%27s_Relations_%281922%29_by_Buster_Keaton_and_Edward_F._Cline.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b9/My_Wife%27s_Relations_%281922%29_by_Buster_Keaton_and_Edward_F._Cline.webm/My_Wife%27s_Relations_%281922%29_by_Buster_Keaton_and_Edward_F._Cline.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/My_Wife%27s_Relations_%281922%29_by_Buster_Keaton_and_Edward_F._Cline.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:My_Wife%27s_Relations_(1922)_by_Buster_Keaton_and_Edward_F._Cline.webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:My_Wife%27s_Relations_(1922)_by_Buster_Keaton_and_Edward_F._Cline.webm"
+   }
+  },
+  {
+   "id": "balloonatic",
+   "title": "The Balloonatic",
+   "year": 1923,
+   "group": "Keaton",
+   "kind": "short",
+   "seconds": 1570,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/40/The_Balloonatic_%28Edward_F._Cline_and_Buster_Keaton%2C_1923%29.webm/The_Balloonatic_%28Edward_F._Cline_and_Buster_Keaton%2C_1923%29.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/40/The_Balloonatic_%28Edward_F._Cline_and_Buster_Keaton%2C_1923%29.webm/The_Balloonatic_%28Edward_F._Cline_and_Buster_Keaton%2C_1923%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/40/The_Balloonatic_%28Edward_F._Cline_and_Buster_Keaton%2C_1923%29.webm/The_Balloonatic_%28Edward_F._Cline_and_Buster_Keaton%2C_1923%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/The_Balloonatic_%28Edward_F._Cline_and_Buster_Keaton%2C_1923%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_Balloonatic_(Edward_F._Cline_and_Buster_Keaton,_1923).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_Balloonatic_(Edward_F._Cline_and_Buster_Keaton,_1923).webm"
+   }
+  },
+  {
+   "id": "love-nest",
+   "title": "The Love Nest",
+   "year": 1923,
+   "group": "Keaton",
+   "kind": "short",
+   "seconds": 1413,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f2/The_Love_Nest_%281923%29.webm/The_Love_Nest_%281923%29.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f2/The_Love_Nest_%281923%29.webm/The_Love_Nest_%281923%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f2/The_Love_Nest_%281923%29.webm/The_Love_Nest_%281923%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/The_Love_Nest_%281923%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_Love_Nest_(1923).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_Love_Nest_(1923).webm"
+   }
+  },
+  {
+   "id": "high-sign",
+   "title": "The High Sign",
+   "year": 1921,
+   "group": "Keaton",
+   "kind": "short",
+   "seconds": 1246,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/db/The_High_Sign_%28Edward_F._Cline_and_Buster_Keaton%2C_1921%29.webm/The_High_Sign_%28Edward_F._Cline_and_Buster_Keaton%2C_1921%29.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/db/The_High_Sign_%28Edward_F._Cline_and_Buster_Keaton%2C_1921%29.webm/The_High_Sign_%28Edward_F._Cline_and_Buster_Keaton%2C_1921%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/db/The_High_Sign_%28Edward_F._Cline_and_Buster_Keaton%2C_1921%29.webm/The_High_Sign_%28Edward_F._Cline_and_Buster_Keaton%2C_1921%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/The_High_Sign_%28Edward_F._Cline_and_Buster_Keaton%2C_1921%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_High_Sign_(Edward_F._Cline_and_Buster_Keaton,_1921).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_High_Sign_(Edward_F._Cline_and_Buster_Keaton,_1921).webm"
+   }
+  },
+  {
+   "id": "convict-13",
+   "title": "Convict 13",
+   "year": 1920,
+   "group": "Keaton",
+   "kind": "short",
+   "seconds": 1302,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/Convict_13_%28Edward_F._Cline_and_Buster_Keaton%2C_1920%29.webm/Convict_13_%28Edward_F._Cline_and_Buster_Keaton%2C_1920%29.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/Convict_13_%28Edward_F._Cline_and_Buster_Keaton%2C_1920%29.webm/Convict_13_%28Edward_F._Cline_and_Buster_Keaton%2C_1920%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/Convict_13_%28Edward_F._Cline_and_Buster_Keaton%2C_1920%29.webm/Convict_13_%28Edward_F._Cline_and_Buster_Keaton%2C_1920%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Convict_13_%28Edward_F._Cline_and_Buster_Keaton%2C_1920%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Convict_13_(Edward_F._Cline_and_Buster_Keaton,_1920).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Convict_13_(Edward_F._Cline_and_Buster_Keaton,_1920).webm"
+   }
+  },
+  {
+   "id": "goat",
+   "title": "The Goat",
+   "year": 1921,
+   "group": "Keaton",
+   "kind": "short",
+   "seconds": 1403,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/The_Goat_%281921%29_by_Buster_Keaton_and_Malcolm_St._Clair.webm/The_Goat_%281921%29_by_Buster_Keaton_and_Malcolm_St._Clair.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/The_Goat_%281921%29_by_Buster_Keaton_and_Malcolm_St._Clair.webm/The_Goat_%281921%29_by_Buster_Keaton_and_Malcolm_St._Clair.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/The_Goat_%281921%29_by_Buster_Keaton_and_Malcolm_St._Clair.webm/The_Goat_%281921%29_by_Buster_Keaton_and_Malcolm_St._Clair.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/The_Goat_%281921%29_by_Buster_Keaton_and_Malcolm_St._Clair.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_Goat_(1921)_by_Buster_Keaton_and_Malcolm_St._Clair.webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_Goat_(1921)_by_Buster_Keaton_and_Malcolm_St._Clair.webm"
+   }
+  },
+  {
+   "id": "butcher-boy",
+   "title": "The Butcher Boy",
+   "year": 1917,
+   "group": "Arbuckle & Keaton",
+   "kind": "short",
+   "seconds": 1456,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/15/The_Butcher_Boy_%281917%29_by_Roscoe_Arbuckle.webm/The_Butcher_Boy_%281917%29_by_Roscoe_Arbuckle.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/15/The_Butcher_Boy_%281917%29_by_Roscoe_Arbuckle.webm/The_Butcher_Boy_%281917%29_by_Roscoe_Arbuckle.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/15/The_Butcher_Boy_%281917%29_by_Roscoe_Arbuckle.webm/The_Butcher_Boy_%281917%29_by_Roscoe_Arbuckle.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/The_Butcher_Boy_%281917%29_by_Roscoe_Arbuckle.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_Butcher_Boy_(1917)_by_Roscoe_Arbuckle.webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_Butcher_Boy_(1917)_by_Roscoe_Arbuckle.webm"
+   }
+  },
+  {
+   "id": "cook",
+   "title": "The Cook",
+   "year": 1918,
+   "group": "Arbuckle & Keaton",
+   "kind": "short",
+   "seconds": 1186,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0b/The_Cook_%281918%29_by_Roscoe_Arbuckle.webm/The_Cook_%281918%29_by_Roscoe_Arbuckle.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0b/The_Cook_%281918%29_by_Roscoe_Arbuckle.webm/The_Cook_%281918%29_by_Roscoe_Arbuckle.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0b/The_Cook_%281918%29_by_Roscoe_Arbuckle.webm/The_Cook_%281918%29_by_Roscoe_Arbuckle.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/The_Cook_%281918%29_by_Roscoe_Arbuckle.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_Cook_(1918)_by_Roscoe_Arbuckle.webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_Cook_(1918)_by_Roscoe_Arbuckle.webm"
+   }
+  },
+  {
+   "id": "garage",
+   "title": "The Garage",
+   "year": 1920,
+   "group": "Arbuckle & Keaton",
+   "kind": "short",
+   "seconds": 1301,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/65/The_Garage_%281920%29.webm/The_Garage_%281920%29.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/65/The_Garage_%281920%29.webm/The_Garage_%281920%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/65/The_Garage_%281920%29.webm/The_Garage_%281920%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/The_Garage_%281920%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_Garage_(1920).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_Garage_(1920).webm"
    }
   },
   {
@@ -853,6 +1980,289 @@
    }
   },
   {
+   "id": "freshman",
+   "title": "The Freshman",
+   "year": 1925,
+   "group": "Harold Lloyd",
+   "kind": "feature",
+   "seconds": 4523,
+   "pools": [
+    "comedy"
+   ],
+   "silent": true,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/18/The_Freshman.webm/The_Freshman.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/18/The_Freshman.webm/The_Freshman.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/18/The_Freshman.webm/The_Freshman.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/The_Freshman.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_Freshman.webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_Freshman.webm"
+   }
+  },
+  {
+   "id": "girl-shy",
+   "title": "Girl Shy",
+   "year": 1924,
+   "group": "Harold Lloyd",
+   "kind": "feature",
+   "seconds": 5340,
+   "pools": [
+    "comedy"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fe/Girl_Shy_%281924%29.webm/Girl_Shy_%281924%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fe/Girl_Shy_%281924%29.webm/Girl_Shy_%281924%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Girl_Shy_%281924%29.webm",
+     "type": "video/webm",
+     "height": 720,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Girl_Shy_(1924).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Girl_Shy_(1924).webm"
+   }
+  },
+  {
+   "id": "speedy",
+   "title": "Speedy",
+   "year": 1928,
+   "group": "Harold Lloyd",
+   "kind": "feature",
+   "seconds": 5111,
+   "pools": [
+    "comedy"
+   ],
+   "silent": true,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7c/Speedy_%281928%29.webm/Speedy_%281928%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7c/Speedy_%281928%29.webm/Speedy_%281928%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Speedy_%281928%29.webm",
+     "type": "video/webm",
+     "height": 720,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Speedy_(1928).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Speedy_(1928).webm"
+   }
+  },
+  {
+   "id": "never-weaken",
+   "title": "Never Weaken",
+   "year": 1921,
+   "group": "Harold Lloyd",
+   "kind": "short",
+   "seconds": 1716,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 5,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/83/Never_Weaken_%281921%29.webm/Never_Weaken_%281921%29.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/83/Never_Weaken_%281921%29.webm/Never_Weaken_%281921%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/83/Never_Weaken_%281921%29.webm/Never_Weaken_%281921%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Never_Weaken_%281921%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Never_Weaken_(1921).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Never_Weaken_(1921).webm"
+   }
+  },
+  {
+   "id": "high-and-dizzy",
+   "title": "High and Dizzy",
+   "year": 1920,
+   "group": "Harold Lloyd",
+   "kind": "short",
+   "seconds": 1594,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/High_and_Dizzy_%281920%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:High_and_Dizzy_(1920).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:High_and_Dizzy_(1920).webm"
+   }
+  },
+  {
+   "id": "now-or-never",
+   "title": "Now or Never",
+   "year": 1921,
+   "group": "Harold Lloyd",
+   "kind": "feature",
+   "seconds": 2112,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/33/Now_or_Never_%281921%29.webm/Now_or_Never_%281921%29.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/33/Now_or_Never_%281921%29.webm/Now_or_Never_%281921%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/33/Now_or_Never_%281921%29.webm/Now_or_Never_%281921%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Now_or_Never_%281921%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Now_or_Never_(1921).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Now_or_Never_(1921).webm"
+   }
+  },
+  {
+   "id": "i-do",
+   "title": "I Do",
+   "year": 1921,
+   "group": "Harold Lloyd",
+   "kind": "short",
+   "seconds": 1486,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cc/I_Do_%281921%29.webm/I_Do_%281921%29.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cc/I_Do_%281921%29.webm/I_Do_%281921%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/I_Do_%281921%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:I_Do_(1921).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:I_Do_(1921).webm"
+   }
+  },
+  {
    "id": "hog-wild",
    "title": "Hog Wild",
    "year": 1930,
@@ -934,6 +2344,360 @@
    "rights": {
     "basis": "pd-by-age",
     "proof": "https://archive.org/details/brats_1930"
+   }
+  },
+  {
+   "id": "putting-pants-on-philip",
+   "title": "Putting Pants on Philip",
+   "year": 1927,
+   "group": "Laurel & Hardy",
+   "kind": "short",
+   "seconds": 1236,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5f/Putting_Pants_on_Phillip_%281927%29_-_16mm_-_Flat_-_Silent_-_UHD.webm/Putting_Pants_on_Phillip_%281927%29_-_16mm_-_Flat_-_Silent_-_UHD.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5f/Putting_Pants_on_Phillip_%281927%29_-_16mm_-_Flat_-_Silent_-_UHD.webm/Putting_Pants_on_Phillip_%281927%29_-_16mm_-_Flat_-_Silent_-_UHD.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5f/Putting_Pants_on_Phillip_%281927%29_-_16mm_-_Flat_-_Silent_-_UHD.webm/Putting_Pants_on_Phillip_%281927%29_-_16mm_-_Flat_-_Silent_-_UHD.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Putting_Pants_on_Phillip_%281927%29_-_16mm_-_Flat_-_Silent_-_UHD.webm",
+     "type": "video/webm",
+     "height": 2160,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Putting_Pants_on_Phillip_(1927)_-_16mm_-_Flat_-_Silent_-_UHD.webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Putting_Pants_on_Phillip_(1927)_-_16mm_-_Flat_-_Silent_-_UHD.webm"
+   }
+  },
+  {
+   "id": "second-hundred-years",
+   "title": "The Second Hundred Years",
+   "year": 1927,
+   "group": "Laurel & Hardy",
+   "kind": "short",
+   "seconds": 1252,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/70/The_Second_Hundred_Years_%281927%29.webm/The_Second_Hundred_Years_%281927%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/70/The_Second_Hundred_Years_%281927%29.webm/The_Second_Hundred_Years_%281927%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/The_Second_Hundred_Years_%281927%29.webm",
+     "type": "video/webm",
+     "height": 572,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_Second_Hundred_Years_(1927).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_Second_Hundred_Years_(1927).webm"
+   }
+  },
+  {
+   "id": "do-detectives-think",
+   "title": "Do Detectives Think?",
+   "year": 1927,
+   "group": "Laurel & Hardy",
+   "kind": "short",
+   "seconds": 1376,
+   "pools": [
+    "comedy",
+    "shorts"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7f/Do_Detectives_Think_%281927%29.webm/Do_Detectives_Think_%281927%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7f/Do_Detectives_Think_%281927%29.webm/Do_Detectives_Think_%281927%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Do_Detectives_Think_%281927%29.webm",
+     "type": "video/webm",
+     "height": 720,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Do_Detectives_Think_(1927).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Do_Detectives_Think_(1927).webm"
+   }
+  },
+  {
+   "id": "trolley-troubles",
+   "title": "Trolley Troubles",
+   "year": 1927,
+   "group": "Cartoons",
+   "kind": "short",
+   "seconds": 345,
+   "pools": [
+    "shorts",
+    "comedy"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8a/Trolley_Troubles_%281927%29.webm/Trolley_Troubles_%281927%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Trolley_Troubles_%281927%29.webm",
+     "type": "video/webm",
+     "height": 478,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Trolley_Troubles_(1927).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Trolley_Troubles_(1927).webm"
+   }
+  },
+  {
+   "id": "mechanical-cow",
+   "title": "The Mechanical Cow",
+   "year": 1927,
+   "group": "Cartoons",
+   "kind": "short",
+   "seconds": 367,
+   "pools": [
+    "shorts",
+    "comedy"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/61/The_Mechanical_Cow_%281927%29.webm/The_Mechanical_Cow_%281927%29.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/61/The_Mechanical_Cow_%281927%29.webm/The_Mechanical_Cow_%281927%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/61/The_Mechanical_Cow_%281927%29.webm/The_Mechanical_Cow_%281927%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/The_Mechanical_Cow_%281927%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:The_Mechanical_Cow_(1927).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:The_Mechanical_Cow_(1927).webm"
+   }
+  },
+  {
+   "id": "oh-teacher",
+   "title": "Oh Teacher",
+   "year": 1927,
+   "group": "Cartoons",
+   "kind": "short",
+   "seconds": 362,
+   "pools": [
+    "shorts",
+    "comedy"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/51/Oh_Teacher_%281927%29.webm/Oh_Teacher_%281927%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Oh_Teacher_%281927%29.webm",
+     "type": "video/webm",
+     "height": 478,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Oh_Teacher_(1927).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Oh_Teacher_(1927).webm"
+   }
+  },
+  {
+   "id": "plane-crazy",
+   "title": "Plane Crazy",
+   "year": 1928,
+   "group": "Cartoons",
+   "kind": "short",
+   "seconds": 360,
+   "pools": [
+    "shorts",
+    "comedy"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2b/Plane_Crazy_%281928%29%2C_no_sound.webm/Plane_Crazy_%281928%29%2C_no_sound.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2b/Plane_Crazy_%281928%29%2C_no_sound.webm/Plane_Crazy_%281928%29%2C_no_sound.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Plane_Crazy_%281928%29%2C_no_sound.webm",
+     "type": "video/webm",
+     "height": 720,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Plane_Crazy_(1928),_no_sound.webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Plane_Crazy_(1928),_no_sound.webm"
+   }
+  },
+  {
+   "id": "poor-papa",
+   "title": "Poor Papa",
+   "year": 1928,
+   "group": "Cartoons",
+   "kind": "short",
+   "seconds": 313,
+   "pools": [
+    "shorts",
+    "comedy"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b2/Poor_Papa_%281928%29.webm/Poor_Papa_%281928%29.webm.1080p.vp9.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b2/Poor_Papa_%281928%29.webm/Poor_Papa_%281928%29.webm.480p.vp9.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b2/Poor_Papa_%281928%29.webm/Poor_Papa_%281928%29.webm.360p.mpeg4.mov",
+     "type": "video/mp4",
+     "height": 360,
+     "original": false
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Poor_Papa_%281928%29.webm",
+     "type": "video/webm",
+     "height": 1080,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Poor_Papa_(1928).webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Poor_Papa_(1928).webm"
+   }
+  },
+  {
+   "id": "great-guns",
+   "title": "Great Guns!",
+   "year": 1927,
+   "group": "Cartoons",
+   "kind": "short",
+   "seconds": 411,
+   "pools": [
+    "shorts",
+    "comedy"
+   ],
+   "silent": true,
+   "funny": 4,
+   "sources": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Great_Guns%21_%281927%29_silent_version.webm",
+     "type": "video/webm",
+     "height": 480,
+     "original": true
+    }
+   ],
+   "page": "https://commons.wikimedia.org/wiki/File:Great_Guns!_(1927)_silent_version.webm",
+   "credit": "",
+   "rights": {
+    "basis": "pd-by-age",
+    "proof": "https://commons.wikimedia.org/wiki/File:Great_Guns!_(1927)_silent_version.webm"
    }
   },
   {
