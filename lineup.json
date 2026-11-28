@@ -1,6 +1,6 @@
 {
  "note": "Built by tools/build-lineup.mjs from vetting/*.json. Edit PICKS there, not this file.",
- "built": "2026-11-27",
+ "built": "2026-11-28",
  "programs": [
   {
    "id": "animal-crackers",
@@ -2553,40 +2553,6 @@
    }
   },
   {
-   "id": "oh-teacher",
-   "title": "Oh Teacher",
-   "year": 1927,
-   "group": "Cartoons",
-   "kind": "short",
-   "seconds": 362,
-   "pools": [
-    "shorts",
-    "comedy"
-   ],
-   "silent": true,
-   "funny": 4,
-   "sources": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/51/Oh_Teacher_%281927%29.webm/Oh_Teacher_%281927%29.webm.360p.mpeg4.mov",
-     "type": "video/mp4",
-     "height": 360,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Oh_Teacher_%281927%29.webm",
-     "type": "video/webm",
-     "height": 478,
-     "original": true
-    }
-   ],
-   "page": "https://commons.wikimedia.org/wiki/File:Oh_Teacher_(1927).webm",
-   "credit": "",
-   "rights": {
-    "basis": "pd-by-age",
-    "proof": "https://commons.wikimedia.org/wiki/File:Oh_Teacher_(1927).webm"
-   }
-  },
-  {
    "id": "plane-crazy",
    "title": "Plane Crazy",
    "year": 1928,
@@ -2624,52 +2590,6 @@
    "rights": {
     "basis": "pd-by-age",
     "proof": "https://commons.wikimedia.org/wiki/File:Plane_Crazy_(1928),_no_sound.webm"
-   }
-  },
-  {
-   "id": "poor-papa",
-   "title": "Poor Papa",
-   "year": 1928,
-   "group": "Cartoons",
-   "kind": "short",
-   "seconds": 313,
-   "pools": [
-    "shorts",
-    "comedy"
-   ],
-   "silent": true,
-   "funny": 4,
-   "sources": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b2/Poor_Papa_%281928%29.webm/Poor_Papa_%281928%29.webm.1080p.vp9.webm",
-     "type": "video/webm",
-     "height": 1080,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b2/Poor_Papa_%281928%29.webm/Poor_Papa_%281928%29.webm.480p.vp9.webm",
-     "type": "video/webm",
-     "height": 480,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b2/Poor_Papa_%281928%29.webm/Poor_Papa_%281928%29.webm.360p.mpeg4.mov",
-     "type": "video/mp4",
-     "height": 360,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Poor_Papa_%281928%29.webm",
-     "type": "video/webm",
-     "height": 1080,
-     "original": true
-    }
-   ],
-   "page": "https://commons.wikimedia.org/wiki/File:Poor_Papa_(1928).webm",
-   "credit": "",
-   "rights": {
-    "basis": "pd-by-age",
-    "proof": "https://commons.wikimedia.org/wiki/File:Poor_Papa_(1928).webm"
    }
   },
   {
@@ -2726,33 +2646,6 @@
    "rights": {
     "basis": "pd-by-age",
     "proof": "https://archive.org/details/dizzy-dishes_1930"
-   }
-  },
-  {
-   "id": "noahs-lark",
-   "title": "Noah's Lark",
-   "year": 1929,
-   "group": "Cartoons",
-   "kind": "short",
-   "seconds": 450,
-   "pools": [
-    "shorts"
-   ],
-   "silent": false,
-   "funny": 3,
-   "sources": [
-    {
-     "url": "https://archive.org/download/talkartoons-collection/1929e1%20Noah's%20Lark%20(16mm%2C%201080p%2C%20Unrestored).mp4",
-     "type": "video/mp4",
-     "height": 1080,
-     "original": false
-    }
-   ],
-   "page": "https://archive.org/details/talkartoons-collection",
-   "credit": "",
-   "rights": {
-    "basis": "pd-by-age",
-    "proof": "https://archive.org/details/talkartoons-collection"
    }
   },
   {
@@ -2955,57 +2848,6 @@
    "rights": {
     "basis": "pd-by-age",
     "proof": "https://commons.wikimedia.org/wiki/File:Mest%27_Kinomatograficheskogo_Operatora_(1912).webm"
-   }
-  },
-  {
-   "id": "gay-shoe-clerk-1903",
-   "title": "The Gay Shoe Clerk",
-   "year": 1903,
-   "group": "Early Comedy",
-   "kind": "short",
-   "seconds": 75,
-   "pools": [
-    "shorts"
-   ],
-   "silent": true,
-   "funny": 3,
-   "sources": [
-    {
-     "url": "https://github.com/RiahStudio/riah-tv/releases/download/h264-copies/gay-shoe-clerk-1903.mp4",
-     "type": "video/mp4",
-     "height": 480,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/50/The_Gay_Shoe_Clerk_%281903%29.webm/The_Gay_Shoe_Clerk_%281903%29.webm.480p.vp9.webm",
-     "type": "video/webm",
-     "height": 480,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/50/The_Gay_Shoe_Clerk_%281903%29.webm/The_Gay_Shoe_Clerk_%281903%29.webm.360p.mpeg4.mov",
-     "type": "video/mp4",
-     "height": 360,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/50/The_Gay_Shoe_Clerk_%281903%29.webm/The_Gay_Shoe_Clerk_%281903%29.webm.240p.vp9.webm",
-     "type": "video/webm",
-     "height": 240,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/The_Gay_Shoe_Clerk_%281903%29.webm",
-     "type": "video/webm",
-     "height": 480,
-     "original": true
-    }
-   ],
-   "page": "https://commons.wikimedia.org/wiki/File:The_Gay_Shoe_Clerk_(1903).webm",
-   "credit": "",
-   "rights": {
-    "basis": "pd-by-age",
-    "proof": "https://commons.wikimedia.org/wiki/File:The_Gay_Shoe_Clerk_(1903).webm"
    }
   },
   {
@@ -3610,52 +3452,6 @@
    }
   },
   {
-   "id": "200000-lieues-1907",
-   "title": "Under the Seas",
-   "year": 1907,
-   "group": "Méliès",
-   "kind": "short",
-   "seconds": 597,
-   "pools": [
-    "makers",
-    "late"
-   ],
-   "silent": true,
-   "funny": 4,
-   "sources": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/79/Deux_Cents_Mille_Lieues_sous_les_mers_ou_le_Cauchemar_du_p%C3%AAcheur_%281907%29_par_Georges_M%C3%A9li%C3%A8s.webm/Deux_Cents_Mille_Lieues_sous_les_mers_ou_le_Cauchemar_du_p%C3%AAcheur_%281907%29_par_Georges_M%C3%A9li%C3%A8s.webm.1080p.vp9.webm",
-     "type": "video/webm",
-     "height": 1080,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/79/Deux_Cents_Mille_Lieues_sous_les_mers_ou_le_Cauchemar_du_p%C3%AAcheur_%281907%29_par_Georges_M%C3%A9li%C3%A8s.webm/Deux_Cents_Mille_Lieues_sous_les_mers_ou_le_Cauchemar_du_p%C3%AAcheur_%281907%29_par_Georges_M%C3%A9li%C3%A8s.webm.480p.vp9.webm",
-     "type": "video/webm",
-     "height": 480,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/79/Deux_Cents_Mille_Lieues_sous_les_mers_ou_le_Cauchemar_du_p%C3%AAcheur_%281907%29_par_Georges_M%C3%A9li%C3%A8s.webm/Deux_Cents_Mille_Lieues_sous_les_mers_ou_le_Cauchemar_du_p%C3%AAcheur_%281907%29_par_Georges_M%C3%A9li%C3%A8s.webm.360p.mpeg4.mov",
-     "type": "video/mp4",
-     "height": 360,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Deux_Cents_Mille_Lieues_sous_les_mers_ou_le_Cauchemar_du_p%C3%AAcheur_%281907%29_par_Georges_M%C3%A9li%C3%A8s.webm",
-     "type": "video/webm",
-     "height": 2160,
-     "original": true
-    }
-   ],
-   "page": "https://commons.wikimedia.org/wiki/File:Deux_Cents_Mille_Lieues_sous_les_mers_ou_le_Cauchemar_du_p%C3%AAcheur_(1907)_par_Georges_M%C3%A9li%C3%A8s.webm",
-   "credit": "",
-   "rights": {
-    "basis": "pd-by-age",
-    "proof": "https://commons.wikimedia.org/wiki/File:Deux_Cents_Mille_Lieues_sous_les_mers_ou_le_Cauchemar_du_p%C3%AAcheur_(1907)_par_Georges_M%C3%A9li%C3%A8s.webm"
-   }
-  },
-  {
    "id": "quatre-cents-farces-1906",
    "title": "The 400 Tricks of the Devil",
    "year": 1906,
@@ -3875,52 +3671,6 @@
    "rights": {
     "basis": "pd-by-age",
     "proof": "https://commons.wikimedia.org/wiki/File:Le_Chaudron_infernal_(Georges_M%C3%A9li%C3%A8s,_1903).webm"
-   }
-  },
-  {
-   "id": "dirigeable-1905",
-   "title": "The Fantastic Airship",
-   "year": 1905,
-   "group": "Méliès",
-   "kind": "short",
-   "seconds": 170,
-   "pools": [
-    "makers",
-    "shorts"
-   ],
-   "silent": true,
-   "funny": 4,
-   "sources": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e6/Le_Dirigeable_fantastique_%28Georges_M%C3%A9li%C3%A8s%2C_1905%29.webm/Le_Dirigeable_fantastique_%28Georges_M%C3%A9li%C3%A8s%2C_1905%29.webm.1080p.vp9.webm",
-     "type": "video/webm",
-     "height": 1080,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e6/Le_Dirigeable_fantastique_%28Georges_M%C3%A9li%C3%A8s%2C_1905%29.webm/Le_Dirigeable_fantastique_%28Georges_M%C3%A9li%C3%A8s%2C_1905%29.webm.480p.vp9.webm",
-     "type": "video/webm",
-     "height": 480,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e6/Le_Dirigeable_fantastique_%28Georges_M%C3%A9li%C3%A8s%2C_1905%29.webm/Le_Dirigeable_fantastique_%28Georges_M%C3%A9li%C3%A8s%2C_1905%29.webm.360p.mpeg4.mov",
-     "type": "video/mp4",
-     "height": 360,
-     "original": false
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Le_Dirigeable_fantastique_%28Georges_M%C3%A9li%C3%A8s%2C_1905%29.webm",
-     "type": "video/webm",
-     "height": 1080,
-     "original": true
-    }
-   ],
-   "page": "https://commons.wikimedia.org/wiki/File:Le_Dirigeable_fantastique_(Georges_M%C3%A9li%C3%A8s,_1905).webm",
-   "credit": "",
-   "rights": {
-    "basis": "pd-by-age",
-    "proof": "https://commons.wikimedia.org/wiki/File:Le_Dirigeable_fantastique_(Georges_M%C3%A9li%C3%A8s,_1905).webm"
    }
   },
   {
